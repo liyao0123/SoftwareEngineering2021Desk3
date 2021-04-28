@@ -1,6 +1,5 @@
 package team.desk3.efww.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -13,6 +12,6 @@ public class DoorController {
     @RequestMapping("/")
     public String toIndex(){
 
-        return "index";
+        return "index_myself";
     }
 }

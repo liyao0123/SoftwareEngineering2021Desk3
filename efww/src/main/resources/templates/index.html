@@ -1,137 +1,540 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
+
+    <!--====== Required meta tags ======-->
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/css/index.css">
-    <title>FaunaSelection</title>
+    <!--====== Title ======-->
+    <title>Game Home</title>
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="../static/css/LineIcons.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="../static/css/slick.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="../static/css/animate.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="../static/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <style>
+        .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+    </style>
 </head>
+
 <body>
-<div class="container">
-<!--header-begin-->
-    <div class="row justify-content-center text-light bg-dark rounded tx-pad" >
-        <div class="clo"><h1>Help the Fauna find their home!</h1></div>
-    </div>
-    <div class="row ">
-        <ul class="nav nav-pills ">
-            <li class="nav-item ">
-                <a class="nav-link " href="#"><h4><=Back to Dynamic Earth</h4></a>
-            </li>
-        </ul>
-    </div>
-<!--header-end-->
+    
+    <!--====== PRELOADER PART START ======-->
 
-
-<!--main body-begin-->
-<!--header begin-->
-    <div class="row bg-gradient-primary tx-pad">
-        <h4 class="text-success">According to what you learn with the dynamic earth, could you recognize where the animal is from?</h4>
-    </div>
-<!--header end-->
-<!--    body begin-->
-    <div class="row">
-
-    </div>
-    <div class="row">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top ph-size" src="../static/images/African_penguin.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">African_penguin</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="row  no-gutters justify-content-end border-top">
-                    <div class="col">
-                        <button type="button" class="btn btn-primary btn-lg">Which one?</button>
-                    </div>
-                    <div class="col text-right">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Africa</button>
-                    </div>
-                    <div class="col text-right">
-                        <button type="button" class="btn btn-outline-success btn-lg">Asia</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top ph-size" src="../static/images/Asian_elephant.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Asian_elephant</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="row  no-gutters justify-content-end border-top">
-                    <div class="col">
-                        <button type="button" class="btn btn-primary btn-lg">Which one?</button>
-                    </div>
-                    <div class="col text-right">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Africa</button>
-                    </div>
-                    <div class="col text-right">
-                        <button type="button" class="btn btn-outline-success btn-lg">Asia</button>
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--    body end-->
-<!--    footer begin show the result and nav to next-->
-    <div class="row bg-success tx-mar justify-content-center">
-        <div class="col-md-4"><button class="btn btn-dark">check</button></div>
-        <div class="col-md-4 text-light text-center"><p>answer1</p></div>
-        <div class="col-md-4 text-light text-center"><p>answer2</p></div>
-    </div>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination">
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== NAVBAR PART START ======-->
+
+    <section class="header-area">
+        <div class="navbar-area">
             <div class="container">
-                <div class="row no-gutters">
-                    <div class="col">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                Previous
-                                <span class="sr-only">Previous</span>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="navbar-brand" style="width: 50rem">
+                            <a class="btn-lg btn-dark" href="#" style="margin-right: 5rem">
+                                Dynamic Earth
                             </a>
-                        </li>
+                            <a class="btn-lg btn-info" href="#" >
+                                Game Home
+                            </a>
+                            </div>
+<!--                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                                <span class="toggler-icon"></span>-->
+<!--                                <span class="toggler-icon"></span>-->
+<!--                                <span class="toggler-icon"></span>-->
+<!--                            </button>-->
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#window">WINDOW</a>
+                                    </li>
+                                    <li class="nav-item" style="width: 12rem">
+                                        <a class="page-scroll" href="#game_ins">GAME INSTRUCTION</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#game1">GAME1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#game2">GAME2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+<!--                            <div class="navbar-btn d-none mt-15 d-lg-inline-block">-->
+<!--                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>-->
+<!--                            </div>-->
+                        </nav> <!-- navbar -->
                     </div>
-                    <div class="col text-right">
-                        <a class="page-link" href="#" aria-label="Next">
-                            Next
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+
+        <div id="window" class="slider-area" >
+            <div class="bd-example" >
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOne" data-slide-to="1"></li>
+                        <li data-target="#carouselOne" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active" style="background-image: url(../static/images/Giant_otter.jpg)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Giant_otter</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#game_ins">GET STARTED</a></li>
+<!--                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>-->
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url(../static/images/African_wild_dog.jpg)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">African_wild_dog</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#game_ins">GET STARTED</a></li>
+<!--                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>-->
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url(../static/images/Asian_elephant.jpg)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Asian_elephant</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#game_ins">GET STARTED</a></li>
+<!--                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>-->
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+                    </div> <!-- carousel-inner -->
+
+                    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+                        <i class="lni-arrow-left-circle"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+                        <i class="lni-arrow-right-circle"></i>
+                    </a>
+                </div> <!-- carousel -->
+            </div> <!-- bd-example -->
+        </div>
+
+    </section>
+
+    <!--====== NAVBAR PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+
+    <section id="game_ins" class="about-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Game Instruction</h3>
+                        <br>
+                        <p class="text">There are two games for you to enhance impression of endangered fauna</p>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
+<!--                        <div class="about-icon">-->
+<!--                            <a href="#"><img src="assets/images/Asian_elephant.jpg" alt="Icon"></a>-->
+<!--                        </div>-->
+                        <div class="about-content media-body">
+                            <h4 class="about-title">1. Help Fauna Find Home</h4>
+                            <p class="text">In order to protect endangered animals, scientists have brought them to a safe place to protect them. </p>
+                            <p class="text">Now that their populations have expanded, animals can return to their homes.</p>
+                            <p class="text">Can you help scientists find homes for endangered animals?</p>
+                            <br>
+                            <br>
+                            <a href="#game1" class="btn-lg btn-info">START</a>
+                        </div >
+                    </div> <!-- single about -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s">
+<!--                        <div class="about-icon">-->
+<!--                            <a href="#"><img src="assets/images/African_penguin.jpg" alt="Icon"></a>-->
+<!--                        </div>-->
+                        <div class="about-content media-body">
+                            <h4 class="about-title">2. Observation And Memory Test</h4>
+                            <p class="text">There are many similar animals among the endangered animals.</p>
+                            <p class="text">For ordinary people, it is difficult to distinguish animals that belong to one group. </p>
+                            <p class="text">Can you find the difference between them?</p>
+                            <br>
+                            <br>
+                            <a href="#game2" class="btn-lg btn-info ">START</a>
+
+                        </div>
+                    </div> <!-- single about -->
+                </div>
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== portfolio PART START ======-->
+
+    <section id="game1" class="portfolio-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Help Fauna Find Home</h3>
+                        <p class="text">You need to identify which area an endangered animal belongs to</p>
+                        <p class="text">You could have a review in this window and then get started</p>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-menu pt-30 text-center">
+                        <ul>
+                            <li data-filter="*" class="active">All</li>
+                            <li data-filter=".ocean">ocean</li>
+                            <li data-filter=".africa">Africa</li>
+                            <li data-filter=".asia">Asia</li>
+                            <li data-filter=".america">America</li>
+                            <li data-filter=".europe">Europe</li>
+                        </ul>
+                    </div> <!-- portfolio menu -->
+                </div>
+            </div> <!-- row -->
+            <div class="row grid">
+                <div class="col-lg-4 col-sm-6 ocean">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static/images/Blue_whale.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Blue whale</a></h4>
+                            <p class="text">Pacific Ocean,Worldwide</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6 africa">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/African_penguin.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">African penguin</a></h4>
+                            <p class="text">The Republic of South Africa, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6 africa">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/African_wild_dog.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">African wild dog</a></h4>
+                            <p class="text">Botswana, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6  asia">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Siberian_tiger.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Siberian tiger</a></h4>
+                            <p class="text">China, Asia</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6 asia">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Asian_elephant.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Asian elephant</a></h4>
+                            <p class="text">India, Asia</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6 america">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Giant_otter.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Giant otter</a></h4>
+                            <p class="text">Brazil, South America</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== portfolio PART ENDS ======-->
+    
+    <!--====== game2 START ======-->
+
+    <section id="game2" class="portfolio-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Observation And Memory Test</h3>
+                        <p class="text">Here are some similar endangered fauna.</p>
+                        <p class="text">Could you match their names correctly?</p>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-menu pt-30 text-center">
+                        <ul>
+                            <li data-filter="*" class="active">All</li>
+                            <li data-filter=".hominidae">Hominidae</li>
+                            <li data-filter=".wolf">Wolf</li>
+
+                        </ul>
+                    </div> <!-- portfolio menu -->
+                </div>
+            </div> <!-- row -->
+            <div class="row grid">
+                <div class="col-lg-4 col-sm-6 hominidae">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Bonobo.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Bonobo</a></h4>
+                            <p class="text">Democratic Republic of Congo, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 hominidae">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Bornean_orangutan.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Bornean orangutan</a></h4>
+                            <p class="text">Malaysian, Asia</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 hominidae">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Chimpanzee.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Chimpanzee</a></h4>
+                            <p class="text">Federal Republic of Nigeria, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 hominidae">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Eastern_lowland_gorilla.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Eastern lowland gorilla</a></h4>
+                            <p class="text">Democratic Republic of Congo, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+                <div class="col-lg-4 col-sm-6 wolf">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Dhole.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Dhole</a></h4>
+                            <p class="text">China, Asia</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 wolf">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="../static//images/Ethiopian_wolf.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Ethiopian wolf</a></h4>
+                            <p class="text">Ethiopia, Africa</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== game2 ENDS ======-->
+
+    <!--====== CONTACT TWO PART START ======-->
+
+    <section id="contact" class="contact-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Get in touch</h3>
+<!--                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>-->
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-two mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <h4 class="contact-title">Welcome to our Github page</h4>
+                        <p class="text">There are more details about our project</p>
+                        <ul class="contact-info">
+                            <li><i class="lni-money-location"></i>The University of Bristol, UK</li>
+                            <li><i class="lni lni-home"></i>Desk3</li>
+                            <li><i class="lni-envelope"></i> tz20505@bristol.ac.uk</li>
+                        </ul>
+                    </div> <!-- contact two -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+
+                        <div class="rounded-buttons mt-20">
+                            <button type="submit" class="main-btn rounded-three"><a href="">Go Github</a></button>
+                        </div> <!-- form input -->
+                    </div> <!-- contact form -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT TWO PART ENDS ======-->
+    
+    <!--====== FOOTER FOUR PART START ======-->
+
+    <footer id="footer" class="footer-area">
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="copyright">
+                            <p class="text-center">Copyright &copy; 2021.Desk3 All rights reserved.</p>
+                        </div> <!--  copyright -->
                     </div>
                 </div>
-            </div>
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
 
+    <!--====== FOOTER FOUR PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
 
-        </ul>
-    </nav>
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
+    <!--====== BACK TOP TOP PART ENDS ======-->  
 
-<!--    footer begin-->
-<!--main body-end-->
+    <!--====== jquery js ======-->
+    <script src="../static/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="../static/js/vendor/jquery-1.12.4.min.js"></script>
 
+    <!--====== Bootstrap js ======-->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
 
-<!--footer-begin-->
-    <div class="row justify-content-center text-center bg-dark">
-        <div class="col"><h4 class="tx-pad text-light">Copyright: Desk3!</h4></div>
-    </div>
-<!--footer-end-->
-</div>
+    <!--====== Slick js ======-->
+    <script src="../static/js/slick.min.js"></script>
 
+    <!--====== Isotope js ======-->
+    <script src="../static/js/isotope.pkgd.min.js"></script>
 
-<script>
+    <!--====== Images Loaded js ======-->
+    <script src="../static/js/imagesloaded.pkgd.min.js"></script>
 
-</script>
+    <!--====== Magnific Popup js ======-->
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
 
+    <!--====== Scrolling js ======-->
+    <script src="../static/js/scrolling-nav.js"></script>
+    <script src="../static/js/jquery.easing.min.js"></script>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--====== wow js ======-->
+    <script src="../static/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="../static/js/main.js"></script>
 </body>
+
 </html>
