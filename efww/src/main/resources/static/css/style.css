@@ -2283,7 +2283,8 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  display: none; }
+  display: block;
+}
   .back-to-top:hover {
     color: #121212;
     background-color: #38f9d7; }

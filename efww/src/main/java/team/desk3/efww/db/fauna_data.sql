@@ -1,32 +1,6 @@
-CREATE TABLE fauna(
-id INT PRIMARY KEY,
-description VARCHAR(255)
-);
+create database fauna;
 
-INSERT INTO fauna VALUES(
-1, 'diuahsdiu aishdiahsidhiasd asdiu haishd iahsidh asd asidh iahsdi haishdik aisdbas asdi haisdhiabsid baisbdiu asd iahsdibh iausbdi baisdbi abi
-sdb a aisbhdbi baisdb iasbd ibaisdb iuassdas baisbd iabsid baisbdi absid baibsdiabsoidbasiudbciuasbdciou yabsiudbasoidxboia sbdiuasbdiu asd iba
-sidb iasbdi basi db asihdio hasid iuashda iashdi haishd iashid aihdsiu hasilduh aishdi ahsiud iasdi hasidhb iasbhd ibasid biabsd 
-ashd iahsdi baisdb iasbsdiu basiudbiauss iahsiudhaisdhi ahiuhdiuashdiabsid hasisdhb iuasdiu hisahdfiuahsdiuf isudhf iudhfi iudhf iushd if
-asfd hioauhdfi hasodfh oasddhfo hsaodnf oinsaddofh oisdf.sdf./sd.df/ sdfiuh oiushdifh iusdahfi hasdohf ashdof joads f.//da,f/ adfh oisajhdofi hosdajf
-ash doahfo hsaodfh oshdofh o;asdf;oh a;sodnfo nasdoifhnpaoiusd hfoiuasdhf iubasdiuydfhiauEHFDIP9UAHCOIUAH'
-);
-
-SELECT * FROM fauna;
-
-diuahsdiu aishdiahsidhiasd asdiu haishd iahsidh asd asidh iahsdi haishdik aisdbas asdi haisdhiabsid baisbdiu asd iahsdibh iausbdi baisdbi abi
-sdb a aisbhdbi baisdb iasbd ibaisdb iuassdas baisbd iabsid baisbdi absid baibsdiabsoidbasiudbciuasbdciou yabsiudb
-
-ALTER TABLE fauna ADD des TEXT;
-
-INSERT INTO fauna VALUES(2,'tiger','diuahsdiu aishdiahsidhiasd asdiu haishd iahsidh asd asidh iahsdi haishdik aisdbas asdi haisdhiabsid baisbdiu asd iahsdibh iausbdi baisdbi abi
-sdb a aisbhdbi baisdb iasbd ibaisdb iuassdas baisbd iabsid baisbdi absid baibsdiabsoidbasiudbciuasbdciou yabsiudbasoidxboia sbdiuasbdiu asd iba
-sidb iasbdi basi db asihdio hasid iuashda iashdi haishd iashid aihdsiu hasilduh aishdi ahsiud iasdi hasidhb iasbhd ibasid biabsd 
-ashd iahsdi baisdb iasbsdiu basiudbiauss iahsiudhaisdhi ahiuhdiuashdiabsid hasisdhb iuasdiu hisahdfiuahsdiuf isudhf iudhfi iudhf iushd if
-asfd hioauhdfi hasodfh oasddhfo hsaodnf oinsaddofh oisdf.sdf./sd.df/ sdfiuh oiushdifh iusdahfi hasdohf ashdof joads f.//da,f/ adfh oisajhdofi hosdajf
-ash doahfo hsaodfh oshdofh o;asdf;oh a;sodnfo nasdoifhnpaoiusd hfoiuasdhf iubasdiuydfhiauEHFDIP9UAHCOIUAH');
-
-
+use fauna;
 
 CREATE TABLE fauna(
 id INT PRIMARY KEY AUTO_INCREMENT,
