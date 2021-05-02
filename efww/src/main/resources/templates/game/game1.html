@@ -301,13 +301,7 @@
                     $('.nav.right').click()
             }
         })
-        //the position has changed , not good
-        // $(".again").mouseenter(function () {
-        //     $(".tip").css("display","block");
-        // });
-        // $(".again").mouseleave(function () {
-        //     $(".tip").css("display","none");
-        // });
+
     })
     // <!--THE logic of gaming-->
     //card
@@ -320,12 +314,12 @@
         array = str.split(",");
         //define the array[0] is right_btn selector then msg then wrong_btn
         var right_btn = $(array[0]);
-        right_btn.addClass('active');
-        setTimeout(function () {
-            right_btn.attr('disabled', 'true')
-        }, 1500)
+        right_btn.addClass('active').attr('disabled','true');
+        // setTimeout(function () {
+        //     right_btn.attr('disabled', 'true')
+        // }, 1500)
         var area = $(right_btn).text();
-        $(array[1]).append("Right! ").append(area).css({'color': 'green'});
+        $(array[1]).append("Bingo! ").append(area).css({'color': 'green'});
         $(array[2]).attr('disabled', "true");
     }
 
@@ -350,11 +344,12 @@
         wrong_btn.removeClass("btn-outline-success").addClass("btn-danger");
         var right_btn = $(array[0]);
         var area = right_btn.text();
+        wrong_btn.attr('disabled', 'true')
         //alert(area);
-        setTimeout(function () {
-            wrong_btn.attr('disabled', 'true')
-        }, 1500)
-        $(array[1]).append("Wrong! ").append("It is " + area).css({'color': 'red'});
+        // setTimeout(function () {
+        //     wrong_btn.attr('disabled', 'true')
+        // }, 1500)
+        $(array[1]).append("It should be " + area).css({'color': 'red'});
         right_btn.attr('disabled', "true");
     }
 
