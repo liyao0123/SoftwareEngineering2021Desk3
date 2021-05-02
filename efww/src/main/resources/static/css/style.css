@@ -701,7 +701,8 @@ p {
           -ms-transition: all 0.3s ease-out 0s;
           -o-transition: all 0.3s ease-out 0s;
           transition: all 0.3s ease-out 0s;
-          margin: 14px 0; }
+          margin: 14px 0;
+        }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
             .navbar-area .navbar .navbar-nav .nav-item a {
               padding: 10px 0;
