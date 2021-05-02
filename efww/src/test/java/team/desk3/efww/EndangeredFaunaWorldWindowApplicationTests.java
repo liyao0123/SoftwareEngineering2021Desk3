@@ -21,17 +21,18 @@ class EndangeredFaunaWorldWindowApplicationTests {
     @Test
     void contextLoads() {
     }
-
+    /*
     @Autowired
     JdbcTemplate jdbcTemplate;
 
     @Autowired
     UserMapper userMapper;
-
+    */
     @Autowired
     FaunaService faunaService;
 
     //test if I can connect the mysql successfully
+    /*
     @Test
     public void testConnection(){
         //select data from the test demo table user
@@ -45,7 +46,7 @@ class EndangeredFaunaWorldWindowApplicationTests {
         Object o = userMapper.selectById(1);
         log.info(o.toString());
     }
-
+    */
     /**
      * test the fauna data stored in the database
      */

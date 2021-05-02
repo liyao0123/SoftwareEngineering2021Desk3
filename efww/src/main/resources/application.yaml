@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/faunaworld
+    url: jdbc:mysql://8.208.97.185:3306/faunaworld
     username: root
     password: xhj0816
     driver-class-name: com.mysql.jdbc.Driver
@@ -29,7 +29,8 @@ spring:
         login-password: admin
         reset-enable: false
         login-username: admin
-
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
+server:
+  max-http-header-size: 12288
