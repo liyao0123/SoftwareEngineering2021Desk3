@@ -12,21 +12,25 @@
 ## Before The Game
 You could have a review of some endangered fauna in the game home page and start the game. The review would help you make a sensible choice.
 
-## Game1-Help Fauna Find Home
-<img src="static/images/game1.png" width="700" height="450"/></br>
+<img src="static/images/review.png" width="700" height="450"/></br>
 
+## Game1-Help Fauna Find Home
 - ### Background 
 In order to protect endangered animals, scientists have brought them to a safe place to protect them. Now that their populations have expanded, animals can return to their homes. Could you help endangered animals find homes with scientists? 
+
 - ### Instruction
 There are one right area where the fauna comes from and one confusing choice. You should try to click and choose the right one.
 
+<img src="static/images/game1.png" width="700" height="450"/></br>
+
 ## Game2-Observation And Memory Test
-<img src="static/images/game2.png" width="700" height="450"/></br>
 - ### Background 
 There are many similar animals among the endangered animals. For ordinary people, it is difficult to distinguish animals that belong to one group. Can you find the difference between them?
 
 - ### Instruction
 There are two names in each card. You should guess the right name and click.
+
+<img src="static/images/game2.png" width="700" height="450"/></br>
 
 ### [Tip]
 - There is a tricky way to make each choice right. 
