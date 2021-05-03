@@ -1,8 +1,6 @@
 # SoftwareEngineering2021Desk3
 
-### Project Report
-
-## Team
+## Team Member
 Name         |Email                |Roles
 -------------|---------------------|-----
 Yunqi Guo    |wb20529@bristol.ac.uk|Leader/Front-end
