@@ -14,7 +14,7 @@ Wang Jiahao  |lo20331@bristol.ac.uk|Front-end
 - Project Objectives. The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success.
 - Video. Short (1-2min) demo video to explain your system (think Kickstarter)
 
-View our [introduction document](Documentation/Introduction.md).
+More details -> [introduction document](Documentation/Introduction.md).
 
 
 ## Background and Motivation - 10
@@ -22,7 +22,7 @@ View our [introduction document](Documentation/Introduction.md).
 - State of the art survey. Current industry review.
 - Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a worthwhile and important problem and clearly articulate the scope and challenge of the problem.
 
-View our [background and motivation document](Documentation/BackgroundandMotivation.md).
+More details -> [background and motivation document](Documentation/BackgroundandMotivation.md).
 
 
 ## System Implementation - 20
@@ -33,42 +33,42 @@ View our [background and motivation document](Documentation/BackgroundandMotivat
 - Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 - Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 
-View our [system implementation document](Documentation/SystemImplementation.md).
+More details -> [system implementation document](Documentation/SystemImplementation.md).
 
 
-## [UX Design - 15](Documentation/UXDesign.md)
+## UX Design - 15
 - Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
 - Identification of interacting users and broader stakeholders.
 - UX approach – design heuristics/approach, design methods (design fiction / heuristics)
 - Understanding of user group (questionnaires / user stories / interviews)
 - Wireframes and interaction flow diagrams for final key subsystems.
 
- View our [UX design document](Documentation/UXDesign.md).
+More details ->  [UX design document](Documentation/UXDesign.md).
 
-## [Sprints & Project Management - 15](Documentation/Sprints&ProjectManagement.md)
+## Sprints & Project Management - 15
 - Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
 - Discussion of team roles (specialisation is ok!). A summary of individual contributions (note: this is for reference, your team will all receive the same grade!).
 - Documentation of your sprints, including both high level overview, timeline, and selected highlights that were critical points in the project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies for absence etc)
 - Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
-View our [sprints and project management document](Documentation/Sprints&ProjectManagement.md).
+More details -> [sprints and project management document](Documentation/Sprints&ProjectManagement.md).
 
 
-## [Evaluation - 15](Documentation/Evaluation.md)
+## Evaluation - 15
 - Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design.
 - Unit testing / Functional testing.
 - User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.
 
-View our [evaluation document](Documentation/Evaluation.md).
+More details -> [evaluation document](Documentation/Evaluation.md).
 
-## [Conclusion - 10](Documentation/Conclusion.md)
+## Conclusion - 10
 - Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
 - Reflective discussion of the success of the project. How well did your project fulfil the brief? Were all of your own objectives met
 - This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
 - Discussion of Social and Ethical implications of your work.
 - Discussion of future work (in terms of design, development and evaluation)
 
-View our [conclusion ducument](Documentation/Conclusion.md).
+More details -> [conclusion ducument](Documentation/Conclusion.md).
 
-## [Presentaion - 5](Documentation/Presentation.md)
+## Presentaion - 5
 - There is a 5% mark for presentation, including formatting. We are looking for consistency, readability, conciseness, good use of figures and with the ultimate aim of this being a readable and useful public repo!
