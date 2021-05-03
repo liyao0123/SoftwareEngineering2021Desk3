@@ -1,4 +1,6 @@
-# Endangered Fauna World Window (Dynamic Earth and Game Home)
+# Endangered Fauna World Window 
+(Dynamic Earth and Game Home)
+
 ## What you can do in Dynamic Earth?(developing......)
 1. Rotate the earth and see the full picture of the earth. By the way, you would find the area that is close to you.
 2. Move your mouse to the small spot on different places and you would get the picture and description of one endangered fauna. Try to know about it.
