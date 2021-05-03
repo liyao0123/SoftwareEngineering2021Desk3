@@ -1,6 +1,7 @@
-# SoftwareEngineering2021Desk3
+# Endangered Fauna World Window
 
-## Team Member
+Explore Game World -> [Game Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)
+## SoftwareEngineering2021Desk3 Team Members
 Name         |Email                |Roles
 -------------|---------------------|-----
 Yunqi Guo    |wb20529@bristol.ac.uk|Leader/Front-end
