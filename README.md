@@ -6,7 +6,7 @@
 1. Rotate the earth and see the full picture of the earth. By the way, you would find the area that is close to you.
 2. Move your mouse to the small spot on different places and you would get the picture and description of one endangered fauna. Try to know about it.
 
-## What you can do in Game Home |[Go To Game Home Page] (http://www.efww.top) ==>|
+## What you can do in Game Home |[Go To Game Home Page](http://www.efww.top) ==>|
 1. Enhance your impression of endangered fauna and learn more about it by palying games.
 2. Identify the difference between similar endangered fauna and test your observation ability.
 
