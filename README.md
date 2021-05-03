@@ -1,6 +1,6 @@
 # Endangered Fauna World Window
 
-Explore Game World -> [Game Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)
+### Explore Game World -> [Game Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)
 ## SoftwareEngineering2021Desk3 Team Members
 Name         |Email                |Roles
 -------------|---------------------|-----
