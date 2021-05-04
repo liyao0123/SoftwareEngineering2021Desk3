@@ -26,7 +26,7 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 
 **Timeline:** 9/2/2021 - 25/2/2021  
 **Task finished:**
-* A serous real-word problem namely protecting endangered animals.
+* A serious real-word problem namely protecting endangered animals.
 
 * The idea of a playful mini game to help address the problem.
 
