@@ -778,11 +778,6 @@ p {
               -ms-transform: translateX(0%);
               -o-transform: translateX(0%);
               transform: translateX(0%);
-              -webkit-transition: all none ease-out 0s;
-              -moz-transition: all none ease-out 0s;
-              -ms-transition: all none ease-out 0s;
-              -o-transition: all none ease-out 0s;
-              transition: all none ease-out 0s;
               -webkit-box-shadow: none;
               -moz-box-shadow: none;
               box-shadow: none;
@@ -803,11 +798,6 @@ p {
               -ms-transform: translateX(0%);
               -o-transform: translateX(0%);
               transform: translateX(0%);
-              -webkit-transition: all none ease-out 0s;
-              -moz-transition: all none ease-out 0s;
-              -ms-transition: all none ease-out 0s;
-              -o-transition: all none ease-out 0s;
-              transition: all none ease-out 0s;
               -webkit-box-shadow: none;
               -moz-box-shadow: none;
               box-shadow: none;
@@ -1099,16 +1089,19 @@ p {
   .slider-area .bd-example .carousel .carousel-inner {
     background-color: #38f9d7; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-      height: 700px; }
+      height: 530px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-          height: 600px; } }
+          height: 460px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-          height: 600px; } }
-      @media (max-width: 767px) {
+          height: 430px; } }
+      @media only screen and (min-width: 557px) and (max-width: 767px) {
         .slider-area .bd-example .carousel .carousel-inner .carousel-item {
-          height: 400px; } }
+          height: 340px; } }
+      @media (max-width: 556px) {
+        .slider-area .bd-example .carousel .carousel-inner .carousel-item {
+          height: 200px; } }
       .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
         top: 50%;
         bottom: auto;
@@ -2290,4 +2283,3 @@ p {
     color: #121212;
     background-color: #38f9d7; }
 
-/*# sourceMappingURL=style.css.map */
