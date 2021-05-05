@@ -75,15 +75,15 @@
         }
 
         .nav.left {
-            left: -43px;
+            left: -70px;
             -webkit-border-radius: 12px 5px 5px 12px;
             -moz-border-radius: 12px 5px 5px 12px;
             border-radius: 12px 5px 5px 12px;
         }
 
         .nav.right {
-            right: -43px;
-            -webkit-border-radius: 5px 12px 12px 5px;
+            right: -70px;
+            -webkit-border  -radius: 5px 12px 12px 5px;
             -moz-border-radius: 5px 12px 12px 5px;
             border-radius: 5px 12px 12px 5px;
         }
@@ -127,10 +127,7 @@
 
     </style>
 </head>
-<!--//th:style="'background: url(/images/nature.jpg);'+'background-size: cover;'"-->
 <body th:style="'background: url(/images/nature.jpg);'+'background-size: cover;'">
-
-
 <!--header start-->
 <header>
     <div class="container" style="margin-top: 1rem">
@@ -189,7 +186,7 @@
             </div>
             <div class="row" >
                 <div class="col">
-                    <p class="des_thr text-secondary">Hints: close to the south</p>
+                    <p class="des_thr text-secondary">Hints: [[${fauna.hint}]]</p>
                 </div>
             </div>
 <!--            <p th:text="${'Threats: '+ fauna.getThreat()}" class="desc text-left des_thr"></p>-->
@@ -197,10 +194,10 @@
             <a th:href="@{${fauna.link}}" class="des_thr">Learn more...</a>
         </div>
     </div>
-    <button class="nav noselect left">
+    <button class="nav noselect left" style="">
         &lt;
     </button>
-    <button class="nav noselect right">
+    <button class="nav noselect right" style="margin-left: 2rem">
         &gt;
     </button>
     <!--    </div>-->
@@ -218,7 +215,7 @@
                     <h2 class="text-danger" id="correct_rate"></h2>
                     <h6 id="success_msg" class="text-success "></h6>
                     <h6 id="fail_msg" class="text-info "></h6>
-                    <a th:href="@{/game1/1}" class="btn btn-info" id="btn_again">Try again!</a>
+                    <a th:href="@{/game1(gameId=${sameParam})}" class="btn btn-info" id="btn_again">Try again!</a>
                 </div>
             </div>
         </div>
@@ -231,26 +228,22 @@
         <div class="row justify-content-end">
             <div class="col-2 ">
                 <div class="btn-group dropup">
-                    <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button id="game_btn" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         More Games
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" th:href="@{/game1/1}">Try this again</a>
-                        <a class="dropdown-item" th:href="@{/game1/1}">Game1-2</a>
-                        <a class="dropdown-item" th:href="@{/game1/1}">Game1-3</a>
+                        <a class="dropdown-item" th:href="@{/game1(gameId=${sameParam})}">Try this again</a>
+                        <a class="dropdown-item" th:href="@{/game1(gameId=${diffParam})}">Game[[${diffParam}]]</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" th:href="@{/game2/1}">Game2</a>
+                        <a class="dropdown-item" th:href="@{/game2(gameId='2-1')}">Game2-1</a>
+                        <a class="dropdown-item" th:href="@{/game2(gameId='2-2')}">Game2-2</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" th:href="@{/}">Game Home</a>
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
-
-
 </footer>
 <!--footer end-->
 <!--get the card number from model-->
@@ -344,7 +337,6 @@
     //     $("#msg1").append("Right! ").append(area).css({'color':'green'});
     //     $("#wrong_btn1").attr('disabled',"true");
     // })
-
     function wrong_btn_click(btn_msg) {
         //alert(btn_msg);
         var str = new String();

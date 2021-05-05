@@ -58,7 +58,7 @@ class EndangeredFaunaWorldWindowApplicationTests {
 
         //get random data where kind is null
         QueryWrapper<Fauna> query = Wrappers.query();
-        query.isNull("kind");
+        query.isNull("game_id");
         List<Fauna> list = faunaService.list(query);
         log.info(list.toString());
     }
@@ -70,7 +70,7 @@ class EndangeredFaunaWorldWindowApplicationTests {
     public void testHominidae(){
         //List<Fauna> list = faunaService.list();
         QueryWrapper<Fauna> query = Wrappers.query();
-        query.eq("kind","Hominidae");
+        query.eq("game_id","2-1");
         List<Fauna> list = faunaService.list(query);
         log.info(list.toString());
     }

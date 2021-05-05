@@ -11,11 +11,11 @@ public class Fauna {
 
     private int id;
     private String name;
+    private String falseName;
     private String area;
     private String falseArea;
-    private String threat;
     private String link;
     private String picture;
-    private String description;
-    private String kind;
+    private String gameId;
+    private String hint;
 }

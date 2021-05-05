@@ -152,7 +152,7 @@
 <section class="wrap">
 <!--    <div class="container">-->
         <div id="showcase" class="noselect">
-            <div class="card" th:each="fauna,stat : ${hominidae}">
+            <div class="card" th:each="fauna,stat : ${faunaList}">
                 <h2>Guess Name</h2>
                 <img th:src="@{${fauna.picture}}" style="width: 250px;height: 180px">
                 <div class="row" style="margin-top: 1rem">
@@ -167,7 +167,7 @@
                                     th:onclick="right_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
                         </div>
                         <div class="col">
-                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.name == 'Eastern lowland gorilla' ? 'Chimpanzee' : 'Bonobo'}"
+                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.falseName}"
                                     th:onclick="wrong_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                 <div class="judge" th:if="${stat.count % 2 == 1}">
                     <div class="row justify-content-around" style="margin-top: 1rem">
                         <div class="col">
-                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.name == 'Chimpanzee' ? 'Eastern lowland gorilla' : 'Dhole'}"
+                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.falseName}"
                                     th:onclick="wrong_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
                         </div>
                         <div class="col">
@@ -193,7 +193,7 @@
 <!--                <p th:text="${'Description:  ' + fauna.getDescription()}" class="text-left desc des_thr"></p>-->
                 <div class="row" >
                     <div class="col">
-                        <p class="des_thr text-secondary">Hints: close to the south</p>
+                        <p class="des_thr text-secondary">Hints: [[${fauna.hint}]]</p>
                     </div>
                 </div>
                 <a th:href="@{${fauna.link}}" class="des_thr">Learn more...</a>
@@ -221,7 +221,7 @@
                     <h2 class="text-danger" id="correct_rate"></h2>
                     <h6 id="success_msg" class="text-success "></h6>
                     <h6 id="fail_msg" class="text-info "></h6>
-                    <a th:href="@{/game2/1}" class="btn btn-info" id="btn_again">Try again!</a>
+                    <a th:href="@{/game2(gameId=${sameParam})}" class="btn btn-info" id="btn_again">Try again!</a>
                 </div>
             </div>
         </div>
@@ -239,11 +239,11 @@
                         More Games
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" th:href="@{/game2/1}">Try this again</a>
-                        <a class="dropdown-item" th:href="@{/game2/1}">Game2-2</a>
-                        <a class="dropdown-item" th:href="@{/game2/1}">Game2-3</a>
+                        <a class="dropdown-item" th:href="@{/game2(gameId=${sameParam})}">Try this again</a>
+                        <a class="dropdown-item" th:href="@{/game2(gameId=${diffParam})}">Game[[${diffParam}]]</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" th:href="@{/game1/1}">Game1</a>
+                        <a class="dropdown-item" th:href="@{/game1(gameId='1-1')}">Game1-1</a>
+                        <a class="dropdown-item" th:href="@{/game1(gameId='1-2')}">Game1-2</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" th:href="@{/}">Game Home</a>
                     </div>

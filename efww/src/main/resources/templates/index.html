@@ -79,7 +79,7 @@
                             <a class="btn-lg btn-info" href="#">
                                 Game Home
                             </a>
-                       </div>
+                        </div>
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
@@ -116,78 +116,34 @@
                     <li data-target="#carouselOne" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img th:src="@{/images/White_polar_bear.jpg}" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-item bg_cover active">
+                        <img th:src="@{/images/carousel_bear.jpg}" class="d-block w-100 h-100" alt="...">
                         <div class="carousel-caption">
                             <div class="container">
-                                <div class="row justify-content-center car_btn_row">
-                                    <div class="col">
-                                        <ul class="carousel-btn rounded-buttons">
-                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET
-                                                STARTED</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="row justify-content-center car_font_row" >
-                                    <p class="text-white car_font" >WHITE POLAR BEAR</p>
+                                <div class="row justify-content-center car_font_row">
+                                    <p class="text-white car_font">WHITE POLAR BEAR</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> <!-- carousel caption -->
+                    </div> <!-- carousel-item -->
+
                     <div class="carousel-item bg_cover">
                         <img th:src="@{/images/carousel_tiger.jpg}" class="d-block w-100 h-100" alt="...">
                         <div class="carousel-caption">
                             <div class="container">
-
-                                <div class="row justify-content-center car_btn_row">
-                                    <div class="col">
-                                        <ul class="carousel-btn rounded-buttons">
-                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET
-                                                STARTED</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center car_font_row" >
+                                <div class="row justify-content-center car_font_row">
                                     <p class="text-white car_font">SIBERIAN TIGER</p>
                                 </div>
                             </div>
                         </div> <!-- carousel caption -->
                     </div> <!-- carousel-item -->
-                    <div class="carousel-item bg_cover">
-                        <img th:src="@{/images/carousel_blue_whale.jpg}" class="d-block w-100 h-100" alt="...">
-                        <div class="carousel-caption">
-                            <div class="container">
 
-                                <div class="row justify-content-center car_btn_row">
-                                    <div class="col">
-                                        <ul class="carousel-btn rounded-buttons">
-                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET
-                                                STARTED</a></li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- row -->
-                                <div class="row justify-content-center car_font_row" >
-                                    <p class="text-white  car_font">BLUE WHALE</p>
-                                </div>
-                            </div> <!-- container -->
-                        </div> <!-- carousel caption -->
-                    </div> <!-- carousel-item -->
 
                     <div class="carousel-item bg_cover">
                         <img th:src="@{/images/carousel_komodo dragon.jpg}" class="d-block w-100 h-100" alt="...">
                         <div class="carousel-caption">
                             <div class="container">
-
-                                <div class="row justify-content-center car_btn_row">
-                                    <div class="col">
-                                        <ul class="carousel-btn rounded-buttons">
-                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET
-                                                STARTED</a></li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- row -->
-                                <div class="row justify-content-center car_font_row" >
+                                <div class="row justify-content-center car_font_row">
                                     <p class="text-white  car_font">KOMODO DRAGON</p>
                                 </div>
                             </div> <!-- container -->
@@ -198,17 +154,27 @@
                         <img th:src="@{/images/carousel_mountain zebra.jpg}" class="d-block w-100 h-100" alt="...">
                         <div class="carousel-caption">
                             <div class="container">
+                                <div class="row justify-content-center car_font_row">
+                                    <p class="text-white car_font">MOUNTAIN ZEBRA</p>
+                                </div>
+                            </div> <!-- container -->
+                        </div> <!-- carousel caption -->
+                    </div> <!-- carousel-item -->
 
-                                <div class="row justify-content-center car_btn_row">
-                                    <div class="col">
-                                        <ul class="carousel-btn rounded-buttons">
-                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET
-                                                STARTED</a></li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- row -->
-                                <div class="row justify-content-center"  style="margin-bottom: -5rem;margin-top: 3rem">
-                                    <p class="text-white  car_font" >MOUNTAIN ZEBRA</p>
+                    <div class="carousel-item bg_cover">
+                        <img th:src="@{/images/carousel_blue_whale.jpg}" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption">
+                            <div class="container">
+<!--                                <div class="row justify-content-center car_btn_row">-->
+<!--                                    <div class="col">-->
+<!--                                        <ul class="carousel-btn rounded-buttons">-->
+<!--                                            <li><a class="page-scroll main-btn rounded-three" href="#game_ins">GET-->
+<!--                                                STARTED</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </div>-->
+<!--                                </div> &lt;!&ndash; row &ndash;&gt;-->
+                                <div class="row justify-content-center car_font_row">
+                                    <p class="text-white  car_font">BLUE WHALE</p>
                                 </div>
                             </div> <!-- container -->
                         </div> <!-- carousel caption -->
@@ -247,7 +213,7 @@
         </div> <!-- row -->
         <div class="row">
             <div class="col-lg-6">
-                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp"  data-wow-delay="0.5s">
 
                     <div class="about-content media-body">
                         <h4 class="about-title">1. Help Fauna Find Home</h4>
@@ -262,7 +228,7 @@
                 </div> <!-- single about -->
             </div>
             <div class="col-lg-6">
-                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp"  data-wow-delay="0.8s">
                     <div class="about-content media-body">
                         <h4 class="about-title">2. Observation And Memory Test</h4>
                         <p class="text">There are many similar animals among the endangered animals.</p>
@@ -301,72 +267,107 @@
                 <div class="portfolio-menu pt-30 text-center">
                     <ul>
                         <li data-filter="*" class="active">All</li>
-                        <li data-filter=".ocean">Ocean</li>
-                        <li data-filter=".africa">Africa</li>
                         <li data-filter=".asia">Asia</li>
+                        <li data-filter=".africa">Africa</li>
                         <li data-filter=".america">America</li>
-                        <!--                            <li data-filter=".europe">Europe</li>-->
+                        <li data-filter=".australia">Australia</li>
                     </ul>
                 </div> <!-- portfolio menu -->
             </div>
         </div> <!-- row -->
         <div class="row grid">
-            <div class="col-lg-4 col-sm-6 ocean">
-                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                    <div class="portfolio-image">
-                        <img th:src="@{/images/Blue_whale.jpg}" alt="">
-                    </div>
-                    <div class="portfolio-text">
-                        <h4 class="portfolio-title">Blue whale</h4>
-                        <p class="text">Pacific Ocean,Worldwide</p>
-                    </div>
-                </div> <!-- single portfolio -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 africa">
-                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                    <div class="portfolio-image">
-                        <img th:src="@{/images/African_penguin.jpg}" alt="">
-                    </div>
-                    <div class="portfolio-text">
-                        <h4 class="portfolio-title">African penguin</h4>
-                        <p class="text">The Republic of South Africa, Africa</p>
-                    </div>
-                </div> <!-- single portfolio -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 africa">
-                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
-                    <div class="portfolio-image">
-                        <img th:src="@{/images/African_wild_dog.jpg}" alt="">
-                    </div>
-                    <div class="portfolio-text">
-                        <h4 class="portfolio-title">African wild dog</h4>
-                        <p class="text">Botswana, Africa</p>
-                    </div>
-                </div> <!-- single portfolio -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6  asia">
+            <!--asia-->
+            <div class="col-lg-4 col-sm-6 asia">
                 <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                     <div class="portfolio-image">
                         <img th:src="@{/images/Siberian_tiger.jpg}" alt="">
                     </div>
                     <div class="portfolio-text">
                         <h4 class="portfolio-title">Siberian tiger</h4>
-                        <p class="text">China, Asia</p>
+                        <p class="text">Asia</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
-
             <div class="col-lg-4 col-sm-6 asia">
-                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
                     <div class="portfolio-image">
-                        <img th:src="@{/images/Asian_elephant.jpg}" alt="">
+                        <img th:src="@{/images/Dhole.jpg}" alt="">
                     </div>
                     <div class="portfolio-text">
-                        <h4 class="portfolio-title">Asian elephant</h4>
-                        <p class="text">India, Asia</p>
+                        <h4 class="portfolio-title">Dhole</h4>
+                        <p class="text">Asia</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 asia">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Markhor.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Markhor</h4>
+                        <p class="text">Asia</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <!--asia-->
+            <!--africa-->
+            <div class="col-lg-4 col-sm-6  africa">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Mountain_zebra.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Mountain zebra</h4>
+                        <p class="text">Africa</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 africa">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Ethiopian_wolf.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Ethiopian wolf</h4>
+                        <p class="text">Africa</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <!--africa-->
+            <!--australia-->
+            <div class="col-lg-4 col-sm-6 australia">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Dingo.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Dingo</h4>
+                        <p class="text">Australia</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <!--australia-->
+            <!--america-->
+            <div class="col-lg-4 col-sm-6 america">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Giant_otter.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Giant otter</h4>
+                        <p class="text">America</p>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 america">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Manatee.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Manatee</h4>
+                        <p class="text">America</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
@@ -374,19 +375,22 @@
             <div class="col-lg-4 col-sm-6 america">
                 <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
                     <div class="portfolio-image">
-                        <img th:src="@{/images/Giant_otter.jpg}" alt="">
+                        <img th:src="@{/images/Maned_sloth.jpg}" alt="">
                     </div>
                     <div class="portfolio-text">
-                        <h4 class="portfolio-title">Giant otter</h4>
-                        <p class="text">Brazil, South America</p>
+                        <h4 class="portfolio-title">Maned sloth</h4>
+                        <p class="text">America</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
         </div> <!-- row -->
+
+        <!--america-->
         <div class="row " style="margin-top: 4rem">
             <div class="col-12">
                 <ul class="carousel-btn rounded-buttons text-center">
-                    <li><a class="page-scroll main-btn rounded-three text-center" th:href="@{/game1/1}">Start Gaming</a>
+<!--                    @{/game(gameNum='1-1')}-->
+                    <li><a class="page-scroll main-btn rounded-three text-center" th:href="@{/game1(gameId='1-1')}">Start Gaming</a>
                     </li>
                 </ul>
             </div>
@@ -416,13 +420,13 @@
                     <ul>
                         <li data-filter="*" class="active">All</li>
                         <li data-filter=".hominidae">Hominidae</li>
-                        <li data-filter=".canidae">Canidae</li>
-
+                        <li data-filter=".cat">Cat Family</li>
                     </ul>
                 </div> <!-- portfolio menu -->
             </div>
         </div> <!-- row -->
         <div class="row grid">
+            <!--hominidae-->
             <div class="col-lg-4 col-sm-6 hominidae">
                 <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                     <div class="portfolio-image">
@@ -430,7 +434,6 @@
                     </div>
                     <div class="portfolio-text">
                         <h4 class="portfolio-title">Bonobo</h4>
-                        <p class="text">Democratic Republic of Congo, Africa</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
@@ -441,7 +444,6 @@
                     </div>
                     <div class="portfolio-text">
                         <h4 class="portfolio-title">Bornean orangutan</h4>
-                        <p class="text">Malaysian, Asia</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
@@ -452,7 +454,6 @@
                     </div>
                     <div class="portfolio-text">
                         <h4 class="portfolio-title">Chimpanzee</h4>
-                        <p class="text">Federal Republic of Nigeria, Africa</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
@@ -463,30 +464,47 @@
                     </div>
                     <div class="portfolio-text">
                         <h4 class="portfolio-title">Eastern lowland gorilla</h4>
-                        <p class="text">Democratic Republic of Congo, Africa</p>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
-
-            <div class="col-lg-4 col-sm-6 canidae">
+            <!--cat-->
+            <div class="col-lg-4 col-sm-6 cat">
                 <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                     <div class="portfolio-image">
-                        <img th:src="@{/images/Dhole.jpg}" alt="">
+                        <img th:src="@{/images/Cheetah.jpg}" alt="">
                     </div>
                     <div class="portfolio-text">
-                        <h4 class="portfolio-title">Dhole</h4>
-                        <p class="text">China, Asia</p>
+                        <h4 class="portfolio-title">Cheetah</h4>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
-            <div class="col-lg-4 col-sm-6 canidae">
+            <div class="col-lg-4 col-sm-6 cat">
                 <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                     <div class="portfolio-image">
-                        <img th:src="@{/images/Ethiopian_wolf.jpg}" alt="">
+                        <img th:src="@{/images/Snow_leopard.jpg}" alt="">
                     </div>
                     <div class="portfolio-text">
-                        <h4 class="portfolio-title">Ethiopian wolf</h4>
-                        <p class="text">Ethiopia, Africa</p>
+                        <h4 class="portfolio-title">Snow leopard</h4>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 cat">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Clouded_leopard.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Clouded leopard</h4>
+                    </div>
+                </div> <!-- single portfolio -->
+            </div>
+            <div class="col-lg-4 col-sm-6 cat">
+                <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                    <div class="portfolio-image">
+                        <img th:src="@{/images/Persian_leopard.jpg}" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title">Persian leopard</h4>
                     </div>
                 </div> <!-- single portfolio -->
             </div>
@@ -495,7 +513,7 @@
         <div class="row " style="margin-top: 4rem">
             <div class="col-12">
                 <ul class="carousel-btn rounded-buttons text-center">
-                    <li><a class="page-scroll main-btn rounded-three text-center" th:href="@{/game2/1}">Start Gaming</a>
+                    <li><a class="page-scroll main-btn rounded-three text-center" th:href="@{/game2(gameId='2-1')}">Start Gaming</a>
                     </li>
                 </ul>
             </div>

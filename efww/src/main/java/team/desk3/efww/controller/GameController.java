@@ -21,29 +21,43 @@ public class GameController {
     @Autowired
     FaunaService faunaService;
 
-    @RequestMapping("/game1/1")
-    public String toGame1(Model model){
-        //get data from the database where kind is null
-        QueryWrapper<Fauna> query = Wrappers.query();
-        query.isNull("kind");
-        List<Fauna> faunaList = faunaService.list(query);
+    /**
+     * the game method and strategy is different ,so there are two request mappings game1 and game2
+     */
+    @RequestMapping("/game1")
+    public String toGame11(@RequestParam("gameId")String gameId, Model model){
+        //select data from db where the category is 1-1
+        QueryWrapper<Fauna> queryGame1 = Wrappers.query();
+        queryGame1.eq("game_id",gameId);
+        List<Fauna> faunaList = faunaService.list(queryGame1);
         model.addAttribute("faunaList",faunaList);
         //add the query number to the model
         model.addAttribute("cardNum",faunaList.size());
+        //put the category into model
+        model.addAttribute("sameParam",gameId);
+        //put the another request param into model
+        String diffParam = gameId.equals("1-1") ? "1-2" : "1-1";
+        model.addAttribute("diffParam",diffParam);
         return "game/game1";
     }
 
 
-
-    @RequestMapping("/game2/1")
-    public String toGame2(Model model){
+    @RequestMapping("/game2")
+    public String toGameHominidae(@RequestParam("gameId")String gameId,Model model){
         //first show the kind of Hominidae, monkey
-        QueryWrapper<Fauna> query = Wrappers.query();
-        query.eq("kind","Hominidae");
-        List<Fauna> list = faunaService.list(query);
-        model.addAttribute("hominidae",list);
+        QueryWrapper<Fauna> queryGame2 = Wrappers.query();
+        queryGame2.eq("game_id",gameId);
+        List<Fauna> faunaList = faunaService.list(queryGame2);
+        model.addAttribute("faunaList",faunaList);
         //add the query number to the model
-        model.addAttribute("cardNum",list.size());
+        model.addAttribute("cardNum",faunaList.size());
+        //put the category into model
+        model.addAttribute("sameParam",gameId);
+        //put the another request param into model
+        String diffParam = gameId.equals("2-1") ? "2-2" : "2-1";
+        model.addAttribute("diffParam",diffParam);
         return "game/game2";
     }
+
+
 }
