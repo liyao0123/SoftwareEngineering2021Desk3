@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://8.208.97.185:3306/faunaworld
