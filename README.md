@@ -1,5 +1,5 @@
 # Endangered Fauna World Window
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/logo.jpg" style="zoom:30%" />
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/logo.jpg" width = "28%" />
 ### Explore Game World -> [Game Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)
 ## SoftwareEngineering2021Desk3 Team Members
 Name         |Email                |Roles
