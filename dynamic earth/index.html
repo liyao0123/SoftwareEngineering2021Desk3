@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Earth</title>
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon"/>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .social {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: none;
+    }
+
+    #desc {
+      position: absolute;
+      z-index: 1;
+      color: white;
+      width: 360px;
+      font-size: 14px;
+      background: #214572;
+      border: 1px solid white;
+      user-select: none;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+
+    #detail {
+      width: 30%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      overflow: hidden;
+      overflow-y: auto;
+      border: 1px solid white;
+      box-sizing: border-box;
+      background: #214572;
+      color: white;
+      font-size: 16px;
+      transition: height 1s;
+      height: 0;
+    }
+
+    .label {
+      font-weight: bold;
+      width: 100px;
+      vertical-align: top;
+    }
+
+    .text {
+      width: calc(100% - 150px);
+    }
+
+    .label, .text {
+      display: inline-block;
+      font-size: 16px;
+      padding: 5px 10px;
+      line-height: 1.4;
+    }
+
+    .field {
+      overflow: hidden;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+  <script src="./js/jquery-1.9.1.js"></script>
+  <script src="./js/TweenMax.min.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/Tween.js"></script>
+</head>
+
+<body>
+  <div id="desc">
+    <div id="name" style="padding: 10px;font-size: 16px;font-weight: bold;"></div>
+    <div>
+      <img id="image" style="display: block;" width="360" height="268">
+    </div>
+  </div>
+  <div id="detail">
+    <div class="field">
+      <div class="label">Name</div>
+      <div class="text name"></div>
+    </div>
+    <div class="field">
+      <div class="label">Distribution</div>
+      <div class="text distribution"></div>
+    </div>
+    <div class="field">
+      <div class="label">Description</div>
+      <div class="text description"></div>
+    </div>
+    <div class="field">
+      <div class="label">Threats</div>
+      <div class="text threats"></div>
+    </div>
+    <div class="field">
+      <div class="label">Link</div>
+      <div class="text link"><a href="" target="_blank"></a></div>
+    </div>
+    <div class="field">
+      <div class="label">Image</div>
+      <img class="text image" width="360">
+    </div>
+  </div>
+  <script type="module">
+    import * as THREE from './js/three.module.js';
+    import { OrbitControls } from './js/controls/OrbitControls.js';
+
+    import Hotspot from './js/hotspot.js';
+
+    /**
+     * Create Scene Object
+     */
+    var scene = new THREE.Scene();
+    /**
+     * Create a mesh model
+     */
+    // var geometry = new THREE.BoxGeometry(100, 100, 100); //cube
+    // var geometry = new THREE.PlaneGeometry(400, 400); //Rectangular plane
+    var geometry = new THREE.SphereGeometry(100, 128, 128); //globe
+    // TextureLoader creates a texture loader object that can load pictures as geometric textures
+    var textureLoader = new THREE.TextureLoader();
+    // Load texture map
+    var texture = textureLoader.load('./image/Earth.png');
+    // Load normal map
+    var textureNormal = textureLoader.load('./image/EarthNormal.png');
+    var material = new THREE.MeshPhongMaterial({
+      map: texture, // Normal color texture map
+      normalMap: textureNormal, //Normal map
+      //Set the degree of darkness, the default value (1,1).
+      normalScale: new THREE.Vector2(1.2, 1.2),
+    });
+    var mesh = new THREE.Mesh(geometry, material); //Material Object
+    scene.add(mesh); //Add the mesh model to the scene
+
+    var raycaster = new THREE.Raycaster();
+    var mouse = new THREE.Vector2();
+    var meshArray = [];
+    meshArray.push(mesh);
+
+    var selectedSprite;
+    var worldPosition = new THREE.Vector3();
+    var hotspots = [];
+
+    /**
+     * Light source settings
+     */
+    var ambient = new THREE.AmbientLight(0xffffff);
+    scene.add(ambient);
+
+    /**
+     * Camera settings
+     */
+    var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(203, 73, -336);
+    camera.lookAt(scene.position); //设置相机方向(指向的场景对象)
+
+    /**
+     * Create renderer object
+     */
+    var renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize(window.innerWidth, window.innerHeight); //Set the rendering area size
+    document.body.appendChild(renderer.domElement); //Insert the canvas object into the body element
+
+    //Create a control object, the camera object camera as a parameter, the control can monitor the changes of the mouse and change the properties of the camera object
+    var controls = new OrbitControls(camera, renderer.domElement);
+
+    // controls.enablePan = false;
+    // controls.autoRotate = true;
+    controls.minDistance = 220;
+    controls.maxDistance = 400;
+
+    controls.mouseButtons = {
+      LEFT: THREE.MOUSE.ROTATE,
+      MIDDLE: THREE.MOUSE.DOLLY,
+      RIGHT: THREE.MOUSE.ROTATE
+    };
+
+    // controls.addEventListener('change', function(){
+      
+    // });
+
+    let loader = new THREE.TextureLoader();
+    scene.background = loader.load('./image/bg.jpg');
+
+    var clock = new THREE.Clock();
+
+    // Rendering function
+    function render() {
+      renderer.render(scene, camera);
+      controls.update();
+
+      requestAnimationFrame(render);
+
+      var elapsed = clock.getElapsedTime();
+      for (var i = 0; i < meshArray.length; i++) {
+        var m = meshArray[i];
+        var { isHotspot } = m.parent;//.userData;
+        if (isHotspot) {
+          // m.quaternion.copy(camera.quaternion);
+          m.parent.update(elapsed);
+        }
+      }
+    }
+    render();
+
+    window.addEventListener('resize', onWindowResize, false);
+    // window.addEventListener('pointerdown', onClick, false);
+
+    renderer.domElement.addEventListener( 'pointermove', onPointerMove );
+		renderer.domElement.addEventListener( 'pointerdown', onPointerDown );
+		renderer.domElement.addEventListener( 'pointerup', onPointerCancel );
+
+    function onWindowResize() {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        detail.height(window.innerHeight - 3);
+    }
+
+    var isChrome = window.navigator.userAgent.indexOf("Chrome") > -1;
+		var timeDownUp = null;
+		var mouseMoving = false;
+    var desc = $('#desc');
+    var nameDiv = $('#name');
+    var image = $('#image');
+    var detail = $('#detail');
+
+    function onClick(event) {
+      /*
+      var intersects = raycaster.intersectObjects( meshArray );
+      if ( intersects.length ) {
+        var { point } = intersects[0];
+            console.log(point);
+      }*/
+
+      if (selectedSprite) {
+        moveCameraTargetToObject(mesh, selectedSprite);
+
+        var { name, distribution, description, threats, link, image, height } = selectedSprite.userData;
+        detail.height(window.innerHeight - 3);
+        detail.find('.name').html(name);
+        detail.find('.distribution').html(distribution);
+        detail.find('.description').html(description);
+        detail.find('.threats').html(threats);
+        detail.find('.link a').attr('href', link).html(link);
+        detail.find('.image').attr('src', image);
+      } else {
+        detail.height(0);
+      }
+    }
+
+    function moveCameraTargetToObject(obj, hotspot) {
+      var targetPosition = hotspot.position.clone();
+      targetPosition.multiplyScalar(camera.position.dot(targetPosition) / targetPosition.dot(targetPosition));
+      var minDistance = 220;
+      targetPosition.divideScalar(targetPosition.length() / minDistance);
+      
+      TweenMax.to( camera.position, 1, {
+        x: targetPosition.x,
+        y: targetPosition.y,
+        z: targetPosition.z,
+        ease: Power1.easeInOut,
+        onUpdate: function() {
+          updateDescPosition(hotspot);
+        }
+      } );
+    }
+
+    function onPointerMove(event) {
+      setupMouseCoords(event);
+
+      raycaster.setFromCamera(mouse, camera);
+      var intersects = raycaster.intersectObjects( meshArray );
+      if (intersects.length) {
+        controls.autoRotate = false;
+        var { object } = intersects[0];
+        
+        var { isHotspot } = object.parent;
+        if (isHotspot) {
+          var { name, image: url, width, height } = object.parent.userData;
+          selectedSprite = object.parent;
+          updateDescPosition(object.parent);
+          
+          nameDiv.html(name);
+          image.attr({'src': url, height: height || 268});
+        } else {
+          selectedSprite = null;
+          desc.css('opacity', 0);
+        }
+      } else {
+        selectedSprite = null;
+        desc.css('opacity', 0);
+        // controls.autoRotate = true;
+      }
+
+      var timeMove = event.clientX + event.clientY;
+
+			if (isChrome) {
+				if (timeMove !== timeDownUp) {
+					if (event.which === 1 || event.which === 3) {
+						mouseMoving = true;
+					}
+				} else {
+					timeDownUp = null;
+				}
+			} else {
+				mouseMoving = true;
+			}
+    }
+
+    function onPointerDown(event) {
+      timeDownUp = event.clientX + event.clientY;
+			mouseMoving = false;
+    }
+
+    function onPointerCancel(event) {
+      timeDownUp = event.clientX + event.clientY;
+
+			if(mouseMoving) {
+				mouseMoving = false;
+				return;
+			}
+
+			onClick(event);
+    }
+
+    function updateDescPosition(object) {
+      object.getWorldPosition(worldPosition);
+
+      var position = world2Screen(worldPosition.x, worldPosition.y, worldPosition.z);
+
+      var left = position.x;
+      var top = position.y;
+      /*
+      if (left + desc.width() > window.innerWidth) {
+        left -= desc.width();
+      }
+
+      if (top + desc.height() > window.innerHeight) {
+        top -= desc.height();
+      }*/
+
+      desc.css({'left': left + 'px','top': top + 'px', 'opacity': 1});
+    }
+
+    function setupMouseCoords(event) {
+        var x, y;
+        if (event.changedTouches) {
+            x = event.changedTouches[0].pageX;
+            y = event.changedTouches[0].pageY;
+        } else {
+            x = event.clientX;
+            y = event.clientY;
+        }
+
+        mouse.x = (x / window.innerWidth) * 2 - 1;
+        mouse.y = -(y / window.innerHeight) * 2 + 1;
+    }
+    
+    function createHotspot(data, id, scale = 12){
+      var { position: p, name, distribution, description, threats, link, image, width, height } = data;
+      var position = new THREE.Vector3(p[0], p[1], p[2]).multiplyScalar(1.01);
+      var { x, y, z } = position;
+      let map = new THREE.TextureLoader().load('./image/spot31.png');
+
+      var geometry = new THREE.PlaneGeometry( 3, 3, 128, 128 );
+      var material = new THREE.MeshBasicMaterial( {
+        transparent: true,
+        side: THREE.DoubleSide,
+        map: map
+      } );
+      var sphere = new THREE.Mesh( geometry, material );
+      sphere.position.set(x, y, z);
+      sphere.name = id;
+			sphere.userData.name = name;
+			sphere.userData.distribution = distribution;
+			sphere.userData.description = description;
+			sphere.userData.threats = threats;
+      sphere.userData.link = link;
+      sphere.userData.image = image;
+      sphere.userData.width = width;
+      sphere.userData.height = height;
+      sphere.userData.isHotspot = true;
+
+      scene.add(sphere)
+      meshArray.push(sphere);
+		}
+
+    function createHotspot2(data, id){
+      var { position: p, name, distribution, description, threats, link, image, width, height } = data;
+
+      var sphere = new Hotspot(camera, {
+				maxSize: 0.08,
+				minDistance: 0,
+				name: "ecran",
+				position: new THREE.Vector3(p[0], p[1], p[2]).multiplyScalar(1.02)
+			});
+
+      sphere.name = id;
+			sphere.userData.name = name;
+			sphere.userData.distribution = distribution;
+			sphere.userData.description = description;
+			sphere.userData.threats = threats;
+      sphere.userData.link = link;
+      sphere.userData.image = image;
+      sphere.userData.width = width;
+      sphere.userData.height = height;
+
+      scene.add(sphere)
+      meshArray.push(...sphere.children);
+		}
+
+    function world2Screen(x, y, z) {
+			let worldVector = new THREE.Vector3(x, y, z);
+			let vector = worldVector.project(camera);
+
+			let halfWidth = window.innerWidth / 2;
+			let halfHeight = window.innerHeight / 2;
+
+			let result = {
+				x: Math.round(vector.x * halfWidth + halfWidth),
+				y: Math.round(-vector.y * halfHeight + halfHeight)
+			};
+			
+			return result;
+		}
+
+    for (var i = 0; i < data.length; i++) {
+      createHotspot2(data[i], 'hotspot' + i);
+    }
+  </script>
+</body>
+</html>

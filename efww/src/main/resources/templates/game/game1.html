@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Help Fauna Find Home</title>
+    <title>Game 1</title>
     <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
     <link rel="stylesheet" type="text/css" th:href="@{/css/game1_default.css}">
     <link rel="stylesheet" th:href="@{/css/common.css}">
@@ -39,7 +39,7 @@
             text-align: center;
             /*background-color: black;*/
             background-color: rgba(0, 0, 0, 0.8);
-            border: 2px white dotted;
+            border: 1px white solid;
             border-radius: 12px;
         }
 
@@ -59,7 +59,7 @@
             text-align: center;
             text-shadow: 0px 1px 0px #f5f5f5;
             background: rgba(150, 150, 150, 0.5);
-            border: solid 2px rgba(0, 0, 0, 0.4);
+            /*border: solid 2px rgba(0, 0, 0, 0.4);*/
             -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
             -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
             box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
@@ -68,11 +68,11 @@
             top: 33%;
         }
 
-        .nav:active,
-        .nav.down {
-            background: rgba(120, 120, 120, 0.5);
-            border: solid 2px rgba(0, 0, 0, 0.55);
-        }
+        /*.nav:active,*/
+        /*.nav.down {*/
+        /*    background: rgba(120, 120, 120, 0.5);*/
+        /*    border: solid 2px rgba(0, 0, 0, 0.55);*/
+        /*}*/
 
         .nav.left {
             left: -70px;
@@ -83,7 +83,7 @@
 
         .nav.right {
             right: -70px;
-            -webkit-border  -radius: 5px 12px 12px 5px;
+            -webkit-border-radius: 5px 12px 12px 5px;
             -moz-border-radius: 5px 12px 12px 5px;
             border-radius: 5px 12px 12px 5px;
         }
@@ -104,27 +104,15 @@
             margin-top: 0;
         }
 
-        .desc {
-            display: none;
-        }
-
-        .card:hover .desc {
-            display: block;
-        }
-
         .des_thr {
+            margin-top: 0.5rem;
             font-size: 18px;
             letter-spacing: 1px;
         }
 
-        .tip{
+        .hint_content{
             display: none;
         }
-
-        .again:hover .tip {
-            display: block;
-        }
-
     </style>
 </head>
 <body th:style="'background: url(/images/nature.jpg);'+'background-size: cover;'">
@@ -186,18 +174,18 @@
             </div>
             <div class="row" >
                 <div class="col">
-                    <p class="des_thr text-secondary">Hints: [[${fauna.hint}]]</p>
+                    <a class="text-warning" href="javascript:void(0);" th:onclick="show_hint([['#'+${stat.count}]])">Hint</a>
+                    <p class="des_thr text-secondary hint_content" th:id="${stat.count}"> [[${fauna.hint}]]</p>
                 </div>
             </div>
-<!--            <p th:text="${'Threats: '+ fauna.getThreat()}" class="desc text-left des_thr"></p>-->
-<!--            <p th:text="${'Description:  ' + fauna.getDescription()}" class="text-left desc des_thr"></p>-->
-            <a th:href="@{${fauna.link}}" class="des_thr">Learn more...</a>
+            <a th:href="@{${fauna.link}}" class="des_thr" target="_blank">Learn more...</a>
+
         </div>
     </div>
-    <button class="nav noselect left" style="">
+    <button class="nav noselect left align-items-center" style="outline: none">
         &lt;
     </button>
-    <button class="nav noselect right" style="margin-left: 2rem">
+    <button class="nav noselect right align-items-center" style="outline: none">
         &gt;
     </button>
     <!--    </div>-->
@@ -274,12 +262,7 @@
                 showcase.fadeIn(1500)
             }
         })
-        $('.nav').click(function (e) {
-            var b = $(e.target).addClass('down')
-            setTimeout(function () {
-                b.removeClass('down')
-            }, 80)
-        })
+
 
         $(document).keydown(function (e) {
             switch (e.keyCode) {
@@ -287,7 +270,6 @@
                 case 37:
                     $('.nav.left').click()
                     break
-
                 /* right arrow */
                 case 39:
                     $('.nav.right').click()
@@ -307,9 +289,7 @@
         //define the array[0] is right_btn selector then msg then wrong_btn
         var right_btn = $(array[0]);
         right_btn.addClass('active').attr('disabled','true');
-        // setTimeout(function () {
-        //     right_btn.attr('disabled', 'true')
-        // }, 1500)
+
         var area = $(right_btn).text();
         $(array[1]).append("Bingo! ").append(area).css({'color': 'green'});
         $(array[2]).attr('disabled', "true");
@@ -329,14 +309,6 @@
         }
     }
 
-    // $("#right_btn1").on('click',function () {
-    //     var btn = $(this);
-    //     btn.addClass('active');
-    //     setTimeout( function() { btn.attr('disabled','true') }, 1500 )
-    //     var area = $(this).text();
-    //     $("#msg1").append("Right! ").append(area).css({'color':'green'});
-    //     $("#wrong_btn1").attr('disabled',"true");
-    // })
     function wrong_btn_click(btn_msg) {
         //alert(btn_msg);
         var str = new String();
@@ -351,9 +323,7 @@
         var area = right_btn.text();
         wrong_btn.attr('disabled', 'true')
         //alert(area);
-        // setTimeout(function () {
-        //     wrong_btn.attr('disabled', 'true')
-        // }, 1500)
+
         $(array[1]).append("It should be " + area).css({'color': 'red'});
         right_btn.attr('disabled', "true");
         //check if all card has been chosen
@@ -372,16 +342,11 @@
         }
     }
 
-    // $("#wrong_btn1").on('click',function () {
-    //     var wrongbtn = $(this);
-    //     wrongbtn.removeClass("btn-outline-success").addClass("btn-danger");
-    //     var rightbtn = $(this).parent().prev().find('button');
-    //     var area = rightbtn.text();
-    //     //alert(area);
-    //     setTimeout( function() { wrongbtn.attr('disabled','true') }, 1500 )
-    //     $("#msg1").append("Wrong! ").append("It is "+area).css({'color':'red'});
-    //     rightbtn.attr('disabled',"true");
-    // })
+    //hint click
+    function show_hint(p_id) {
+        $(p_id).attr('style','display:block')
+    }
+
 </script>
 </body>
 </html>

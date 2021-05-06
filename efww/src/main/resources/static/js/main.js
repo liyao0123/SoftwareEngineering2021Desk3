@@ -58,14 +58,14 @@ $(function() {
     
     //===== Sidebar
 
-    $('[href="#side-menu-right"], .overlay-right').on('click', function (event) {
-        $('.sidebar-right, .overlay-right').addClass('open');
-    });
-
-    $('[href="#close"], .overlay-right').on('click', function (event) {
-        $('.sidebar-right, .overlay-right').removeClass('open');
-    });
-    
+    // $('[href="#side-menu-right"], .overlay-right').on('click', function (event) {
+    //     $('.sidebar-right, .overlay-right').addClass('open');
+    // });
+    //
+    // $('[href="#close"], .overlay-right').on('click', function (event) {
+    //     $('.sidebar-right, .overlay-right').removeClass('open');
+    // });
+    //
     
     
     //===== Isotope Project 3

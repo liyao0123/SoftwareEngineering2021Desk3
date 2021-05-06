@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Help Fauna Find Home</title>
+    <title>Game 2</title>
     <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
     <link rel="stylesheet" type="text/css" th:href="@{/css/game1_default.css}">
     <link rel="stylesheet" th:href="@{/css/common.css}">
@@ -32,7 +32,7 @@
             text-align: center;
             /*background-color: black;*/
             background-color: rgba(0,0,0,0.9);
-            border: 2px white dotted;
+            border: 1px white solid;
             border-radius: 12px;
         }
         .card h2 {
@@ -42,9 +42,6 @@
             font-size: 20px;
             display: block;
         }
-        /*.card p {*/
-        /*    font-size: 15px;*/
-        /*}*/
         .nav {
             width: 64px;
             height: 134px;
@@ -53,7 +50,7 @@
             text-align: center;
             text-shadow: 0px 1px 0px #f5f5f5;
             background: rgba(150, 150, 150, 0.5);
-            border: solid 2px rgba(0, 0, 0, 0.4);
+
             -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
             -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
             box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
@@ -61,19 +58,15 @@
             position: absolute;
             top: 33%;
         }
-        .nav:active,
-        .nav.down {
-            background: rgba(120, 120, 120, 0.5)    ;
-            border: solid 2px rgba(0, 0, 0, 0.55);
-        }
+
         .nav.left {
-            left: -43px;
+            left: -70px;
             -webkit-border-radius: 12px 5px 5px 12px;
             -moz-border-radius: 12px 5px 5px 12px;
             border-radius: 12px 5px 5px 12px;
         }
         .nav.right {
-            right: -43px;
+            right: -70px;
             -webkit-border-radius: 5px 12px 12px 5px;
             -moz-border-radius: 5px 12px 12px 5px;
             border-radius: 5px 12px 12px 5px;
@@ -81,15 +74,7 @@
         footer hr {
             width: 6px;
         }
-        #share {
-            top: -84px;
-        }
-        #credits {
-            top: -78px;
-        }
-        #photo-credits {
-            text-align: center;
-        }
+
         #photo-credits h1 {
             font-size: 1em;
             margin-top: 0;
@@ -100,27 +85,14 @@
             padding: 0;
             margin-top: 0;
         }
-        .desc{
-            display: none;
-        }
-        .card:hover .desc{
-            display: block;
-        }
         .des_thr{
-            margin-top: 1rem;
+            margin-top: 0.5rem;
             font-size: 18px;
             letter-spacing: 1px;
         }
 
-        .tip{
+        .hint_content{
             display: none;
-        }
-
-        .again:hover .tip {
-            display: block;
-        }
-        .div{
-            background-repeat: no-repeat;
         }
     </style>
     <!--[if IE]>
@@ -189,20 +161,19 @@
                         <h4 th:id="msg+${stat.count}" ></h4>
                     </div>
                 </div>
-<!--                <p th:text="${'Threats: '+ fauna.getThreat()}" class="desc text-left des_thr"></p>-->
-<!--                <p th:text="${'Description:  ' + fauna.getDescription()}" class="text-left desc des_thr"></p>-->
                 <div class="row" >
-                    <div class="col">
-                        <p class="des_thr text-secondary">Hints: [[${fauna.hint}]]</p>
+                    <div class="col" >
+                        <a class="text-warning" href="javascript:void(0);" th:onclick="show_hint([['#'+${stat.count}]])">Hint</a>
+                        <p class="des_thr text-secondary hint_content" th:id="${stat.count}"> [[${fauna.hint}]]</p>
                     </div>
                 </div>
-                <a th:href="@{${fauna.link}}" class="des_thr">Learn more...</a>
+                <a th:href="@{${fauna.link}}" class="des_thr" target="_blank">Learn more...</a>
             </div>
         </div>
-        <button class="nav noselect left">
+        <button class="nav noselect left align-items-center" style="outline: none">
             &lt;
         </button>
-        <button class="nav noselect right">
+        <button class="nav noselect right align-items-center" style="outline: none">
             &gt;
         </button>
 <!--    </div>-->
@@ -272,10 +243,6 @@
                 showcase.css( 'display', 'none' )
                 showcase.fadeIn( 1500 )
             }
-        } )
-        $('.nav').click( function( e ) {
-            var b = $(e.target).addClass( 'down' )
-            setTimeout( function() { b.removeClass( 'down' ) }, 80 )
         } )
 
         $(document).keydown( function( e ) {
@@ -354,6 +321,10 @@
             }
             $('#result').modal('show')
         }
+    }
+    //hint click
+    function show_hint(p_id) {
+        $(p_id).attr('style','display:block')
     }
 
 </script>
