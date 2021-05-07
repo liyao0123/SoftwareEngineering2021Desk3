@@ -91,3 +91,9 @@ We almost hold a meeting everyweek. To view out meeting minutes, click the link 
 [20/4/2021](MeetingLogs/20.4.2021.md)    
 [24/4/2021](MeetingLogs/24.4.2021.md)  
 [27/4/2021](MeetingLogs/27.4.2021.md)  
+[28/4/2021](MeetingLogs/28.4.2021.md)     
+[1/5/2021](MeetingLogs/1.5.2021.md)     
+[2/5/2021](MeetingLogs/2.5.2021.md)     
+[3/5/2021](MeetingLogs/3.5.2021.md)     
+[6/5/2021](MeetingLogs/6.5.2021.md)     
+
