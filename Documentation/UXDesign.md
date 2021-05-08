@@ -53,6 +53,8 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 
 ### Mood boards
 
+![Mood](pics/MoodBoard.jpg)
+
 ### Wireframes
 
 ![Wireframes](pics/Wireframe.png)
