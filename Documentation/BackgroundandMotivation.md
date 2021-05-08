@@ -22,10 +22,17 @@ Meanwhile The Economics of Ecosystems and Biodiversity (TEEB) initiative estimat
 Millions of people also depend on nature and species for their day-to-day livelihoods. This is particularly true for struggling communities in developing countries, who often turn to high-biodiversity ecosystems as their source of food, fuel, medicines and other products made from natural materials for their own use and as sources of income. Nature-related tourism is also a significant income generator for many people as well.
 #### Disease
 Biodiversity loss can increase the incidence and distribution of certain infectious diseases which are lethal for children. Diseases that spread from animals to humans are a serious threat: studies show that 75 per cent of all emerging diseases come from wildlife, including COVID-19. Deforestation drives wild animals out of their natural habitats and closer to humans and is linked to 31 per cent of outbreaks such as Ebola, and the Zika and Nipah viruses. And climate change has altered and accelerated the transmission patterns of infectious diseases while contributing to human displacement.
-## Current industry review
+### Why we need to promote the knowledge?
+#### People's current knowledge
+People has very little knowledge about endangered species, according to the report from BBC, Most people won't know the species is an endangered specie even though that animal is just in front of you. So, it could be say like this, nowadays people know nothing about wild animals except cow, pig, sheep, horse. It won't be possible to expect people know which animals are protected and rare.
+#### Outdoor activity danger
+
+#### Limit the commercial transaction
+
+## Current Industry Review
 ### Context
 There is already some website that play a role of E-library or lists for endangered species.The following link are some of the  authority website. They have very clear content inside and good quality of articles and pictures. But what our group want to achieve is to make things visually good and easier to access. Promoting  and raising the attention of protecting endangered species in a more acceptable way, get everybody involved in actions in daily life.
-### Example website
+### Example Website
 World wild life
 <br>
 https://www.worldwildlife.org/
@@ -38,13 +45,25 @@ National Geographic
 <br>
 https://www.nationalgeographic.org/topics/endangered-species/?q=&page=1&per_page=25
 <br>
-## Quote resources
+## Quote Resources
 Conservation international
+<br>
 https://www.conservation.org/blog/why-is-biodiversity-important
+<br>
 Britannica
+<br>
 https://www.britannica.com/science/endangered-species
+<br>
 UN Report
+<br>
 https://apnews.com/article/united-nations-north-america-us-news-ap-top-news-science-aaf1091c5aae40b0a110daaf04950672
+<br>
 Unicef
-https://www.unicef.org/globalinsight/stories/why-biodiversity-important-children
-## Problem definition
+<br>
+https://www.unicef.org/globalinsight/stories/why-biodiversity-important-childrer
+<br>
+BBC
+<br>
+http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
+<be>
+## Problem Definition
