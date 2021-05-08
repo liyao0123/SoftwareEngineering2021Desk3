@@ -212,7 +212,7 @@ public class GameController {
 # 4. Front End
 ## 4.1 Front End Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/fe_mind.png" /><br/>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/46125ea966df3d14cc64845e2324ba219ff6f574/Documentation/pics/fe_mind.png" /><br/>
 
 **If it is nor clear, you could see the html file directly. [Front End Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/fe_mind.html)**
 
