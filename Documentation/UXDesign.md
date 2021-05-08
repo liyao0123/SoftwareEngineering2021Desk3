@@ -65,6 +65,6 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 
 ### Paper prototyping
 
-We made 6 screens for the prototype. In addition, we generated a interactive and clickable model for users to test via InVision, you can access the model by clicking the link below.
+We made 6 screens for the prototype. In addition, we generated a interactive and clickable model for users to test via InVision, you can access the model by clicking the link below.  
 [Clickable prototype](https://xiaojun507579.invisionapp.com/console/share/PQ2J2NHWAU/617500159)
 ![Prototype](pics/Prototype.png)
