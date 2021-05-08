@@ -18,7 +18,7 @@
 
 ## 2.1 Mind Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/e0bf9569eebe453496b2ad14c271bfcb66a6bfe6/Documentation/pics/db_mind.jpeg"/></br>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/db_mind.jpeg"/></br>
 
 **If it is nor clear, you could see the html file directly. [Data Model Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/db_mind.html)**
 
@@ -212,7 +212,7 @@ public class GameController {
 # 4. Front End
 ## 4.1 Front End Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/211ff1b1c3659f7191683c75d294fba57a53f9bc/Documentation/pics/fe_mind.jpeg" /><br/>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/fe_mind.png" /><br/>
 
 **If it is nor clear, you could see the html file directly. [Front End Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/fe_mind.html)**
 
