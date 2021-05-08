@@ -70,6 +70,8 @@ is used as distraction choice in game1.
 
 ## 2.3 Implementation 
 #### 2.3.1 Build the database-faunaworld: the sql files are as follows db_v2.sql db_v3.sql
+- [database_version2](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/3e256636c419f41c204cf1714ed8aab4093a2fb5/static/database/db_v2.sql)
+- [database_version3](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/3e256636c419f41c204cf1714ed8aab4093a2fb5/static/database/db_v3.sql)
 #### 2.3.2 Manage dependencies in pom.xml
 - configure all the dependencies we need to operate the database
 - note: the version should correspond to local MySQL server version, the 5.1.49 could be used for Mysql 5.x version
