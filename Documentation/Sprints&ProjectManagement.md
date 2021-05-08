@@ -24,8 +24,8 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 #### Sprints:
 ##### Sprint 0: Preparation for the project
 
-**Timeline:** 9/2/2021 - 25/2/2021  
-**Task finished:**
+###### Timeline: 9/2/2021 - 25/2/2021  
+###### Task finished:
 * A serious real-word problem namely protecting endangered animals.
 
 * The idea of a playful mini game to help address the problem.
@@ -34,9 +34,9 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 * Background information collection
 
 ##### Sprint 1:
-**Timeline:** 1/3/2021 - 28/3/2021  
+###### Timeline: 1/3/2021 - 28/3/2021  
 
-**Task finished:**
+###### Task finished:
 * Project proposal – finishing the proposal and commit it to our repository.  
 
 * Paper prototyping – the initial design of the layout and interaction of our website
@@ -44,15 +44,15 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 * Leaning of related technical knowledge about tools and frameworks we are going to use such as Spring and Docker.
 
 ##### Sprint 2: First release of our website  
-**Timeline:** 1/4/2021 - 15/4/2021  
+###### Timeline: 1/4/2021 - 15/4/2021  
 
-**Task finished:**
+###### Task finished:
 
 * First webpage which shows a 3D earth that is draggable, and there are interactable points on the earth.
 
 * Build the database and connect it to backend.
 
-**User stories accomplished:**
+###### User stories accomplished:  
 
 * A user can see a dynamic 3D earth which is draggable on the website.
 
@@ -60,24 +60,24 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 
 ##### Sprint3: Show detailed information of animals and mini game
 
-**Timeline:** 16/4/2021 - 30/4/2021  
+###### Timeline: 16/4/2021 - 30/4/2021  
 
-**Task finished:**
+###### Task finished:
 
 * Be able to deploy the project using Docker
 
 * More detailed information provided in the webpage
 * Provide an interactive game for users to play
 
-**User stories accomplished:**
+###### User stories accomplished:
 * A user can click the luminous points to access more detailed information about animals including distribution, description, threats and the link to Wikipedia.
 
 * A user can play a mini game to test whether he understand the distribution of endangered animals and also consolidate the memory. The user should choose the right distribution area of a animal. Finally, a score and accuracy rate will be given according to the user’s choice.
 
 ##### Sprint4: Evaluation
-**Timeline:** 16/4/2021 - 30/4/2021  
+###### Timeline: 16/4/2021 - 30/4/2021  
 
-**Task finished:**  
+###### Task finished:  
 
 #### Meeting logs  
 We almost hold a meeting everyweek. To view out meeting minutes, click the link below please.  
