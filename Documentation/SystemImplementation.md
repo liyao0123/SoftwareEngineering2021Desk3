@@ -2,7 +2,8 @@
 
 ## 1.1 Mind Diagram
 
-<img src=""/></br>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/211ff1b1c3659f7191683c75d294fba57a53f9bc/Documentation/pics/efww_mind.jpeg"/></br>
+
 
 ## 1.2 Explanation
 - Our project Endangered Fauna World Window includes Dynamic Earth and Game Home two systems and they are deployed in two containers with port 3000 and port 80.
@@ -17,7 +18,9 @@
 
 ## 2.1 Mind Diagram
 
-<img src=""/></br>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/e0bf9569eebe453496b2ad14c271bfcb66a6bfe6/Documentation/pics/db_mind.jpeg"/></br>
+
+**If it is nor clear, you could see the html file directly. [Data Model Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/db_mind.html)**
 
 ## 2.2 Data Model- Fauna class
   To meet the need of playing game with fauna data, the attributes below are what we pick out. Specially, the falseArea
@@ -120,7 +123,7 @@ FaunaService faunaService;
 
 # 3.Back End
 ## 3.1 Back End Diagram
-<img src=""/><br/>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/211ff1b1c3659f7191683c75d294fba57a53f9bc/Documentation/pics/be_mind.jpeg"/><br/>
 
 ## 3.2 Manager dependency
 - configure all web development starters
@@ -207,7 +210,9 @@ public class GameController {
 # 4. Front End
 ## 4.1 Front End Diagram
 
-<img src="" /><br/>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/211ff1b1c3659f7191683c75d294fba57a53f9bc/Documentation/pics/fe_mind.jpeg" /><br/>
+
+**If it is nor clear, you could see the html file directly. [Front End Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/fe_mind.html)**
 
 ## 4.2 Dynamic Earth
  **find template of dynamic earth and integrate our date into different spot.**
