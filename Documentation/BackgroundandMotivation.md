@@ -45,7 +45,7 @@ National Geographic
 <br>
 https://www.nationalgeographic.org/topics/endangered-species/?q=&page=1&per_page=25
 <br>
-## Quote Resources
+## Quotation
 Conservation international
 <br>
 https://www.conservation.org/blog/why-is-biodiversity-important
@@ -67,3 +67,14 @@ BBC
 http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
 <be>
 ## Problem Definition
+From academic research we can see that the biodiversity is really important and people have very limited knowledge about recognizing endangered species. Currently existing websites are more like endangered animals libraries. In order to fill this blank, we want to find an easier way of educating people. So the problems we need to solve within this project are as follows.
+* Beautiful website frame
+* Interesting interactions
+* Description about endangered species
+
+    
+    
+    
+    
+    
+    
