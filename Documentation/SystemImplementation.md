@@ -212,12 +212,10 @@ public class GameController {
 # 4. Front End
 ## 4.1 Front End Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/46125ea966df3d14cc64845e2324ba219ff6f574/Documentation/pics/fe_mind.png" /><br/>
-
-**If it is nor clear, you could see the html file directly. [Front End Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/fe_mind.html)**
+<img src="" /><br/>
 
 ## 4.2 Dynamic Earth
- **find template of dynamic earth and integrate our date into different spot.**
+**find a template of dynamic earth and integrate our date into different spot**
 
 #### 4.2.1 layout
 - center: dynamic earth with many spots
@@ -227,17 +225,50 @@ public class GameController {
 - format our fauna data into data.js. The specific position according to earth map in data.js could help locate the spot.
 
 #### 4.2.3 interaction
-- click the spot on earth, and the right window would display with information. The action is controlled by onClick() function. 
+- click the spot on earth, and the right window would display with information. The action is controlled by `onClick()` function.
   When a spot is clicked, selector would get the data and then render it into right window.
 - rotate the earth and would find fauna
 
 ## 4.3 Game Home
-#### 4.3.1 welcome page - index.html
- 
 
+**find a template of bootstrap responsive web and do deep customization with our date**
 
-#### 4.3.2 game1 page - game1.html
+#### 4.3.1 index.html
+- layout: you could see the layout of our index.html on the above diagram clearly. There are so many mature elements in Bootstrap and you could see the official docs here. [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+     1. Use containers especially grid class to control the layout and fulfill responsive window
+     2. Bootstrap includes several predefined button styles. And they are what we make use of often here.
+- static data: there are many photos in carousel part and game parts. Using `@{path}` in thymeleaf would help us get the resources under classpath like *.css,*.js and images.
+The prerequisite of developing with thymeleaf is introducing its namespace at the beginning.
+  `<html lang="en" xmlns:th="http://www.thymeleaf.org">` and add `th:` before each attribute of tags like:
+  ````
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+  <img th:src="@{/images/carousel_blue_whale.jpg}" class="d-block w-100 h-100" alt="...">
+  ````
+- interaction: look through the page and do filter some fauna in the game review part
+#### 4.3.2 game.html
 
+- layout: The customization here is almost on fauna card. We add two choice button and hint for players to choose and the "more games" button group at the right corner.
+  
+- dynamic data: The data rendered here of each game is from the MySQL database. The query work is done at the back end before getting access to this page. Different game would send the request with different request parameter like `<a th:href="@{/game2(gameId='2-1')}">Game2-1</a>`.
+  With `${}` in thymeleaf, we could get the data from model domain. With `th:each=""`, we could traverse the data stored in list and render each one on the card. 
+  
+- interactions: 
+   1. click the choice button and show the right/wrong warning. We use the attribute `stat` of `th:each` to put traversal number on each card so that the selector would find it in jQuery.
+      The warning message is empty at the beginning. When the player clicks the button, the function `right_btn_click(btn_msg)` would split the btn_msg by `,`. Then it would trigger the `disabled` attribute of two buttons.
+      `btn-danger` class would be added to wrong button and `active` class would be added to right button. Finally, the warning message would be added according to which button's onclick event was triggered.
+  ````
+  <button th:id="right_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.area}"
+                                th:onclick="right_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
+  ````
+   2. correct rate window would pop up when all the cards have been chosen. This would be triggered when the number of disabled class equals to the double number of cards.
+  Then, count the number of active class and divide by card number. The window is a modal element of Bootstrap. It would be triggered by doing `$('#result').modal('show')`
+   3. hint would show when players click it. The main content of onclick funciton is `$(p_id).attr('style','display:block')`
+  
+- logic: the game1 is to choose right answer between area/falseArea and game2 is name/falseName
 
-
-#### 4.3.2 game2 page - game2.html
+#### Quotation
+- Smart - Multipurpose Landing Page Template-UIdeck
+  > uideck.com/templates/smart
+  
+- Zepto.js 3D picture carousel rotation plug-in-uyuyu41232
+  > http://www.bootstrapmb.com/item/9212
