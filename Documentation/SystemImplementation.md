@@ -18,7 +18,7 @@
 
 ## 2.1 Mind Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/db_mind.png"/></br>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/fab8073a2f262e372a5dd336485399b65d8f922f/Documentation/pics/db_mind.png"/></br>
 
 **If it is nor clear, you could see the html file directly. [Data Model Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/db_mind.html)**
 
@@ -75,53 +75,53 @@ is used as distraction choice in game1.
 #### 2.3.2 Manage dependencies in pom.xml
 - configure all the dependencies we need to operate the database
 - note: the version should correspond to local MySQL server version, the 5.1.49 could be used for Mysql 5.x version
-````
-//database driver  
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <scope>runtime</scope>
-    <version>5.1.49</version>
-</dependency>
-//data source starter
-<dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>druid-spring-boot-starter</artifactId>
-    <version>1.1.17</version>
-</dependency>
-//MybatisPlus starter
- <dependency>
-     <groupId>com.baomidou</groupId>
-     <artifactId>mybatis-plus-boot-starter</artifactId>
-     <version>3.4.1</version>
-</dependency>
-````
+  ````
+    //database driver  
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <scope>runtime</scope>
+        <version>5.1.49</version>
+    </dependency>
+    //data source starter
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>1.1.17</version>
+    </dependency>
+    //MybatisPlus starter
+     <dependency>
+         <groupId>com.baomidou</groupId>
+         <artifactId>mybatis-plus-boot-starter</artifactId>
+         <version>3.4.1</version>
+    </dependency>
+  ````
 #### 2.3.3 Communicate with back end   
 
 - Datasource: Use druid as data source and to offer the connections for queries. Druid is one of the best database connection pools written in JAVA. Druid provides powerful monitoring functionalities and more. Here, we start the function of monitoring and wall. They are set in the application.xml file. By doing so, we could log in the druid administration platform to see the query data. Its official repo in Github. [Druid](https://github.com/alibaba/druid/wiki/FAQ)
 - Database Information: Use Spring to manager the connection information. The data username, password, url and driver class name are set in application.yml file. They are the necessary information you need to connect to MySQL server.
 
-````
-spring:
-  datasource:
-    username: root
-    password: your password
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/faunaworld
-````
+  ````
+    spring:
+      datasource:
+        username: root
+        password: your password
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/faunaworld
+  ````
 
 - Query: Use MybatisPlus to finish the crud operations. Basically, there are three important class and interface we need to build. The FaunaMapper interface extends the BaseMapper<T> so that we could use insert,select,update and delete methods. The FaunaService interface would extend the IService<T> so that we could do the crud operations too. The BaseMapper and IService both encapsulate the operation of the dao layer, but the latter one is more powerful. After build the service interface, we need the last fulfill class FaunaServiceImpl to extend the senior class ServiceImpl<FaunaMapper, Fauna> in MybatisPlus and implement the former interface FaunaService. For now, if we inject the FaunaService into Spring container, we could call the functions to fulfill a query with database we set before. 
-````
-//the main codes are here
-@Mapper
-public interface FaunaMapper extends BaseMapper<Fauna> {}
-public interface FaunaService extends IService<Fauna> {}
-@Service
-public class FaunaServiceImpl extends ServiceImpl<FaunaMapper, Fauna> implements FaunaService {}
-//in controller class, inject FaunaService
-@Autowired
-FaunaService faunaService;
-````
+  ````
+    //the main codes are here
+    @Mapper
+    public interface FaunaMapper extends BaseMapper<Fauna> {}
+    public interface FaunaService extends IService<Fauna> {}
+    @Service
+    public class FaunaServiceImpl extends ServiceImpl<FaunaMapper, Fauna> implements FaunaService {}
+    //in controller class, inject FaunaService
+    @Autowired
+    FaunaService faunaService;
+  ````
 
 # 3.Back End
 ## 3.1 Back End Diagram
@@ -129,20 +129,20 @@ FaunaService faunaService;
 
 ## 3.2 Manager dependency
 - configure all web development starters
-````
-//the core configuration with SpringBoot, there are almost all configuration information for development
-<parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.4.5</version>
-    <relativePath/> <!-- lookup parent from repository -->
-</parent>
-//web development starter dependency in SpringBoot
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-````
+  ````
+    //the core configuration with SpringBoot, there are almost all configuration information for development
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    //web development starter dependency in SpringBoot
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  ````
 ## 3.3 Bean - Fauna class
 - We have build the bean class before. Remember names of attributes should correspond to the data model in MySQL. In Java, we should name it in camel case like falseName. In MySQL, we should name the column with one _ between two words like false_name.
 
@@ -156,16 +156,16 @@ FaunaService faunaService;
 - explanation: when players get access to our game home page via URL, SpringBoot would help deal with the users' requests and response with data or forward/redirect to new page. 
   If you try to get access to `http://localhost:8080/`, the IndexController would deal with the `/` request and take you to the `index.html` page as codes showed below. The `index.html` file is in the `src/main/resources/templates/`. 
   Then leave the rest work to SpringBoot. Therefore, we just need to specify the path under classpath and file name. Then leave the rest work to SpringBoot.
-````
-@Controller
-public class IndexController {
-    //request mapping start with /
-    @GetMapping(value = {"/index","/"})
-    public String toIndex(Model model){
-        return "index";
+  ````
+    @Controller
+    public class IndexController {
+        //request mapping start with /
+        @GetMapping(value = {"/index","/"})
+        public String toIndex(Model model){
+            return "index";
+        }
     }
-}
-````
+  ````
 #### 3.4.2 GameController
 - request:`http://localhost:8080/game1` `http://localhost:8080/game2`
 - explanation: Because there are two game strategies, there would be two kins of game page with different render logic. 
@@ -176,30 +176,30 @@ public class IndexController {
   3. After we get the data from the database, we put it into model domain so that we could get the data in front page.
   4. Besides, to classify different game links, we deal with the same and different request parameters here  and then put it into model too. Finally, because we need to make judgements after each clicking, the card number/fauna data number is helpful to this.
 
-````
-@Controller
-public class GameController {
-    @Autowired
-    FaunaService faunaService;
-    
-    @RequestMapping("/game1")
-    public String toGame11(@RequestParam("gameId")String gameId, Model model){
-        //select data from db where the category is 1-1
-        QueryWrapper<Fauna> queryGame1 = Wrappers.query();
-        queryGame1.eq("game_id",gameId);
-        List<Fauna> faunaList = faunaService.list(queryGame1);
-        model.addAttribute("faunaList",faunaList);
-        //add the query number to the model
-        model.addAttribute("cardNum",faunaList.size());
-        //put the category into model
-        model.addAttribute("sameParam",gameId);
-        //put the another request param into model
-        String diffParam = gameId.equals("1-1") ? "1-2" : "1-1";
-        model.addAttribute("diffParam",diffParam);
-        return "game/game1";
+  ````
+    @Controller
+    public class GameController {
+        @Autowired
+        FaunaService faunaService;
+
+        @RequestMapping("/game1")
+        public String toGame11(@RequestParam("gameId")String gameId, Model model){
+            //select data from db where the category is 1-1
+            QueryWrapper<Fauna> queryGame1 = Wrappers.query();
+            queryGame1.eq("game_id",gameId);
+            List<Fauna> faunaList = faunaService.list(queryGame1);
+            model.addAttribute("faunaList",faunaList);
+            //add the query number to the model
+            model.addAttribute("cardNum",faunaList.size());
+            //put the category into model
+            model.addAttribute("sameParam",gameId);
+            //put the another request param into model
+            String diffParam = gameId.equals("1-1") ? "1-2" : "1-1";
+            model.addAttribute("diffParam",diffParam);
+            return "game/game1";
+        }
     }
-}
-````
+   ````
 
 ## 3.5 Other dependencies
 - spring-boot-starter-thymeleaf: for front-end development with the server. 
@@ -243,6 +243,7 @@ public class GameController {
 - static data: there are many photos in carousel part and game parts. Using `@{path}` in thymeleaf would help us get the resources under classpath like *.css,*.js and images.
 The prerequisite of developing with thymeleaf is introducing its namespace at the beginning.
   `<html lang="en" xmlns:th="http://www.thymeleaf.org">` and add `th:` before each attribute of tags like:
+  
   ````
   <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
   <img th:src="@{/images/carousel_blue_whale.jpg}" class="d-block w-100 h-100" alt="...">
@@ -258,7 +259,8 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
 - interactions: 
    1. click the choice button and show the right/wrong warning. We use the attribute `stat` of `th:each` to put traversal number on each card so that the selector would find it in jQuery.
       The warning message is empty at the beginning. When the player clicks the button, the function `right_btn_click(btn_msg)` would split the btn_msg by `,`. Then it would trigger the `disabled` attribute of two buttons.
-      `btn-danger` class would be added to wrong button and `active` class would be added to right button. Finally, the warning message would be added according to which button's onclick event was triggered.
+      `btn-danger` class would be added to wrong button and `active` class would be added to right button. Finally, the warning message would be added according to which button's onclick event was triggered.        
+  
   ````
   <button th:id="right_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.area}"
                                 th:onclick="right_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
@@ -270,8 +272,8 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
 - logic: the game1 is to choose right answer between area/falseArea and game2 is name/falseName
 
 #### Quotation
-- Smart - Multipurpose Landing Page Template-UIdeck
-  > uideck.com/templates/smart
+- Smart - Multipurpose Landing Page Template by UIdeck
+  > https://uideck.com/templates/smart
   
-- Zepto.js 3D picture carousel rotation plug-in-uyuyu41232
+- Zepto.js 3D picture carousel rotation plug-in by uyuyu41232
   > http://www.bootstrapmb.com/item/9212
