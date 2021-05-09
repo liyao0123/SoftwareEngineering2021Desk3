@@ -10,9 +10,9 @@ For UX design, we followed the UX process provided by [UX mastery](https://uxmas
 
 ### Questionnaires
 
-We did a quick survey after confirming our topic namely protecting wild endangered fauna. The survey includes questions about whether users have experienced similar website, what presenting method survey respondents prefer and what kinds of playful game they prefer. At the end, we ask respondents who are willing to participate our future interviews for emails so that we can get in touch with them later. The survey is still open, you can click the link below to view questions.
-
-[Questionnaires - Type Form](https://ov7517xx4ey.typeform.com/to/haDsNnq5)
+ [<img src="pics/icon-Q.png" width = "50" height = "50" alt="question" />](https://ov7517xx4ey.typeform.com/to/haDsNnq5)
+ 
+We did a quick survey after confirming our topic namely protecting wild endangered fauna. The survey includes questions about whether users have experienced similar website, what presenting method survey respondents prefer and what kinds of playful game they prefer. At the end, we ask respondents who are willing to participate our future interviews for emails so that we can get in touch with them later. The survey is still open, you can click the icon above to view questions.
 
 ![Questionnaires](pics/Questionnaire.jpg)
 
