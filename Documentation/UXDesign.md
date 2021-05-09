@@ -21,6 +21,23 @@ The result is within our expectation. We collected 59 responses in total. Most r
 
 ### Interviews
 
+We talked with two potential users via text chat about the idea of our project and opinions about the design of our website. The finding of two interviews is demonstrated below:
+
+**About the topic:**
+
+Both interviewees are interested in protecting wild animals
+
+One argues that the project has little help for protecting endangered animals, the other believe that it is helpful to some extent since it provide an interesting way for users to recognize and understand endangered animals.
+
+**About the design of earth page:**
+
+They both like the way we present animals namely using 3D dynamic globe. They also provide some suggestions about the improvement of our ideas. The first one is that when users enter the earth page, the globe should rotate gently, which is more vivid. In addition, when users click the luminous point, the earth should zoom in to the area while the details should be list at the right.
+
+**About the design of game page:**
+
+Talking about the game page, the question card method is approved by both interviewees. We also ask them about the details of the game. Firstly, the layout of those cards, one agrees that a new card should appear after completing last question. However, the other interviewee think that it is more intuitional if the cards are shown in one page and users can click other cards to change questions. Then, we discuss whether the question card should change to next one automatically after users complete the question. Both of them agree that it should not change directly since users are likely to have a further look at the question regardless of the correctness of the answer.
+
+
 ## Analysis
 
 ### Interacting users
@@ -30,6 +47,12 @@ Combine the result and our thoughts, we considered the following user groups as 
 - People who spend a lot of time in the wild such as hunters, geologist, archaeologist and so on
 - People who are interested in protecting endangered fauna
 - People who require a playful way to present endangered fauna such as biology teachers
+
+### Persona
+
+We create two personas based on our research, and we are going to utilize the personas for further analysis and test.
+![Eric](pics/Persona-Eric.png)
+![Alice](pics/Persona-Alice.png)
 
 ### Stakeholder analysis
 
@@ -57,14 +80,19 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 
 ### Wireframes
 
+Wireframe is the first paper prototype we design for the website, the first screen is our home page. It includes navigation bar and the a body which is a wild animal picture. Another page is our game page which includes the question cards and button to switch cards. For the earth page, the first one is the default page when users enter the website, and the second one is the layout of animal details when users click these yellow points.  
+
 ![Wireframes](pics/Wireframe.png)
 
 ### Interaction flow diagrams
+
+While design the wireframes, we consider the interaction flow of our users, and the design outcome is demonstrated below.  
 
 ![Interaction](pics/FlowChart.png)
 
 ### Paper prototyping
 
-We made 6 screens for the prototype. In addition, we generated a interactive and clickable model for users to test via InVision, you can access the model by clicking the link below.  
+We made 6 screens for the prototype. While completing the final prototype, we improve the design and some interactions. For example, we use different color for the button is navigation bar to help user distinguish the current page and it is intuitional for them to click the other button. Moreover, in the game page, except for clicking the arrow at both side, users can click the question card they prefer to switch current question. In addition, we generated a interactive and clickable model for users to test via InVision, you can access the model by clicking the link below.  
+
 [Clickable prototype](https://xiaojun507579.invisionapp.com/console/share/PQ2J2NHWAU/617500159)
 ![Prototype](pics/Prototype.png)
