@@ -16,6 +16,8 @@ var data = [
       threats: "Habitat loss because of human activity.",
       link: "https://en.wikipedia.org/wiki/Hispid_hare",
       image: 'data/image/Hispid_hare.jpg',
+      width: 361,
+      height: 357
     },
     {
       position: [5.24, 45.90, -88.66],
@@ -25,6 +27,8 @@ var data = [
       threats: "Habitat degradation and floods and poaching.",
       link: "https://en.wikipedia.org/wiki/Indian_rhinoceros",
       image: 'data/image/Indian_Rhinoceros.jpg',
+      width: 360,
+      height: 232
     },
     {
       position: [64.67, 57.58, -49.97],
@@ -61,6 +65,8 @@ var data = [
       threats: "Loss, degradation, fragmentation of habitats and human hunting.",
       link: "https://en.wikipedia.org/wiki/Asian_elephant",
       image: 'data/image/Asian_elephant.jpg',
+      width: 360,
+      height: 240
     },
     {
       position: [7.75, 35.65, -93.07],
@@ -70,6 +76,8 @@ var data = [
       threats: "Degradation of habitats and human hunting.",
       link: "https://en.wikipedia.org/wiki/Asiatic_lion",
       image: 'data/image/Asiatic_lion.jpg',
+      width: 360,
+      height: 387
     },
     {
       position: [30, 37.05, -87.86],
@@ -78,7 +86,7 @@ var data = [
       description: "Takin are found in small family groups of around 20 individuals, although older males may lead more solitary existences. In the summer, herds of up to 300 individuals gather high on the mountain slopes. Groups often appear to occur in largest numbers when favorable feeding sites, salt licks, or hot springs are located. Mating takes place in July and August. Adult males compete for dominance by sparring head-to-head with opponents, and both sexes appear to use the scent of their own urine to indicate dominance. A single young is born after a gestation period of around eight months.Takin migrate from the upper pasture to lower, more forested areas in winter and favor sunny spots upon sunrise.",
       threats: "Poaching and loss of habitat.",
       link: "https://en.wikipedia.org/wiki/Takin",
-      image: 'data/image/Takin.jpg'
+      image: 'data/image/Takin.jpeg'
     },
     {
       position: [22.12, 30.92, -92.46],
@@ -142,6 +150,8 @@ var data = [
       threats: "Overfishing.",
       link: "https://en.wikipedia.org/wiki/Cyprinus_rubrofuscus",
       image: 'data/image/Cyprinus_rubrofuscus.jpg',
+      width: 360,
+      height: 177
     },
     {
       position: [-26.11, 31.20, -91.31],
@@ -151,6 +161,8 @@ var data = [
       threats: "Overfishing.",
       link: "https://en.wikipedia.org/wiki/Cyprinus_rubrofuscus",
       image: 'data/image/Cyprinus_rubrofuscus.jpg',
+      width: 360,
+      height: 177
     },
     {
       position: [-34.62, 36.74, -86.29],
@@ -160,6 +172,8 @@ var data = [
       threats: "Overfishing.",
       link: "https://en.wikipedia.org/wiki/Cyprinus_rubrofuscus",
       image: 'data/image/Cyprinus_rubrofuscus.jpg',
+      width: 360,
+      height: 177
     },
     {
       position: [-16.59, 69.21, -70.21],
@@ -241,6 +255,8 @@ var data = [
       threats: "Low genetic diversity, geographic isolation and poaching.",
       link: "https://en.wikipedia.org/wiki/Siberian_tiger",
       image: 'data/image/Siberian_tiger.jpg',
+      width: 360,
+      height: 227
     },
     {
       position: [-26.71, 46.18, -84.54],
@@ -313,6 +329,8 @@ var data = [
       threats: "Hundreds of whale sharks are illegally killed every year for their fins, skins, and oil.",
       link: "https://en.wikipedia.org/wiki/Whale_shark",
       image: 'data/image/Whale_shark.jpg',
+      width: 360,
+      height: 230
     },
     {
       position: [98.23, 12.04, 14.23],
@@ -322,6 +340,8 @@ var data = [
       threats: "The threat of this species is most likely due to the rapid clearing of lowland forest into oil plantations, in which the blue-eyed cockatoo make its nesting sites. Illegal trade has also caused a market for this species, adding pressure to their decline.",
       link: "https://en.wikipedia.org/wiki/Blue-eyed_cockatoo",
       image: 'data/image/Blue-eyed_cockatoo.jpg',
+      width: 360,
+      height: 352
     },
     {
       position: [91.27, 7.42, -40.09],
@@ -358,6 +378,8 @@ var data = [
         threats: "Poaching, commercial trade and opportunistic hunting.",
         link: "https://en.wikipedia.org/wiki/Giraffe",
         image: 'data/image/Giraffe.jpg',
+        width: 360,
+        height: 401
     },
     {
         position: [75.59, -56.75, -32.55],
@@ -367,6 +389,8 @@ var data = [
         threats: "Oil spills and competition with fisheries",
         link: "https://en.wikipedia.org/wiki/African_penguin",
         image: 'data/image/African_penguin.jpg',
+        width: 360,
+        height: 427
     },
     {
         position: [83.66, -40.20, -37.12],
@@ -376,6 +400,8 @@ var data = [
         threats: "Habitat fragmentation and herder’s hunting.",
         link: "https://en.wikipedia.org/wiki/African_wild_dog",
         image: 'data/image/African_wild_dog.jpg',
+        width: 360,
+        height: 244
     },
     {
         position: [74.97, 14.41, -64.53],
@@ -385,6 +411,8 @@ var data = [
         threats: "Habitat loss and fragmentation and population fragmentation.",
         link: "https://en.wikipedia.org/wiki/Ethiopian_wolf",
         image: 'data/image/Ethiopian_wolf.jpg',
+        width: 360,
+        height: 344
     },
     {
         position: [98.12, 10.89, -15.69],
@@ -394,6 +422,8 @@ var data = [
         threats: "Habitat destruction, infectious diseases and human poaching.",
         link: "https://en.wikipedia.org/wiki/Chimpanzee",
         image: 'data/image/Chimpanzee.jpg',
+        width: 360,
+        height: 365
     },
     {
         position: [94.52, -18.36, -26.83],
@@ -403,6 +433,8 @@ var data = [
         threats: "Habitat loss and fragmentation of populations and human hunting.",
         link: "https://en.wikipedia.org/wiki/Cheetah",
         image: 'data/image/Cheetah.jpg',
+        width: 360,
+        height: 365
     },
     {
         position: [95.95, -13.7, -24.53],
@@ -412,6 +444,8 @@ var data = [
         threats: "Loss of habitat and poaching.",
         link: "https://en.wikipedia.org/wiki/Mountain_zebra",
         image: 'data/image/Mountain_Zebra.jpg',
+        width: 360,
+        height: 365
     },
     {
         position: [93.95, -9.39, -32.88],
@@ -421,6 +455,8 @@ var data = [
         threats: "Habitat loss and human hunting.",
         link: "https://en.wikipedia.org/wiki/Bonobo",
         image: 'data/image/Bonobo.jpg',
+        width: 360,
+        height: 385
     },
     {
         position: [92.13, -15.3, -35.63],
@@ -430,6 +466,8 @@ var data = [
         threats: "Poaching, civil unrest and habitat destruction.",
         link: "https://en.wikipedia.org/wiki/Eastern_lowland_gorilla",
         image: 'data/image/Eastern_lowland_gorilla.jpg',
+        width: 360,
+        height: 357
     },
     {
         position: [89.55, -17.34, -40.91],
@@ -438,7 +476,9 @@ var data = [
         description: "The mandrill has an olive green or dark grey pelage with yellow and black bands and a white belly. Its hairless face has an elongated muzzle with distinctive characteristics, such as a red stripe down the middle and protruding blue ridges on the sides. It also has red nostrils and lips, a yellow beard and white tufts. The areas around the genitals and the anus are multi-colored, being red, pink, blue, scarlet, and purple.They also have pale pink ischial callosities.",
         threats: "Deforestation and poaching.",
         link: "https://en.wikipedia.org/wiki/Mandrill",
-        image: 'data/image/Mandril.jpg',
+        image: 'data/image/Mandril.jpeg',
+        width: 360,
+        height: 474
     },
     {
         position: [87.62, -28.83, -38.53],
@@ -448,6 +488,8 @@ var data = [
         threats: "Hunting.",
         link: "https://en.wikipedia.org/wiki/Hippopotamus",
         image: 'data/image/Hippopotamus.jpg',
+        width: 360,
+        height: 240
     },
     {
         position: [28.03, 33.75, 89.83],
@@ -457,6 +499,8 @@ var data = [
         threats: "Forest clearance and hunting.",
         link: "https://en.wikipedia.org/wiki/White-necked_crow",
         image: 'data/image/White-necked_Crow.jpg',
+        width: 360,
+        height: 240
     },
     {
         position: [-41.84, 64.57, 63.83],
@@ -466,6 +510,8 @@ var data = [
         threats: "Poaching and overexploitation, zebra mussels and overfishing and habitat destruction.",
         link: "https://en.wikipedia.org/wiki/American_paddlefish",
         image: 'data/image/American_paddlefish.jpg',
+        width: 360,
+        height: 241
     },
     {
         position: [12.68, 50.86, 85.14],
@@ -475,6 +521,8 @@ var data = [
         threats: "Poaching.",
         link: "https://en.wikipedia.org/wiki/Great_white_shark",
         image: 'data/image/Great_White_Shark.jpg',
+        width: 360,
+        height: 360
     },
     {
         position: [74.23, -50.76, -43.67],
@@ -484,6 +532,8 @@ var data = [
         threats: "Poaching.",
         link: "https://en.wikipedia.org/wiki/Great_white_shark",
         image: 'data/image/Great_White_Shark.jpg',
+        width: 360,
+        height: 360
     },
     {
         position: [-61.44, 57.51, -53.96],
@@ -493,6 +543,8 @@ var data = [
         threats: "Poaching.",
         link: "https://en.wikipedia.org/wiki/Great_white_shark",
         image: 'data/image/Great_White_Shark.jpg',
+        width: 360,
+        height: 360
     },
     {
         position: [7.52, 66.7, 74.11],
@@ -502,6 +554,8 @@ var data = [
         threats: "Poaching and commercial harvest.",
         link: "https://en.wikipedia.org/wiki/American_crocodile",
         image: 'data/image/American_Crocodile.jpg',
+        width: 360,
+        height: 540
     },
     {
         position: [-18.83, 42.97, 88.28],
@@ -511,6 +565,8 @@ var data = [
         threats: "Threats to R. diazi, or the volcano rabbit, include logging, harvesting of grasses, livestock grazing, habitat destruction, urban expansion, highway construction and too frequent forest fires. Hunting is another threat to the volcano rabbit.",
         link: "https://en.wikipedia.org/wiki/Volcano_rabbit",
         image: 'data/image/volcano_rabbit.jpg',
+        width: 360,
+        height: 240
     },
     {
         position: [71.99, -13.78, 67.96],
@@ -520,6 +576,8 @@ var data = [
         threats: "Poaching has long been a problem, habitat destruction and conflict with fishermen.",
         link: "https://en.wikipedia.org/wiki/Giant_otter",
         image: 'data/image/Giant_otter.jpg',
+        width: 360,
+        height: 240
     },
     {
         position: [60.21, -16.04, 78.16],
@@ -528,7 +586,9 @@ var data = [
         description: "Maned sloths have a pale brown to gray pelage. Long outer hair covers a short, dense, black and white underfur. The coarse outer coat is usually inhabited by algae, mites, ticks, beetles, and moths. The maned sloth's small head features fur-covered pinnae and anterior oriented eyes that are usually covered by a mask of black hair. The sides of the maned sloth's face and neck feature long hair covering the short hair of the sloth's snout. Facial vibrissae on the maned sloth are sparse.",
         threats: "Deforestation and poaching.",
         link: "https://en.wikipedia.org/wiki/Maned_sloth",
-        image: 'data/image/Maned_Sloth.jpg',
+        image: 'data/image/Maned_Sloth.jpeg',
+        width: 360,
+        height: 203
     },
     {
         position: [24.63, -59.57, 76.42],
@@ -538,6 +598,8 @@ var data = [
         threats: "Fisheries and habitat disturbance and feral species.",
         link: "https://en.wikipedia.org/wiki/Humboldt_penguin",
         image: 'data/image/Humboldt_penguin.jpg',
+        width: 360,
+        height: 540
     },
     {
         position: [48.37, 87.23, -6.98],
@@ -547,6 +609,8 @@ var data = [
         threats: "Hunting.",
         link: "https://en.wikipedia.org/wiki/Lesser_white-fronted_goose",
         image: 'data/image/Lesser_white-fronted_goose.jpg',
+        width: 360,
+        height: 317
     },
     {
         position: [-86.38, -3.99, 50.15],
@@ -556,6 +620,8 @@ var data = [
         threats: "Man-made threats like Ship Strikes, Entanglement, Ocean Noise, PollutantsPlastics, climate change and predation.",
         link: "https://en.wikipedia.org/wiki/Blue_whale",
         image: 'data/image/Blue_whale.jpg',
+        width: 360,
+        height: 230
     },
     {
         position: [23.07, 58.76, 77.53],
@@ -565,6 +631,8 @@ var data = [
         threats: "Man-made threats like Ship Strikes, Entanglement, Ocean Noise, PollutantsPlastics, climate change and predation.",
         link: "https://en.wikipedia.org/wiki/Blue_whale",
         image: 'data/image/Blue_whale.jpg',
+        width: 360,
+        height: 230
     },
     {
         position: [-22.01, 95, 22.11],
@@ -574,6 +642,8 @@ var data = [
         threats: "Commercial harvest, climate change and oil/gas development.",
         link: "https://en.wikipedia.org/wiki/Polar_bear",
         image: 'data/image/Polar_Bear.jpg',
+        width: 360,
+        height: 240
     },
     {
         position: [-50.66, -3.22, -86.12],
@@ -582,6 +652,8 @@ var data = [
         description: "The Komodo dragon has a tail as long as its body, as well as about 60 frequently replaced, serrated teeth that can measure up to 2.5 cm (1 in) in length. Its saliva is frequently blood-tinged because its teeth are almost completely covered by gingival tissue that is naturally lacerated during feeding. It also has a long, yellow, deeply forked tongue. Komodo dragon skin is reinforced by armoured scales, which contain tiny bones called osteoderms that function as a sort of natural chain-mail. The only areas lacking osteoderms on the head of the adult Komodo dragon are around the eyes, nostrils, mouth margins, and pineal eye, a light-sensing organ on the top of the head. Where lizards typically have one or two varying patterns or shapes of osteoderms, komodo's have four: rosette, platy, dendritic, and vermiform.",
         threats: "Poaching and volcanic activity.",
         link: "https://en.wikipedia.org/wiki/Komodo_dragon",
-        image: 'data/image/Komodo_Dragon.jpg',
+        image: 'data/image/Komodo_Dragon.jpeg',
+        width: 360,
+        height: 284
     }
   ];

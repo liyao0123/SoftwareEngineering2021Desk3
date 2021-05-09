@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Dynamic Earth</title>
-  <link rel="icon" href="image/favicon.ico" type="image/x-icon"/>
   <style>
     body {
       margin: 0;
@@ -41,7 +40,8 @@
       overflow-y: auto;
       border: 1px solid white;
       box-sizing: border-box;
-      background: #214572;
+      /* background: #214572; */
+      background-color: rgb(33,69,114, 0.6);
       color: white;
       font-size: 16px;
       transition: height 1s;
@@ -72,6 +72,17 @@
     a {
       color: white;
     }
+
+    .btn-dark {
+      color: #fff;
+      background-color: #343a40;
+      border-color: #343a40;
+      padding: .5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+      text-decoration: none;
+    }
   </style>
   <script src="./js/jquery-1.9.1.js"></script>
   <script src="./js/TweenMax.min.js"></script>
@@ -86,6 +97,14 @@
       <img id="image" style="display: block;" width="360" height="268">
     </div>
   </div>
+  <div style="position: absolute;top: 10px;left: 10px;cursor: pointer;" id="musicImg">
+    <!-- <a class="btn-lg btn-dark" href="http://www.efww.top/" style="margin-right: 5rem;">
+      Dynamic Earth
+    </a> -->
+    <img src="./image/mute.png" style="display: block;">
+  </div>
+  <audio src="./music/music.mp3" id="audio"></audio>
+  
   <div id="detail">
     <div class="field">
       <div class="label">Name</div>
@@ -97,7 +116,9 @@
     </div>
     <div class="field">
       <div class="label">Description</div>
-      <div class="text description"></div>
+    </div>
+    <div class="field">
+      <div class="text description" style="width: calc(100% - 20px);"></div>
     </div>
     <div class="field">
       <div class="label">Threats</div>
@@ -119,14 +140,14 @@
     import Hotspot from './js/hotspot.js';
 
     /**
-     * Create Scene Object
+     * Create scene object
      */
     var scene = new THREE.Scene();
     /**
      * Create a mesh model
      */
     // var geometry = new THREE.BoxGeometry(100, 100, 100); //cube
-    // var geometry = new THREE.PlaneGeometry(400, 400); //Rectangular plane
+    // var geometry = new THREE.PlaneGeometry(400, 400); //rectangular
     var geometry = new THREE.SphereGeometry(100, 128, 128); //globe
     // TextureLoader creates a texture loader object that can load pictures as geometric textures
     var textureLoader = new THREE.TextureLoader();
@@ -139,8 +160,8 @@
       normalMap: textureNormal, //Normal map
       //Set the degree of darkness, the default value (1,1).
       normalScale: new THREE.Vector2(1.2, 1.2),
-    });
-    var mesh = new THREE.Mesh(geometry, material); //Material Object
+    }); //Material Object
+    var mesh = new THREE.Mesh(geometry, material); //Mesh model object Mesh
     scene.add(mesh); //Add the mesh model to the scene
 
     var raycaster = new THREE.Raycaster();
@@ -155,6 +176,7 @@
     /**
      * Light source settings
      */
+    //enviromental light
     var ambient = new THREE.AmbientLight(0xffffff);
     scene.add(ambient);
 
@@ -163,7 +185,7 @@
      */
     var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.set(203, 73, -336);
-    camera.lookAt(scene.position); //设置相机方向(指向的场景对象)
+    camera.lookAt(scene.position);
 
     /**
      * Create renderer object
@@ -172,11 +194,12 @@
     renderer.setSize(window.innerWidth, window.innerHeight); //Set the rendering area size
     document.body.appendChild(renderer.domElement); //Insert the canvas object into the body element
 
-    //Create a control object, the camera object camera as a parameter, the control can monitor the changes of the mouse and change the properties of the camera object
+    //Create a control object, the camera object camera as a parameter, the control can monitor changes in the mouse and change the properties of the camera
     var controls = new OrbitControls(camera, renderer.domElement);
 
     // controls.enablePan = false;
-    // controls.autoRotate = true;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 1;
     controls.minDistance = 220;
     controls.maxDistance = 400;
 
@@ -200,7 +223,7 @@
       renderer.render(scene, camera);
       controls.update();
 
-      requestAnimationFrame(render);
+      requestAnimationFrame(render); //Request to execute the render function render again to render the next frame
 
       var elapsed = clock.getElapsedTime();
       for (var i = 0; i < meshArray.length; i++) {
@@ -221,12 +244,27 @@
 		renderer.domElement.addEventListener( 'pointerdown', onPointerDown );
 		renderer.domElement.addEventListener( 'pointerup', onPointerCancel );
 
+    var audio = document.getElementById("audio");
+
+    var musicImg = $('#musicImg');
+    musicImg.click(function(){
+      if (audio.paused) {
+        audio.play();
+        musicImg.find('img').attr('src', './image/music.png');
+      } else {
+        audio.pause();
+        musicImg.find('img').attr('src', './image/mute.png');
+      }
+    });
+
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
         renderer.setSize(window.innerWidth, window.innerHeight);
 
-        detail.height(window.innerHeight - 3);
+        if (detail.height() > 0) {
+          detail.height(window.innerHeight - 3);
+        }
     }
 
     var isChrome = window.navigator.userAgent.indexOf("Chrome") > -1;
@@ -302,7 +340,7 @@
       } else {
         selectedSprite = null;
         desc.css('opacity', 0);
-        // controls.autoRotate = true;
+        controls.autoRotate = true;
       }
 
       var timeMove = event.clientX + event.clientY;
