@@ -1,6 +1,7 @@
 FROM java:8
 VOLUME /tmp
-ADD ./efww/target/efww.jar /app.jar
+COPY ./efww/  env.env processEnv.sh ./static/apache-maven-3.6.3 /
+RUN sh -c 'sh processEnv.sh'
 EXPOSE 8080
 RUN sh -c 'touch /app.jar'
 ENV JAVA_OPTS=""
