@@ -83,7 +83,7 @@ From academic research we can see that the biodiversity is really important and 
 * Beautiful website frame
 * Interesting user interactions
 * Descriptions about endangered species
-### These three main goals are the ways we use to solve the problem
+#### These three main goals are the ways we use to solve the problem
 Promoting the awareness of protecting endangered wild animals in an interesting way.
 
     
