@@ -33,26 +33,30 @@ People has very little knowledge about endangered species, according to the repo
 ### Context
 There is already some website that play a role of E-library or lists for endangered species.The following link are some of the  authority website. They have very clear content inside and good quality of articles and pictures. But what our group want to achieve is to make things visually good and easier to access. Promoting  and raising the attention of protecting endangered species in a more acceptable way, get everybody involved in actions in daily life.
 ### Example Website
-
-
-<font size=7> eee </font>
+<hr>
+<p align="center">
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/wwf.png" width = "68%" />
+<br>
+https://www.worldwildlife.org/
+</p>
+The WWF is an outstanding non-profit organization that works towards the conservation of endangered animals, their website is full of articles about endangered animals news. They have a large amount of documentary videos.They also focus on the climate, fresh water and oceans. They have done a very excellent job in promoting the awareness of protecting animals. This website is more like an endangered animals news website, they don't have a list for the whole endangered animals species, nor have very detailed information and descriptions.However they still a very good website for people who is interested in animals and natural environment.
+<hr>
 
 <p align="center">
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/wwf.png" width = "38%" />
-</p>
-
-<p align="center">
-    https://www.worldwildlife.org/
-</p>
-
-US.FWS
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/US.fws.png" width = "68%" />
 <br>
 https://www.fws.gov/endangered/
+</p>
+FWS is the Untied States' national wild animal information website. Since it has a good authority, so let's use it as an example. The website has much more details than the WWF, it documents more thoroughly. You can browse the wild life list by filtering by your living region and it gives you the rare condition of an anmal in time. What's more, you cna find some related regulations if you are a landowner or hunter. The FWS is a more detailed and specific website for local people. It's more like a local community website, it do provide a powerfl functionality for people who want to know the environment he is going to.But the shotcomings are local and no fun. If this website could be an international one and could have beautiful appearance, this website could be a really fantastic website.
+<hr>
+
+<p align="center">
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/National%20Geographic.png" width = "68%" />
 <br>
-National Geographic
-<br>
-https://www.nationalgeographic.org/topics/endangered-species/?q=&page=1&per_page=25
-<br>
+https://www.nationalgeographic.org/
+</p>
+NG(short for National Geographic) is a great organization and their website has a lot of contents about rare and endangered animals. The pros of the website are appearance, frame, pics, articles. The NG has a lot of exquisite pictures, they use photography to display the nature's beauty and the astonishing wild animals. Also they are making good impacts on making people explore nature, love nature. This website's articles may have some information about one rare animals, but it's hard to sort out the animal that you want to look for or search the rare animals in one specific region. In conclusion this website is mainly a photograph website towards natural environment.  
+
 ## Quotation
 Conservation international
 <br>
@@ -73,12 +77,14 @@ https://www.unicef.org/globalinsight/stories/why-biodiversity-important-childrer
 BBC
 <br>
 http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
-<be>
+<br>
 ## Problem Definition
-From academic research we can see that the biodiversity is really important and people have very limited knowledge about recognizing endangered species. Currently existing websites are more like endangered animals libraries. In order to fill this blank, we want to find an easier way of educating people. So the problems we need to solve within this project are as follows.
+From academic research we can see that the biodiversity is really important and people have very limited knowledge about recognizing endangered species. Currently existing websites are more like endangered animals news website, local website or photograh website. In order to fill this blank, we want to find an easier way of promoting  people's awareness of protecting wild animals. So the goals we need to achieve within this project are as follows.
 * Beautiful website frame
-* Interesting interactions
-* Description about endangered species
+* Interesting user interactions
+* Descriptions about endangered species
+### These three main goals are the ways we use to solve the problem
+Promoting the awareness of protecting endangered wild animals in an interesting way.
 
     
     
