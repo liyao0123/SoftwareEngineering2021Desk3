@@ -277,3 +277,5 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
   
 - Zepto.js 3D picture carousel rotation plug-in by uyuyu41232
   > http://www.bootstrapmb.com/item/9212
+- 3D earth API by mrdoob
+  > https://github.com/dataarts/webgl-globe
