@@ -34,13 +34,16 @@ People has very little knowledge about endangered species, according to the repo
 There is already some website that play a role of E-library or lists for endangered species.The following link are some of the  authority website. They have very clear content inside and good quality of articles and pictures. But what our group want to achieve is to make things visually good and easier to access. Promoting  and raising the attention of protecting endangered species in a more acceptable way, get everybody involved in actions in daily life.
 ### Example Website
 
-<h1 align="center">
-World wild life
-<br>
+
+<font size=7> eee </font>
+
+<p align="center">
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/wwf.png" width = "38%" />
-<br>
-<h3>https://www.worldwildlife.org/</h3>
-</h1>
+</p>
+
+<p align="center">
+    https://www.worldwildlife.org/
+</p>
 
 US.FWS
 <br>
