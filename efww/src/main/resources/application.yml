@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    username: root
+    password: xhj0816
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.52.22.123:3306/faunaworld
+
+
+    druid:
+      aop-patterns: team.desk3.efww.*
+      filters: stat,wall,slf4j
+      filter:
+        stat:
+          slow-sql-millis: 1000
+          log-slow-sql: true
+          enabled: true
+        wall:
+          enabled: true
+          config:
+            drop-table-allow: false
+
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-password: admin
+        reset-enable: false
+        login-username: admin
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+

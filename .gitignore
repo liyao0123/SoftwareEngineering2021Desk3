@@ -83,6 +83,3 @@ nb-configuration.xml
 ##############################
 .DS_Store
 
-efww/src/main/resources/application-prod.yml
-efww/src/main/resources/application.yml
-
