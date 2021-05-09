@@ -18,7 +18,7 @@
 
 ## 2.1 Mind Diagram
 
-<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/db_mind.jpeg"/></br>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/926093b9273512c6e58fcf3116328425a13b15a8/Documentation/pics/db_mind.png"/></br>
 
 **If it is nor clear, you could see the html file directly. [Data Model Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/db_mind.html)**
 
@@ -212,7 +212,10 @@ public class GameController {
 # 4. Front End
 ## 4.1 Front End Diagram
 
-<img src="" /><br/>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/fc4fea9d363ab7f01659263a81544cb3e73361fb/Documentation/pics/fe_mind.png" /><br/>
+
+
+**If it is nor clear, you could see the html file directly. [Front End Diagram](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/html/fe_mind.html)**
 
 ## 4.2 Dynamic Earth
 **find a template of dynamic earth and integrate our date into different spot**
