@@ -1,0 +1,7 @@
+FROM java:8
+VOLUME /tmp
+COPY ./efww /efww
+COPY ./static/apache-maven-3.6.3 /apache-maven-3.6.3
+COPY startEfww.sh /
+EXPOSE 8080
+ENTRYPOINT [ "sh", "-c", "sh /startEfww.sh" ]

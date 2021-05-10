@@ -1,0 +1,332 @@
+﻿<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game 2</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/game1_default.css}">
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+
+    <style>
+        a {
+            color: #e5e616;
+        }
+        a:hover {
+            color: #88a7f7;
+        }
+        .wrap{padding-bottom: 50px;}
+        .wrap > h1 {
+            color: rgb(221, 142, 22);
+            margin: 14px auto 0;
+        }
+        #showcase {
+            height: 570px;
+            overflow: visible !important;
+        }
+        .card {
+            width: 350px;
+            padding: 12px;
+            text-align: center;
+            /*background-color: black;*/
+            background-color: rgba(0,0,0,0.9);
+            border: 1px white solid;
+            border-radius: 12px;
+        }
+        .card h2 {
+            margin: 0 0 7px 0;
+        }
+        .card a {
+            font-size: 20px;
+            display: block;
+        }
+        .nav {
+            width: 64px;
+            height: 134px;
+            color: #ccc;
+            font: bold 3em "Lucida Grande";
+            text-align: center;
+            text-shadow: 0px 1px 0px #f5f5f5;
+            background: rgba(150, 150, 150, 0.5);
+
+            -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+            -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.45);
+            cursor: pointer;
+            position: absolute;
+            top: 33%;
+        }
+
+        .nav.left {
+            left: -70px;
+            -webkit-border-radius: 12px 5px 5px 12px;
+            -moz-border-radius: 12px 5px 5px 12px;
+            border-radius: 12px 5px 5px 12px;
+        }
+        .nav.right {
+            right: -70px;
+            -webkit-border-radius: 5px 12px 12px 5px;
+            -moz-border-radius: 5px 12px 12px 5px;
+            border-radius: 5px 12px 12px 5px;
+        }
+        footer hr {
+            width: 6px;
+        }
+
+        #photo-credits h1 {
+            font-size: 1em;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+        #photo-credits > ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+        }
+        .des_thr{
+            margin-top: 0.5rem;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .hint_content{
+            display: none;
+        }
+    </style>
+    <!--[if IE]>
+    <script th:src="@{http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js}"></script>
+    <![endif]-->
+</head>
+<!--//th:style="'background: url(/images/nature.jpg);'+'background-size: cover;'"-->
+<body th:style="'background: url(/images/jungle.jpg);'+'background-size: cover;'">
+
+<script th:src="@{/js/vendor/jquery-1.12.4.min.js}" type="text/javascript"></script>
+<script th:src="@{/js/jquery.cloud9carousel.js}"></script>
+
+<!--====== Bootstrap js ======-->
+<script th:src="@{/js/popper.min.js}"></script>
+
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<!--header start-->
+<header>
+    <div class="container" style="margin-top: 1rem">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 align-items-center">
+                <h1 class="text-center text-white">Observation And Memory Test</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header end-->
+<!--wrap start-->
+<section class="wrap">
+<!--    <div class="container">-->
+        <div id="showcase" class="noselect">
+            <div class="card" th:each="fauna,stat : ${faunaList}">
+                <h2>Guess Name</h2>
+                <img th:src="@{${fauna.picture}}" style="width: 250px;height: 180px">
+                <div class="row" style="margin-top: 1rem">
+                    <div class="col">
+                        <h4 class="text-warning">What is the right name?</h4>
+                    </div>
+                </div>
+                <div class="judge" th:if="${stat.count % 2 == 0}">
+                    <div class="row justify-content-around" style="margin-top: 1rem">
+                        <div class="col">
+                            <button th:id="right_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.name}"
+                                    th:onclick="right_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
+                        </div>
+                        <div class="col">
+                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.falseName}"
+                                    th:onclick="wrong_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="judge" th:if="${stat.count % 2 == 1}">
+                    <div class="row justify-content-around" style="margin-top: 1rem">
+                        <div class="col">
+                            <button th:id="wrong_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.falseName}"
+                                    th:onclick="wrong_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
+                        </div>
+                        <div class="col">
+                            <button th:id="right_btn+${stat.count}" class="btn btn-outline-success" th:text="${fauna.name}"
+                                    th:onclick="right_btn_click([['#right_btn'+${stat.count}+','+'#msg'+${stat.count}+','+'#wrong_btn'+${stat.count}]])"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around" style="margin-top: 1rem">
+                    <div class="col">
+                        <h4 th:id="msg+${stat.count}" ></h4>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col" >
+                        <a class="text-warning" href="javascript:void(0);" th:onclick="show_hint([['#'+${stat.count}]])">Hint</a>
+                        <p class="des_thr text-secondary hint_content" th:id="${stat.count}"> [[${fauna.hint}]]</p>
+                    </div>
+                </div>
+                <a th:href="@{${fauna.link}}" class="des_thr" target="_blank">Learn more...</a>
+            </div>
+        </div>
+        <button class="nav noselect left align-items-center justify-content-center" style="outline: none">
+            &lt;
+        </button>
+        <button class="nav noselect right align-items-center justify-content-center" style="outline: none">
+            &gt;
+        </button>
+<!--    </div>-->
+<!--        model -->
+    <!-- Modal -->
+    <div class="modal fade" id="result" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="resultTitle">Finished and your correct rate:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h2 class="text-danger" id="correct_rate"></h2>
+                    <h6 id="success_msg" class="text-success "></h6>
+                    <h6 id="fail_msg" class="text-info "></h6>
+                    <a th:href="@{/game2(gameId=${sameParam})}" class="btn btn-info" id="btn_again">Try again!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--wrap end-->
+<!--footer start-->
+<footer style="margin-top: -3rem">
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+
+            <div class="col-2 ">
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More Games
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" th:href="@{/game2(gameId=${sameParam})}">Try this again</a>
+                        <a class="dropdown-item" th:href="@{/game2(gameId=${diffParam})}">Game[[${diffParam}]]</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" th:href="@{/game1(gameId='1-1')}">Game1-1</a>
+                        <a class="dropdown-item" th:href="@{/game1(gameId='1-2')}">Game1-2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" th:href="@{/}">Game Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+<!--get the card number from model-->
+<input type="hidden" id="card_num" th:value='${cardNum}'>
+
+<script>
+    $(function() {
+        var showcase = $("#showcase")
+
+        showcase.Cloud9Carousel( {
+            yOrigin: 42,
+            yRadius: 40,
+            itemClass: "card",
+            buttonLeft: $(".nav.left"),
+            buttonRight: $(".nav.right"),
+            bringToFront: true,
+            onLoaded: function() {
+                showcase.css( 'visibility', 'visible' )
+                showcase.css( 'display', 'none' )
+                showcase.fadeIn( 1500 )
+            }
+        } )
+
+        $(document).keydown( function( e ) {
+            switch( e.keyCode ) {
+                /* left arrow */
+                case 37:
+                    $('.nav.left').click()
+                    break
+
+                /* right arrow */
+                case 39:
+                    $('.nav.right').click()
+            }
+        } )
+    })
+    // <!--THE logic of gaming-->
+    //card
+    function right_btn_click(btn_msg) {
+        //alert(btn_msg);
+        var str = new String();
+        var array = new Array();
+        str = ""+btn_msg;
+        //alert(str);
+        array = str.split(",");
+        //define the array[0] is right_btn selector then msg then wrong_btn
+        var right_btn = $(array[0]);
+        right_btn.addClass('active').attr('disabled','true');
+        //setTimeout( function() { right_btn.attr('disabled','true') }, 1500 )
+        var name = $(right_btn).text();
+        $(array[1]).append("Bingo! ").append(name).css({'color':'green'});
+        $(array[2]).attr('disabled',"true");
+        //check if all card has been chosen
+        var card_count = $("#card_num").val();
+        if($(":disabled").size() == card_count*2){
+            var ratio = ($('.active').size()*1.0/card_count * 100).toFixed(1);
+            $('#correct_rate').append(ratio+'%')
+            if(ratio > 99.9){
+                $('#success_msg').append("Congratulations!")
+                $('#btn_again').remove()
+            }else{
+                $('#fail_msg').append("Try again and find out the tricky way!")
+            }
+            // alert("111")
+            $('#result').modal('show')
+        }
+    }
+
+    function wrong_btn_click(btn_msg) {
+        //alert(btn_msg);
+        var str = new String();
+        var array = new Array();
+        str = ""+btn_msg;
+        //alert(str);
+        array = str.split(",");
+        //define the array[0] is right_btn selector then msg then wrong_btn
+        var wrong_btn = $(array[2]);
+        wrong_btn.removeClass("btn-outline-success").addClass("btn-danger");
+        var right_btn = $(array[0]);
+        var name = right_btn.text();
+        //alert(area);
+        wrong_btn.attr('disabled','true')
+        //setTimeout( function() { wrong_btn.attr('disabled','true') }, 1500 )
+        $(array[1]).append("It should be "+name).css({'color':'red'});
+        right_btn.attr('disabled',"true");
+        var card_count = $("#card_num").val();
+        // alert(2/3*100)  original is float
+        //alert((1/3*100).toFixed(1))
+        if($(":disabled").size() == card_count*2){
+            var ratio = ($('.active').size() *1.0/card_count*100).toFixed(1);
+            $('#correct_rate').append(ratio+'%')
+            if(ratio > 99.9){
+                $('#success_msg').append("Congratulations!")
+                $('#btn_again').remove()
+            }else{
+                $('#fail_msg').append("Try again and find out the tricky way!")
+            }
+            $('#result').modal('show')
+        }
+    }
+    //hint click
+    function show_hint(p_id) {
+        $(p_id).attr('style','display:block')
+    }
+
+</script>
+</body>
+</html>
