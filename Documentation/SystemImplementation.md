@@ -282,7 +282,7 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
 
 It may take 3 or 4 minutes unitl the application up.
 The procedures have been tested both in Win10 and Centos.
-More details about the deployment procedures can be found in [DeploymentDetail.md]()
+More details about the deployment procedures can be found in [DeploymentDetail.md](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/7f2b5602bb60a1aef26122f0c8067718ccc6b019/application/DeploymentDetail.md)
 
 ### Quotation
 - SpringBoot documentation
