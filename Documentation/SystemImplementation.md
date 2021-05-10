@@ -98,7 +98,7 @@ is used as distraction choice in game1.
   ````
 #### 2.3.3 Communicate with back end   
 
-- Datasource: Use druid as data source and to offer the connections for queries. Druid is one of the best database connection pools written in JAVA. Druid provides powerful monitoring functionalities and more. Here, we start the function of monitoring and wall. They are set in the application.xml file. By doing so, we could log in the druid administration platform to see the query data. Its official repo in Github. [Druid](https://github.com/alibaba/druid/wiki/FAQ)
+- Datasource: Use druid as data source and to offer the connections for queries. Druid is one of the best database connection pools written in JAVA. Druid provides powerful monitoring functionalities and more. Here, we start the function of monitoring and wall. They are set in the application.xml file. By doing so, we could log in the druid administration platform to see the query data.
 - Database Information: Use Spring to manager the connection information. The data username, password, url and driver class name are set in application.yml file. They are the necessary information you need to connect to MySQL server.
 
   ````
@@ -203,7 +203,6 @@ is used as distraction choice in game1.
 
 ## 3.5 Other dependencies
 - spring-boot-starter-thymeleaf: for front-end development with the server. 
-  Thymeleaf is a modern server-side Java template engine for both web and standalone environments, capable of processing HTML, XML, JavaScript, CSS and even plain text.Its official docs. [thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 - spring-boot-configuration-processor : could offer some hints when writing configuration file application.yml
 - lombok: simplify the work of building bean class with annotation @Data
 - spring-boot-devtools: used for hot deployment by clicking `ctrl+F9`
@@ -237,7 +236,7 @@ is used as distraction choice in game1.
 **find a template of bootstrap responsive web and do deep customization with our date**
 
 #### 4.3.1 index.html
-- layout: you could see the layout of our index.html on the above diagram clearly. There are so many mature elements in Bootstrap and you could see the official docs here. [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- layout: you could see the layout of our index.html on the above diagram clearly. We use the mature elements of Bootstrap.
      1. Use containers especially grid class to control the layout and fulfill responsive window
      2. Bootstrap includes several predefined button styles. And they are what we make use of often here.
 - static data: there are many photos in carousel part and game parts. Using `@{path}` in thymeleaf would help us get the resources under classpath like *.css,*.js and images.
@@ -271,10 +270,19 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
   
 - logic: the game1 is to choose right answer between area/falseArea and game2 is name/falseName
 
-#### Quotation
+### Quotation
+- SpringBoot documentation
+  > https://docs.spring.io/spring-boot/docs/current/reference/html/
+- MyBatisPlus documentation
+  > https://baomidou.com/guide/ 
+- Druid documentation
+  > https://github.com/alibaba/druid/wiki/FAQ
+- Thymeleaf documentation
+  > https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html
+- Bootstrap documentation
+  > https://getbootstrap.com/docs/5.0/getting-started/introduction/
 - Smart - Multipurpose Landing Page Template by UIdeck
   > https://uideck.com/templates/smart
-  
 - Zepto.js 3D picture carousel rotation plug-in by uyuyu41232
   > http://www.bootstrapmb.com/item/9212
 - 3D earth API by mrdoob
