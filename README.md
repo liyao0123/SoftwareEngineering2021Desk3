@@ -88,7 +88,7 @@ More details -> [conclusion ducument](Documentation/Conclusion.md).
 
 #### It takes 4 steps:
 - 1. git clone this project to linux file system
-- 2. change directory into the src folder
+- 2. change directory into the application folder
 - 3. modify the variables defined in env.env, or leave it as it is if you just want to test this application locally
 - 4. run bash ./build.sh
 
