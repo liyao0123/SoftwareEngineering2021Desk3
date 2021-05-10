@@ -91,7 +91,10 @@ More details -> [conclusion ducument](Documentation/Conclusion.md).
   `git clone https://github.com/liyao0123/SoftwareEngineering2021Desk3.git`
 2. change directory into the application folder   
   `cd SoftwareEngineering2021Desk3/application`
-3. modify the variables(especially host as your own ip if you test with a remote server) defined in env.env, or leave it as it is if you just want to test this application locally
+3. modify the variables defined in env.env, or leave it as it is if you just want to test this application locally.   
+   If you want to deploy this project with a remote server, you need to do two things.   
+   1)change the host in env.env file as your own server ip   
+   2)add a security group rule and open the 3000 port so that you could load our dynamic earth. 
 4. run bash build.sh   
   `./build.sh`
 
