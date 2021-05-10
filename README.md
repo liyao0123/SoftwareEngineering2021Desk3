@@ -64,9 +64,9 @@ More details -> [sprints and project management document](Documentation/Sprints&
 
 
 ## Evaluation - 15
-- Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design.
-- Unit testing / Functional testing.
-- User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.
+- Description of techniques suitable for your particular design. A timeline of evaluation of your design.
+- Unit testing.
+- User acceptance testing.
 
 More details -> [evaluation document](Documentation/Evaluation.md).
 
