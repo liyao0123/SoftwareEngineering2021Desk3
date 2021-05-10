@@ -94,7 +94,7 @@ The above are some question when we do user testing. More details could be seen 
  - User Yanliang: the warning words of game are not friendly. We make it more friendly according to this feedback. The first version is wrong and right. The latter version would show bingo, or it should be xxx.
  - User Yuwei: the carousel layout seems a little deformed. In fact, besides Yuwei, all members in our team complain the carousel all the time. We repeat the pictures in x-axis in version1. Then we cover it in the whole background with two fauna in one picture. Finally, we decide to find some beautiful and HD images to put. It looks better.
  - User Jiaqi: it is better if the dynamic earth rotates itself. We add this interaction way in our dynamic earth version2.
- - More users' feedbacks have been added to the timeline of evaluation and our usual meeting logs. There is no need to repeat it here again.
+ - More users' feedbacks have been added to the timeline of evaluation and our usual meeting logs. Won't repeat it here again.
 
 ### Quotation
  > [1] Why MySQL? https://www.mysql.com/why-mysql/   
