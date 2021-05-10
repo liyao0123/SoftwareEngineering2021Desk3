@@ -80,6 +80,3 @@ More details -> [evaluation document](Documentation/Evaluation.md).
 - Discussion of future work (in terms of design, development and evaluation)
 
 More details -> [conclusion ducument](Documentation/Conclusion.md).
-
-## Presentaion - 5
-- There is a 5% mark for presentation, including formatting. We are looking for consistency, readability, conciseness, good use of figures and with the ultimate aim of this being a readable and useful public repo!
