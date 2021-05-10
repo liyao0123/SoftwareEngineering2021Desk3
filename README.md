@@ -18,9 +18,11 @@ Xiaojun Huang|we20979@bristol.ac.uk|Back-end
 Jiahao Wang  |lo20331@bristol.ac.uk|Front-end
 
 ## Introduction - 10
-- Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
-- Project Objectives. The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success.
-- Video. Short (1-2min) demo video to explain your system (think Kickstarter)
+Biodiversity is really an important attribute of our ecosystem. It provides a rich life and boots ecosystem productivity which plays such an important role in our earth. Therefore it is beneficial if we could gain more knowledge pertain with protection of the endangered animals all over the world.   
+<br>
+In this project we want to design a single page application to help people to recognize endangered animals in the wild meanwhile promoting their awareness in environmental protection.This project isn't like a pure E-library which is only full of information about endangered aninmals, but also could offer interesting interacions between the web page and users. A good appearance of the web page and multi ways for user's interaction could be a good way for promoting these knowledge.   
+<br>
+By making such a web page, we want to make the way of promoting the idea of protecting endangered animals easier and more interesting. Raising up the awareness of protecting animals and animals in people when they browse web page.
 
 More details -> [introduction document](Documentation/Introduction.md).
 
