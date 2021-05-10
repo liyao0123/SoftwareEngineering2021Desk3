@@ -1,0 +1,4 @@
+[client]
+user = "root"
+password = "Pwd1234567"
+host = "localhost"

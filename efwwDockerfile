@@ -1,8 +1,7 @@
 FROM java:8
 VOLUME /tmp
-COPY ./efww/  env.env processEnv.sh ./static/apache-maven-3.6.3 /
-RUN sh -c 'sh processEnv.sh'
+COPY ./efww /efww
+COPY ./static/apache-maven-3.6.3 /apache-maven-3.6.3
+COPY startEfww.sh /
 EXPOSE 8080
-RUN sh -c 'touch /app.jar'
-ENV JAVA_OPTS=""
-ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
+ENTRYPOINT [ "sh", "-c", "sh /startEfww.sh" ]
