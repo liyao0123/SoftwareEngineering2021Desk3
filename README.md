@@ -15,7 +15,7 @@ Yunqi Guo    |wb20529@bristol.ac.uk|Leader/Front-end
 Yao Li       |of20548@bristol.ac.uk|Back-end
 Haojie Xin   |tz20505@bristol.ac.uk|Back-end
 Xiaojun Huang|we20979@bristol.ac.uk|Back-end
-Wang Jiahao  |lo20331@bristol.ac.uk|Front-end
+Jiahao Wang  |lo20331@bristol.ac.uk|Front-end
 
 ## Introduction - 10
 - Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
@@ -45,11 +45,10 @@ More details -> [system implementation document](Documentation/SystemImplementat
 
 
 ## UX Design - 15
-- Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
-- Identification of interacting users and broader stakeholders.
-- UX approach – design heuristics/approach, design methods (design fiction / heuristics)
-- Understanding of user group (questionnaires / user stories / interviews)
-- Wireframes and interaction flow diagrams for final key subsystems.
+In this part, we demonstrate the UX design process, which includes:
+- Research: Questionnaires; Interviews
+- Analysis: Interacting users; Persona; Stakeholder analysis; User story
+- Design: Mood boards; Wireframes; Interaction flow diagrams; Prototype
 
 More details ->  [UX design document](Documentation/UXDesign.md).
 
