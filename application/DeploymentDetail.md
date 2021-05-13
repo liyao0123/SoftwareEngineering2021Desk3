@@ -1,7 +1,7 @@
 ## Details about the deployment procedures:
 1. In the first step, the source code was downloaded from github. Alternatively, you can use wget to download the source code and unzip it if you don't have git installed in your linux system. And since you have docker installed, you must have Linux system even if you use windows system, no matter WSL 2 backend docker desktop or hyper-V backend and Windows containers docker desktop.
 
-2. In the second step, the current workink directory was changed into the application folder. This procedure is necessary because the deployment script use path relative to the src folder.
+2. In the second step, the current working directory was changed into the application folder. This procedure is necessary because the deployment script use path relative to the src folder.
 
 3. In the third step, you can modify the variables defined in env.env, including mysql root password, mysql new user name, password for mysql newuser and the host where you want the application run. It's recommended to modify the password to some complicated alphanumeric combination for the sake of security. Set the host to an ip address or domain name if you want deploy the application in a remote serve or leave it as localhost if you want test it locally.
 
@@ -37,5 +37,5 @@ The password for mysql root was written in file dbRootConfig.cnf, so we can use 
    2. 4.6.2 We copy the code for dynamic earth into the image.
  - 4.7 We run a container for dynamic earth. The default port for nginx is 80. We mapped it to port 3000 will running.
 
-In conclusion, there will be 3 container: Mysql database container, game container and dynamic earth container.
+In conclusion, there will be 3 containers: Mysql database container, game container and dynamic earth container.
 Enjoy! 
