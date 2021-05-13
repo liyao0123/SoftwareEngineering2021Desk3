@@ -8,7 +8,7 @@ In addition, we use Microsoft Teams as our communicating tool for weekly meeting
 ### Summary of individual contributions:
 **Yunqi Guo:**
 
-**Yao Li:**
+**Yao Li:** 1) deploy the Game Home system, mysql database, dynamic earth server through docker, write the related atuomated deployment script. 2) write the documentation of deployment instructions and details. 
 
 **Haojie Xin:** 1) work with Yao to develop the Game Home system including building database, dealing with requests in back end, deploying the whole project on the server. 2) work with Jiahao to design the front-end page. 3) finish the documentation of system implementation and evaluation.
 
@@ -97,5 +97,4 @@ We almost hold a meeting everyweek. To view out meeting minutes, click the link 
 [3/5/2021](MeetingLogs/3.5.2021.md)     
 [6/5/2021](MeetingLogs/6.5.2021.md)   
 [8/5/2021](MeetingLogs/8.5.2021.md)   
-[13/5/2021](MeetingLogs/13.5.2021.md) 
-
+[13/5/2021](MeetingLogs/13.5.2021.md)
