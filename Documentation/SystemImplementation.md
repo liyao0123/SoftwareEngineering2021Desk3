@@ -270,7 +270,7 @@ The prerequisite of developing with thymeleaf is introducing its namespace at th
   
 - logic: the game1 is to choose right answer between area/falseArea and game2 is name/falseName
 
-# Deployment
+# 5. Deployment
 
 ## prerequisite: Git and Docker are needed to deploy this application.
 
