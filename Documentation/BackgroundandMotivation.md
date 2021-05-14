@@ -27,7 +27,7 @@ People have little knowledge about endangered species. According to the report f
 
 ## Current Industry Review
 ### Context
-There are already some website that plays a role of E-library or lists for endangered species. The following link is some of the authority websites. They have apparent content inside and good quality of articles and pictures. But what our group would like to achieve is to make things visually pleasing and easier to access. Promoting and raising the attention of protecting endangered species more acceptably, get everybody involved in actions in daily life.
+There are already some website that plays a role of E-library or lists for endangered species. The following link is some of the authority websites. They have great content inside and good quality of articles and pictures. But what our group would like to achieve is to make things visually pleasing and easier to access. Promoting and raising the attention of protecting endangered species more acceptably, get everybody involved in actions in daily life.
 ### Example Website
 <hr>
 <p align="center">
