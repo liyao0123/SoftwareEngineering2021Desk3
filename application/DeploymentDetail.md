@@ -3,7 +3,7 @@
 
 2. In the second step, the current working directory was changed into the application folder. This procedure is necessary because the deployment script use path relative to the application folder.
 
-3. In the third step, you can modify the variables defined in [env.env](evn.env), including mysql root password, mysql new user name, mysql new user password and the host where you want the application run. It's recommended to modify the password to some complicated alphanumeric combination for the sake of security. Set the host to an ip address or domain name if you want deploy the application in a remote serve or leave it as localhost if you want test it locally.
+3. In the third step, you can modify the variables defined in [env.env](/application/env.env), including mysql root password, mysql new user name, mysql new user password and the host where you want the application run. It's recommended to modify the password to some complicated alphanumeric combination for the sake of security. Set the host to an ip address or domain name if you want deploy the application in a remote serve or leave it as localhost if you want test it locally.
 
 4. In the last step, a bash script build.sh was excuted which contain all the deploy command.
   - 4.1. Firstly, a docker network "efww-network" was create. It's used for the comunication between mysql container and game container.
