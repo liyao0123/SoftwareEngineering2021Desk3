@@ -1,11 +1,14 @@
 <h1 align="center">
-Endangered Fauna World Window
+Endangered Fauna World Window  
+  
+[Game Page www.efww.top](http://www.efww.top)
 <br>
 <br>
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/logo.jpg" width = "28%" />
 <br>
 
-[Game Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)
+[Game Instruction Entrance](https://github.com/liyao0123/SoftwareEngineering2021Desk3/tree/development)   
+
 </h1>
 
 ## SoftwareEngineering2021Desk3 Team Members
