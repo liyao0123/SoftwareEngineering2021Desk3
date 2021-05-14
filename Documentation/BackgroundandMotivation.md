@@ -20,7 +20,7 @@ Millions of people also depend on nature and species for their day-to-day liveli
 Biodiversity loss can increase the incidence and distribution of certain infectious diseases which are lethal for children. Diseases that spread from animals to humans are a severe threat: studies show that 75 percent of all emerging diseases come from wildlife, including COVID-19. Deforestation drives wild animals out of their natural habitats and closer to humans and is linked to 31 percent of outbreaks such as Ebola and the Zika and Nipah viruses. And climate change has altered and accelerated the transmission patterns of infectious diseases while contributing to human displacement.
 ### Why we need to promote the knowledge?
 #### People's current knowledge
-People have little knowledge about endangered species. According to the report from BBC, Most people won't know the species is an endangered species even though that animal is just in front of you. So, it could be said like this, and nowadays people know nothing about animals except cows, pigs, sheep, horses. So, it won't be possible to expect people to know which animals are protected and rare.
+People have little knowledge about endangered species. According to the report from BBC, Most people won't know the species is an endangered species even though that animal is just in front of you. So, it could be said like this, and nowadays people know nothing about animals except cows, pigs, sheep, horses. So, it is impossible to expect people to know which animals are protected and rare.
 #### Outdoor activity danger
 
 #### Limit the commercial transaction
