@@ -35,10 +35,23 @@
    With so many useful and good-looking elements, developers could build a web page in short time. For our team, it is so friendly that we don't have to achieve the function by typing each code but just introduce one class we need. With bootstrap, we could have more time considering the function and logic.
    <br/>   
    Tools are tools after all. They are designed for general needs. When we want some special design, we still have to get back to the original syntax of JavaScript and do some customization. What's worse, applying Thymeleaf grammars to each HTML tags seems not that easy. In some situations, we have to give it up and get back to the HTML itself even if there is much more it can do. 
+#### 2. Compare with MEAN
+Actually, there are three reasons why we chose other stacks rather than MEAN. 
 
-#### 2. Timeline of evaluation of designs
+The first and the most main factor is that we had the fundation of Spring frames. At the beginning, our team planned to learn about the MEAN stack. Two members would study front-end knowledge and others would study the rest. As the time goes on, everyone tried the best to keep up the pace. However, the fact that we have no more time to learn new technology and apply it to our project before the deadline pushed us to make a change. Haojie Xin would be responsible for almost all development work because he has the fundation of Spring frames. Others keep learning and do some help when Haojie needs help. Thanks for the Easter vacation. During  the vacation, we did the final sprints and prepared the knowledge that we need. One of them is SpringBoot, which is embedded with the tomcat server and offers the web development starters. With this comprehensive frame, we don't have to learn the Express frame and Node.js respectively.
+
+The second reason is that we want to deepen the understanding and application of MySQL. In the course of tools, we met the MariaDB for the first time and did some exercises about it. The contents are not enough for us to understand the database totally. Therefore, we decided to use MySQL in our project so that we could apply it in real project. After the whole process, it did encourage us to learn more about the MySQL. We have a command of the skill about how to design and build a database according to our own needs and users' needs. This useful experience would definitely benefits our future work. Compared with MongoDB, these two database have their own strengths and weaknesses. From the view of data we used in our project, these two are both suitable. However, as we said before, we have no more time to learn and get familiar with a new technology especially there is only one student who could do the development job. To use what we have learned seems to be a sensible choice. If we have spare time after the deadline, it would be a good chance to pick up the knowledge of MongoDB.
+
+Last but not least, the main languages of the front-end API we use are HTML,CSS and JavaScript. We just need to do some customization according to users' needs with the above languages. If we try to apply the Angular, we need to study the frame first and then integrate it with the API. Changing the original code with differnt language is not good try. There may be many problems and bugs we need to fix. Therefore, there is no need using the Angular in our project. However, it is undoubtedly a tool we will try in the future. With the frame, the developing work would be easier and happier.
+
+
+
+
+
+
+#### 3. Timeline of evaluation of designs
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/a52d653086a0bb537fa38148ce3465473a152650/Documentation/pics/timeline.png" ><br/>   
-**if it is not clear, see the HTML file directly** [Timeline of evaluation](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/df6be836a6418bdaf05ebaf5db8318406b8ac8e8/Documentation/html/timeline.html)
+**if it is not clear, click the photo directly or see the HTML file directly** [Timeline of evaluation](http://htmlpreview.github.io/?https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/df6be836a6418bdaf05ebaf5db8318406b8ac8e8/Documentation/html/timeline.html)
 
 ## Unit testing
 #### 1. Database
@@ -90,11 +103,38 @@
 
 The above are some question when we do user testing. More details could be seen here. [Questionnaires file](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/5f4c293bfebcdbe7b532e149d697afad6767ab16/Documentation/docs/ques.md)
 
-#### 2. Findings and implications
- - User Yanliang: the warning words of game are not friendly. We make it more friendly according to this feedback. The first version is wrong and right. The latter version would show bingo, or it should be xxx.
- - User Yuwei: the carousel layout seems a little deformed. In fact, besides Yuwei, all members in our team complain the carousel all the time. We repeat the pictures in x-axis in version1. Then we cover it in the whole background with two fauna in one picture. Finally, we decide to find some beautiful and HD images to put. It looks better.
- - User Jiaqi: it is better if the dynamic earth rotates itself. We add this interaction way in our dynamic earth version2.
- - More users' feedbacks have been added to the timeline of evaluation and our usual meeting logs. Won't repeat it here again.
+#### 2. History, Findings and implications
+**Game Home version1:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game1_v1.png" >
+ 
+ - **User Yanliang:** The warning words of game are not friendly. The question in button seems redundant because it could not be clicked. We make it more friendly according to this feedback. The first version is "wrong and right". 
+ - The latter version would show "bingo, or it should be xxx". In addition, we remove the button of question but leave a words only.
+
+**Game Home version2:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/carousel_v2.png" >
+ 
+ - **User Yuwei:** The carousel layout seems a little deformed. In fact, besides Yuwei, all members in our team complain the carousel all the time. 
+ - We repeat the pictures in x-axis in version1. Then we cover it in the whole background with two fauna in one picture. Finally, we decide to find some beautiful and HD images to put. It looks better.
+
+**Game Home version3:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game_3.png" >
+ 
+ - **User Yiran:** The hint should be hided and be showed when there is a click event. The learn more link should be opened in new tag and leave the game page. 
+ - We add a onclick function to hide and display the hint content according to this feedback and revise the open method of learn more<a> tag.
+
+**Dynamic Earth version1:**
+
+ <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v1.png" >
+ 
+ - **User Jiaqi:** it is better if the dynamic earth rotates itself. The descriptions are too long. 
+ - We add this self-rotate interaction way in our dynamic earth version2. In addition, improve the layout of information window and decorate the background color to make the content more clear. The version2 would show below.
+
+**Dynamic Earth version2:**
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v2.png" >
+
 
 ### Quotation
  > [1] Why MySQL? https://www.mysql.com/why-mysql/   
