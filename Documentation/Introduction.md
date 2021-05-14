@@ -14,7 +14,7 @@ This web page is designed for educating people with the knowledge of endangered 
 | Depending on our abilities and interests, distribute the tasks properly.                                                      | :white_check_mark: |
 | Regularly meeting outside class hours, make sure everybody could catch up with the progress.                                   | :white_check_mark: |
 | Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in the group project.        | :white_check_mark: |
-| Be friendly and kind when communicating with other group members.                                                                   | :white_check_mark: |
+| Be friendly and kind when communicating with other group members.  <img width=750/>                                      | :white_check_mark: |
 
 | Web implementation objectives                                                                                               |       Status       |
 | :-------------------------------------------------------------------------------------------------------------------------- | :----------------: |
@@ -25,7 +25,7 @@ This web page is designed for educating people with the knowledge of endangered 
 | Achieve advanced code part. (e.g. dynamic earth display)                                                                     | :white_check_mark: |
 | Website's functionality testing.                                                                                            | :white_check_mark: |
 | Website's Evaluation.                                                                                                       | :white_check_mark: |
-| Final modifications.  <img width=703/>                                                                                      | :white_check_mark: |
+| Final modifications.  <img width=750/>                                                                                      | :white_check_mark: |
 
 ## Video
 <div align="center" width="560">
