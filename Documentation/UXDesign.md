@@ -14,10 +14,11 @@ For UX design, we followed the UX process provided by [UX mastery](https://uxmas
  
 We did a quick survey after confirming our topic namely protecting wild endangered fauna. The survey includes questions about whether users have experienced similar website, what presenting method survey respondents prefer and what kinds of playful game they prefer. At the end, we ask respondents who are willing to participate our future interviews for emails so that we can get in touch with them later. The survey is still open, you can click the icon above to view questions.
 
-![Questionnaires](pics/Questionnaire.jpg)
+![Questionnaires](pics/Questionnaire.jpg)(https://ov7517xx4ey.typeform.com/to/haDsNnq5)  
 
+![Results](pics/Results.jpg)  
 
-The result is within our expectation. We collected 59 responses in total. Most respondents have visited similar website, but they would like to have a better experience. More than 2/3 respondents think that 3D earth is the best way to present endangered animals. However, the result for playful game is close. After our discussion, we choose the first option namely numbers of funny questions about those animals' distribution and name.
+We collect 59 responses in total. As demonstrated in these charts above, most respondents (39 out of 59) have visited similar website, but they would like to have a better experience. More than 2/3 respondents think that 3D earth is the best way to present endangered animals. In addition, the average rate of the respondents’ willingness to have a website which can present endangered animals vividly is around 4, and this means that the demand for our project is substantial. Moreover, more than half of respondents regard the Q&A approach is effective for consolidating the impression for endangered animals. To sum up, the result is within our expectation, and we need to ask some detailed questions for the respondents who complete the last question in which they provide the contact methods.
 
 ### Interviews
 
@@ -25,17 +26,40 @@ We talked with two potential users via text chat about the idea of our project a
 
 **About the topic:**
 
-Both interviewees are interested in protecting wild animals
+**Q1: Are you interested in protecting endangered animals?**  
+Interviewee 1 says “Sure, I would like to make contribution to protecting endangered animals if possible.”
+Interviewee 2 says “Not very, because I believe protecting individuals of endangered animals makes no sense biologically especially for some uncommon animals for humans.”
+**Q2: Can you recognize the following animals as Endangered or Least Concern animals?**  
+![Hippopotamus](pics/Hippopotamus.jpg)
+![Haliaeetus_leucocephalus](pics/Haliaeetus_leucocephalus.jpg)
+![Golden_hamster](pics/Golden_hamster.jpg)
+The correct answer is that the middle one called Haliaeetus leucocephalus is Least Concern animals while the others are Endangered animals called Hippopotamus and Golden hamster.
+Both interviewees cannot classify those animals perfectly, and they are also surprised by the result. Interviewee 1 says “Hippopotamus should be common animals in zoo, how come it belongs to endangered animals.”
 
-One argues that the project has little help for protecting endangered animals, the other believe that it is helpful to some extent since it provide an interesting way for users to recognize and understand endangered animals.
+**Q3: What is your attitude to activities about animal protection?**  
+Interviewee 1 believes that those activities are essential, and he says, “endangered animal is vital for the biodiversity, which tends to benefit not only human but also the earth”. However, interviewee 2 hold a different opinion, and he says that it is inevitable that some species will distinct because only the fittest can survive. Human beings should not interfere the natural process.
+
 
 **About the design of earth page:**
 
-They both like the way we present animals namely using 3D dynamic globe. They also provide some suggestions about the improvement of our ideas. The first one is that when users enter the earth page, the globe should rotate gently, which is more vivid. In addition, when users click the luminous point, the earth should zoom in to the area while the details should be list at the right.
+**Q1: For presenting those endangered animals, how do you think the method we use namely a 3D globe containing luminous points that representing animals?**  
+
+Both interviewees like the way we present animals namely using 3D dynamic globe, and they believe that the method is more intuitive than others such as list or pure pictures.
+
+**Q2: Do you have any suggestions about the globe?**  
+Interviewee 1 says that when users enter the earth page, the globe should rotate gently, which makes the page more vivid, and it will elicit users to drag the globe.
+Interviewee 2 also provides a suggestion that when users click the luminous point, the earth should zoom in to the area while the details should be list at the right.
+
 
 **About the design of game page:**
 
-Talking about the game page, the question card method is approved by both interviewees. We also ask them about the details of the game. Firstly, the layout of those cards, one agrees that a new card should appear after completing last question. However, the other interviewee think that it is more intuitional if the cards are shown in one page and users can click other cards to change questions. Then, we discuss whether the question card should change to next one automatically after users complete the question. Both of them agree that it should not change directly since users are likely to have a further look at the question regardless of the correctness of the answer.
+**Q1: Do you have any suggestions about the design of game page namely answering questions?**  
+Firstly, the layout of those cards, one agrees that a new card should appear after completing last question. However, the other interviewee think that it is more intuitional if the cards are shown in one page and users can click other cards to change questions. Then, we discuss whether the question card should change to next one automatically after users complete the question. Both of them agree that it should not change directly, and they say, “users are likely to have a further look at the question regardless of the correctness of the answer”.
+
+**Q2: Do you think that Q&A is an effective way to consolidate users’ memory about these animals?**  
+Interviewee 1 argues that it is to some extend effective, but some users are likely to be not interested in answering questions. Consequently, it is signification to make those question interesting.
+Interviewee 2 says “I think Q&A is boring, most users probably will not play the game. If they want the information of endangered animals, they will explore the globe page instead of answering those questions.”
+
 
 
 ## Analysis
@@ -77,6 +101,7 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 ### Mood boards
 
 ![Mood](pics/MoodBoard.jpg)
+While creating our Moodboard, we firstly want to express the 
 
 ### Wireframes
 
