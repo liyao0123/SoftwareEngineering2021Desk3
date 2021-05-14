@@ -60,13 +60,13 @@ More details ->  [UX design document](Documentation/UXDesign.md).
 - Summary of individual contributions
 - Documentation of sprints
 - Our meeting logs
-- Team use of Git?
+- Team use of Git
 
 More details -> [sprints and project management document](Documentation/Sprints&ProjectManagement.md).
 
 
 ## Evaluation - 15
-- Description of techniques suitable for your particular design. A timeline of evaluation of your design.
+- Description of techniques suitable for your particular design. Why we choose a new stack? A timeline of evaluation of your design.
 - Unit testing.
 - User acceptance testing.
 
