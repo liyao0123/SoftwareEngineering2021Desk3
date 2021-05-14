@@ -22,12 +22,35 @@ Biodiversity loss can increase the incidence and distribution of certain infecti
 #### People's current knowledge
 People have little knowledge about endangered species. According to the report from BBC, Most people won't know the species is an endangered species even though that animal is just in front of you. So, it could be said like this, and nowadays people know nothing about animals except cows, pigs, sheep, horses. So, it is impossible to expect people to know which animals are protected and rare.
 #### Outdoor activity danger
-In North America, hiking outdoor or hunting legally is popular(maybe that is also a situation for other countries) when people outdoors couldn't recognize animals exactly all the time. Sometimes the habitat where endangered life could also be weak and easy to change, which means a stream of people can easily destroy them. So, in this aspect of view, promoting some knowledge about endangered wild animals could help people recognize animals and not ruin their living environment.
+
 #### Limit the commercial transaction
-Wild animals transaction could be popular these years—people's great desire towards wild animals not only for their fur but also for horn even tooth. By promoting the knowledge could let people know what animals is endangered and why diversity is beneficial to our planet. By this way we could limit commercial transaction.
+
+## The laws of wildlife crime
+**What is wildlife crime?**
+
+> In general, wildlife crime is any action which contravenes current legislation governing the protection of the UK’s wild animals and plants and includes:
+Hare Coursing, Deer poaching, Fish poaching, Badger persecution including baiting, snaring, shooting, and disturbance of setts, Bat persecution, Egg theft / collection, Bird of Prey persecution – through poisoning, trapping, shooting, disturbance of nest and/or theft of chicks
+The trade in ivory, tortoises, rhino horn and other protected species covered by CITES (Convention on International Trade in Endangered Species) including caviar)
+Non registration of certain birds and animals that require licensing through DEFRA/Animal Health if kept in captivity or sold
+AND SO, WHAT IS NOT WILDLIFE CRIME?     
+
+**What is not wildlife crime?**
+> Incidents involving domestic animals such as dogs (other than dogs being used to hunt mammals), cats, rabbits, budgies, etc. Wild animals that have been involved in road traffic accidents
+
+Many people especially ordinary people don't know what is the wildlife crime. They do some hurt to endangered fauna without intention. There are some laws about the wildlife crime we could learn about.
+
+**Wildlife Offences:**   
+
+> https://www.cps.gov.uk/legal-guidance/wildlife-offences   
+  
+**Council Regulation (EC) No 338/97 of 9 December 1996 on the protection of species of wild fauna and flora by regulating trade therein:**
+
+> https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R0338:EN:HTML
+
+
 ## Current Industry Review
 ### Context
-There are already some website that plays a role of E-library or lists for endangered species. The following link is some of the authority websites. They have apparent content inside and good quality of articles and pictures. But what our group would like to achieve is to make things visually pleasing and easier to access. Promoting and raising the attention of protecting endangered species more acceptably, get everybody involved in actions in daily life.
+There are already some website that plays a role of E-library or lists for endangered species. The following link is some of the authority websites. They have great content inside and good quality of articles and pictures. But what our group would like to achieve is to make things visually pleasing and easier to access. Promoting and raising the attention of protecting endangered species more acceptably, get everybody involved in actions in daily life.
 ### Example Website
 <hr>
 <p align="center">
@@ -54,33 +77,44 @@ https://www.nationalgeographic.org/
 NG(short for National Geographic) is a great organization, and its website has a lot of content about rare and endangered animals. The pros of the website are appearance, frame, pics, articles. The NG has many stunning pictures; they use photography to display nature's beauty and the astonishing wild animals. Also, they are making good impacts on making people explore nature, love nature. This website's articles may have some information about rare animals, but it's hard to sort out the animal you want to look for or search for rare animals in one specific region. In conclusion, this website is mainly a photograph website towards the natural environment.  
 
 ## Quotation
-Conservation international
-<br>
-https://www.conservation.org/blog/why-is-biodiversity-important
-<br>
-Britannica
-<br>
-https://www.britannica.com/science/endangered-species
-<br>
-UN Report
-<br>
-https://apnews.com/article/united-nations-north-america-us-news-ap-top-news-science-aaf1091c5aae40b0a110daaf04950672
-<br>
-Unicef
-<br>
-https://www.unicef.org/globalinsight/stories/why-biodiversity-important-childrer
-<br>
-BBC
-<br>
-http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
-<br>
+**Conservation international**
+
+> https://www.conservation.org/blog/why-is-biodiversity-important
+
+**Britannica**
+
+> https://www.britannica.com/science/endangered-species
+
+**UN Report**
+
+> https://apnews.com/article/united-nations-north-america-us-news-ap-top-news-science-aaf1091c5aae40b0a110daaf04950672
+
+**Unicef**
+
+> https://www.unicef.org/globalinsight/stories/why-biodiversity-important-childrer
+
+**BBC**
+
+> http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
+
+**wildlife crime definition**
+> https://www.nwcu.police.uk/what-is-wildlife-crime/
+
+**Wildlife Offences**   
+
+> https://www.cps.gov.uk/legal-guidance/wildlife-offences   
+  
+**Council Regulation (EC) No 338/97 of 9 December 1996 on the protection of species of wild fauna and flora by regulating trade therein**
+
+> https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R0338:EN:HTML
+
 ## Problem Definition
 From academic research, we can see that biodiversity is significant, and people have minimal knowledge about recognizing endangered species. Currently, existing websites are more like the endangered animals' news website, local website, or photograph website. To fill this blank, we want to find an easier way of promoting people's awareness of protecting wild animals. So the goals we need to achieve within this project are as follows.
 * Beautiful website frame
-* Interesting user interactions and games
+* Interesting user interactions
 * Descriptions about endangered species
 #### These three main goals are the ways we use to solve the problem
-We are promoting the awareness of protecting endangered wild animals.
+We are promoting the awareness of protecting endangered wild animals excitingly.
 
     
     
