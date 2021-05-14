@@ -16,6 +16,8 @@ We did a quick survey after confirming our topic, namely protecting wild endange
 
 [![Questionnaires](pics/Questionnaire.jpg)](https://ov7517xx4ey.typeform.com/to/haDsNnq5)  
 
+<br/>
+
 ![Results](pics/Results.jpg)  
 
 We collect 59 responses in total. As demonstrated in these charts above, most respondents (39 out of 59) have visited similar website, but they would like to have a better experience. More than 2/3 of respondents think that 3D earth is the best way to present endangered animals. In addition, the average rate of the respondents’ willingness to have a website that can show endangered animals vividly is around 4, which means that the demand for our project is substantial. Moreover, more than half of respondents regard the Q&A approach as effective for consolidating the impression for endangered animals. To sum up, the result is within our expectation, and we need to ask some detailed questions for the respondents who complete the last question in which they provide the contact methods.
@@ -76,7 +78,8 @@ Combining the result and our thoughts, we considered the following user groups a
 - People who are interested in protecting endangered fauna
 - People who require a playful way to present endangered fauna, such as biology teachers
 
-### Persona
+### Persona  
+<br/>
 
 We create two personas based on our research, and we are going to utilize the personas for further analysis and test.
 ![Eric](pics/Persona-Eric.png)
