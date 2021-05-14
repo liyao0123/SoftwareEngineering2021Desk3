@@ -14,7 +14,7 @@ In addition, we use Microsoft Teams as our communication tool for a weekly meeti
 
 **Xiaojun Huang:** 1) UX design - questionnaire, interview, wireframes and final prototype 2) Sprints, project management and meeting minutes  
 
-**Wang Jiahao:**
+**Wang Jiahao:** 1)The documentation of introduction 2) Background and motivation 3) Conclusion
 
 ### Documentation of sprints and meeting logs:
 Although there is no strict sprint for Kanban conceptually, we intentionally separate several sprints for our project in order to maintain a desirable cadence. Moreover, we use a Gantt chart as our roadmap to keep the trace of our project, which is demonstrated below.
