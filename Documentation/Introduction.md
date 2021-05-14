@@ -25,7 +25,7 @@ This web page is designed for educating people with the knowledge of endangered 
 | Achieve advanced code part. (e.g. dynamic earth display)                                                                    | :white_check_mark: |
 | Website's functionality testing.                                                                                            | :white_check_mark: |
 | Website's Evaluation.                                                                                                       | :white_check_mark: |
-| Final modifications.  <img width=750/>                                                                                      | :white_check_mark: |
+| Final modifications.  <img width=726/>                                                                                      | :white_check_mark: |
 
 ## Video
 <div align="center" width="560">
