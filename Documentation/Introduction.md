@@ -8,12 +8,12 @@ In this project, we designed a single-page application to help people recognize 
 By creating such a web page, we could have a more accessible and more attractive way to promote the idea of protecting endangered animals and raising the awareness of protecting animals and animals when they browse the web page.
 ## Objectives
 This web page is designed for educating people with the knowledge of endangered species in an easier way. So the design and interactions of the web page are fundamental aspects. The objects of this project are in the following tables.
-| Team work objectives                                                                                                          |       Status       |
+| Teamwork objectives                                                                                                          |       Status       |
 | :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Self-introduction, make friends with group members, make sure there is a good communication.                                  | :white_check_mark: |
+| Self-introduction, make friends with group members, make sure there is good communication.                                  | :white_check_mark: |
 | Depending on our abilities and interests, distribute the tasks properly.                                                      | :white_check_mark: |
-| Regularly meeting outside class hours, make sure everybody could cath up with the progress.                                   | :white_check_mark: |
-| Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in group project.           | :white_check_mark: |
+| Regularly meeting outside class hours, make sure everybody could catch up with the progress.                                   | :white_check_mark: |
+| Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in the group project.        | :white_check_mark: |
 | Be nice and kind when communicate with other group members.                                                                   | :white_check_mark: |
 
 | Web implementation objectives                                                                                               |       Status       |
