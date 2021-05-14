@@ -40,6 +40,7 @@ During the pandemic time, remotely corroboration becomes even more convenient fo
 ## Social and Ethical Implications
 Our website doesn't store any user's data or cookies, so we don't have any ethical problems on the website aspect. 
 The website we design is mainly aiming at educating people and promoting the idea of protecting rare animals. So it will have some benefits to society, which teaches us to respect diversity and understand how diversity contributes to our community. This website may have a good influence on society or may have no impact. At least it won't hurt. When we design this website, we used a questionnaire to collect people feeling about our website, including some personal information. Though it is an anonymous questionnaire, it still may have a conflict with GDPR. After the design and build process, we think deleting these data would be a safe way to protect personal privacy.
+
 As for the public resources, we download the public code resources from GitHub and develop our website based on them. These open-source codes could simplify the work and do some good to a person or society. However, if they are used on some illegal act, it would deviate from the original intention of open source. In our project, we make use of public images and open-source codes to introduce the endangered fauna in an interesting way. This is very meaningful for the promotion and protection of wild animals.
 
 ## Future Work
