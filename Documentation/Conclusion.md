@@ -88,6 +88,9 @@ experience to deal with collected pictures, we will be more confident to do that
 During this project we have two interactive games which involves interactions with users. Due to the technical shortcoming, we could only implement basic interactions
 with users. In the future project, we need to focus on this shortcoming aspect. Make a fantastic interaction is really important for improving the user's experience.
 
+### Cooperation non-profit organization
+Among the threats of endangered animals, the most common hazards are habitat loss and illegal hunting. There are thousands of animal rights activists who work all over the world to protect endangered animals. We can cooperate with animal protection organizations to prohibit illegal animal trade and hunting. In addition, we can work with environmental protection organizations to reduce people’s destruction of wildlife habitat. Our application can be used as a medium for them to disseminate information.
+
 ## Summary
 In conclusion, we think this project is a really impressive process. We learned how to work with each other nicely is the biggest harvest. And also we learned about
 the difficulties we could encounter when we develop together. We find out our shrot comings. Next time, we could do better.
