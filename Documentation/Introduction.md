@@ -8,21 +8,21 @@ In this project, we designed a single-page application to help people recognize 
 By creating such a web page, we could have a more accessible and more attractive way to promote the idea of protecting endangered animals and raising the awareness of protecting animals and animals when they browse the web page.
 ## Objectives
 This web page is designed for educating people with the knowledge of endangered species in an easier way. So the design and interactions of the web page are fundamental aspects. The objects of this project are in the following tables.
-| Teamwork objectives                                                                                                          |       Status       |
-| :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
+| Teamwork objectives                                                                                                         |       Status       |
+| :---------------------------------------------------------------------------------------------------------------------------| :----------------: |
 | Self-introduction, make friends with group members, make sure there is good communication.                                  | :white_check_mark: |
-| Depending on our abilities and interests, distribute the tasks properly.                                                      | :white_check_mark: |
-| Regularly meeting outside class hours, make sure everybody could catch up with the progress.                                   | :white_check_mark: |
-| Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in the group project.        | :white_check_mark: |
-| Be friendly and kind when communicating with other group members.  <img width=750/>                                      | :white_check_mark: |
+| Depending on our abilities and interests, distribute the tasks properly.                                                    | :white_check_mark: |
+| Regularly meeting outside class hours, make sure everybody could catch up with the progress.                                | :white_check_mark: |
+| Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in the group project.     | :white_check_mark: |
+| Be friendly and kind when communicating with other group members.                                                           | :white_check_mark: |
 
 | Web implementation objectives                                                                                               |       Status       |
 | :-------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Come up with the idea that could address "Serious play".                                                                     | :white_check_mark: |
+| Come up with the idea that could address "Serious play".                                                                    | :white_check_mark: |
 | Basic web page content structure and interactive model design.                                                              | :white_check_mark: |
-| Achieve basic code part of the website. (e.g. text, pics, buttons)                                                           | :white_check_mark: |
-| Beautify the web page in fonts, colors, frames.                                                                              | :white_check_mark: |
-| Achieve advanced code part. (e.g. dynamic earth display)                                                                     | :white_check_mark: |
+| Achieve basic code part of the website. (e.g. text, pics, buttons)                                                          | :white_check_mark: |
+| Beautify the web page in fonts, colors, frames.                                                                             | :white_check_mark: |
+| Achieve advanced code part. (e.g. dynamic earth display)                                                                    | :white_check_mark: |
 | Website's functionality testing.                                                                                            | :white_check_mark: |
 | Website's Evaluation.                                                                                                       | :white_check_mark: |
 | Final modifications.  <img width=750/>                                                                                      | :white_check_mark: |
