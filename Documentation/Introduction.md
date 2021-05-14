@@ -1,8 +1,6 @@
 # Introduction
 ## Abstract
-    "At least 40 percent of the world's economy and 80 percent of the needs of the poor are derived from biological resources. 
-In addition, the richer the diversity of life, the more excellent the opportunity for medical discoveries, economic development, 
-and adaptive responses to such new challenges as climate change. "
+    "At least 40 percent of the world's economy and 80 percent of the needs of the poor are derived from biological resources. In addition, the richer the diversity of life, the more excellent the opportunity for medical discoveries, economic development, and adaptive responses to such new challenges as climate change. "
     
                                -----------------The Convention about Life on Earth, Convention on Biodiversity web site.
 
