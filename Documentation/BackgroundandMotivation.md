@@ -77,10 +77,10 @@ http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-
 ## Problem Definition
 From academic research, we can see that biodiversity is significant, and people have minimal knowledge about recognizing endangered species. Currently, existing websites are more like the endangered animals' news website, local website, or photograph website. To fill this blank, we want to find an easier way of promoting people's awareness of protecting wild animals. So the goals we need to achieve within this project are as follows.
 * Beautiful website frame
-* Interesting user interactions
+* Interesting user interactions and games
 * Descriptions about endangered species
 #### These three main goals are the ways we use to solve the problem
-We are promoting the awareness of protecting endangered wild animals excitingly.
+We are promoting the awareness of protecting endangered wild animals.
 
     
     
