@@ -5,7 +5,7 @@
 
 3. In the third step, you can modify the variables defined in [env.env](/application/env.env), including Mysql root password, Mysql new user name, Mysql new user password and the host where you want the application run. It's recommended to modify the password to some complicated alphanumeric combination for the sake of security. Set the host to an IP address or domain name if you want to deploy the application in a remote serve or leave it as localhost if you wish to it locally.
 
-4. In the last step, a bash script [build.sh](/application/build.sh) which contain all the deploy command was excuted.
+4. In the last step, a bash script [build.sh](/application/build.sh) which contain all the deploy command was executed.
   - 4.1. Firstly, a docker network "efww-network" was created. It's used for the communication between Mysql container and game container.
   - 4.2 Then, a bash script [processEnv.sh](/application/processEnv.sh) was invoked. This script read variables from file env.env and use sed to modify the related files.
   - 4.3 A bash script [startDB.sh](/application/static/database/startDB.sh) was invoked. This script can initialize the Mysql container.
