@@ -9,13 +9,13 @@ Endangered Fauna World Window
 </h1>
 
 ## SoftwareEngineering2021Desk3 Team Members
-Name         |Email                |Roles
--------------|---------------------|-----
-Yunqi Guo    |wb20529@bristol.ac.uk|Leader/Front-end
-Yao Li       |of20548@bristol.ac.uk|Back-end
-Haojie Xin   |tz20505@bristol.ac.uk|Back-end
-Xiaojun Huang|we20979@bristol.ac.uk|Back-end
-Jiahao Wang  |lo20331@bristol.ac.uk|Front-end
+
+Name          |Yunqi Guo            |Jiahao Wang           | Haojie Xin           |Xiaojun Huang         |Yao Li
+:------------:|:-------------------:|:--------------------:|:--------------------:|:--------------------:|:-----------------------:
+Student number|wb20529              |lo20331               |tz20505               |we20979               |of20548   
+Roles         |Leader/Front-end     |Front-end             |Back-end              |Back-end              |Back-end    
+Photo         |<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="130">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="130">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="130">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="130">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="130">
+
 
 ## Introduction - 10
 Biodiversity is really an important attribute of our ecosystem. It provides a rich life and boots ecosystem productivity which plays such an important role in our earth. Therefore it is beneficial if we could gain more knowledge pertain with protection of the endangered animals all over the world.   
