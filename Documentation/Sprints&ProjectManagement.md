@@ -12,7 +12,7 @@ In addition, we use Microsoft Teams as our communicating tool for weekly meeting
 
 **Haojie Xin:** 1) work with Yao to develop the Game Home system including building database, dealing with requests in back end, deploying the whole project on the server. 2) work with Jiahao to design the front-end page. 3) finish the documentation of system implementation and evaluation.
 
-**Xiaojun Huang:**
+**Xiaojun Huang:** 1) UX design - questionnaire, interview, wireframes and final prototype 2) Sprints, project management and meeting minutes  
 
 **Wang Jiahao:**
 
