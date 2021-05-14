@@ -29,10 +29,14 @@ We talked with two potential users via text chat about the idea of our project a
 **Q1: Are you interested in protecting endangered animals?**  
 Interviewee 1 says, “Sure, I would like to make a contribution to protecting endangered animals if possible.”
 Interviewee 2 says, “Not very because I believe protecting individuals of endangered animals makes no sense biologically especially for some uncommon animals for humans.”  
+
+
 **Q2: Can you recognize the following animals as Endangered or Least Concern animals?**  
+
 ![Hippopotamus](pics/Hippopotamus.jpg)
 ![Haliaeetus_leucocephalus](pics/Haliaeetus_leucocephalus.jpg)
 ![Golden_hamster](pics/Golden_hamster.jpg)  
+
 The correct answer is that the middle one, called Haliaeetus leucocephalus, is the Least Concern animals, while the others are Endangered animals called Hippopotamus and Golden hamster.
 Both interviewees cannot classify those animals perfectly, and they are also surprised by the result. Interviewee 1 says, “Hippopotamus should be common animals in the zoo, how come it belongs to endangered animals.”
 
@@ -105,8 +109,9 @@ While creating our Moodboard, we first want to express the mood that we are grey
 
 ### Paper prototyping
 
-<iframe height=498 width=510 src="pics/Paper_Prototype.MP4"></iframe>
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/803ca990bf7542c6f8521e728eb907ab57593571/Documentation/pics/paper_prot_v1.gif" width="720" height="550">
 
+The paper prototype is the first version we made at the beginning when professors introduced this element to us. We wanted to design a dynamic earth like "Mee Too" project last year. Users could rotate the earth and learn about the endangered fauna.
 
 ### Wireframes
 
