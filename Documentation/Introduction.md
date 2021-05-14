@@ -1,16 +1,16 @@
 # Introduction
 ## Abstract
-    " At least 40 per cent of the world’s economy and 80 per cent of the needs of the poor are derived from biological
+    " At least 40 percent of the world’s economy and 80 percent of the needs of the poor are derived from biological
       resources. In addition, the richer the diversity of life, the greater the opportunity for medical discoveries, 
       economic development and adaptive responses to such new challenges as climate change. "
     
                                -----------------The Convention about Life on Earth, Convention on Biodiversity web site.
 
-Biodiversity is really an important attribute of our ecosystem. It provides a rich life and boots ecosystem productivity which plays such an important role in our earth. Therefore it is beneficial if we could gain more knowledge pertain with protection of the endangered animals all over the world.<br>
-In this project we want to design a single page application to help people to recognize endangered animals in the wild meanwhile promoting their awareness in environmental protection.This project isn't like a pure E-library which is only full of information about endangered aninmals, but also could offer interesting interacions between the web page and users. A good appearance of the web page and multi ways for user's interaction could be a good way for promoting these knowledge.<br>
-By making such a web page, we want to make the way of promoting the idea of protecting endangered animals easier and more interesting. Raising up the awareness of protecting animals and animals in people when they browse web page.
+Biodiversity is the most important attribute of the ecosystem. It provides a rich life and boosts ecosystem productivity, which plays an important role in the earth. Therefore it would be beneficial if we could gain more knowledge concern with the protection of endangered animals all over the world.<br>
+In this project, we designed a single-page application to help people recognize endangered animals in the wild, also promoting their awareness of environmental protection. This project isn't like a pure E-library which is only full of information about endangered animals but also offers attractive interactions between the web page and users. A nice designed web page and multi interactions would be a great way for promoting this knowledge.<br>
+By creating such a web page, we could have an easier and more attractive way to promote the idea of protecting endangered animals. Raising the awareness of protecting animals and animals in people when they browse web page.
 ## Objectives
-This web page is designed for educating people with the knowledge of endangered species in a easier way. So the appearance and interactions of the web page are more important aspects than others. The objects of this project are in following tables.
+This web page is designed for educating people with the knowledge of endangered species in an easier way. So the design and interactions of the web page are very important aspects. The objects of this project are in the following tables.
 | Team work objectives                                                                                                          |       Status       |
 | :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
 | Self-introduction, make friends with group members, make sure there is a good communication.                                  | :white_check_mark: |
