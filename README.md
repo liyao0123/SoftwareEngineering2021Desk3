@@ -98,6 +98,6 @@ More details -> [conclusion ducument](Documentation/Conclusion.md).
 4. run bash build.sh file 
   `./build.sh`
 
-It may take 3 or 4 minutes unitl the application up.
-The procedures have been tested both in Win10 and Centos.
+It may take **3 or 4 minutes** until the application up because downloading the dependencies needs some time.
+The procedures have been tested both in Win10 and CentOS.
 More details about the deployment procedures can be found in [DeploymentDetail.md](/application/DeploymentDetail.md)
