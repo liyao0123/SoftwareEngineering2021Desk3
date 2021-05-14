@@ -17,7 +17,7 @@ Name          |Yunqi Guo            |Jiahao Wang           | Haojie Xin         
 :------------:|:-------------------:|:--------------------:|:--------------------:|:--------------------:|:-----------------------:
 Student number|wb20529              |lo20331               |tz20505               |we20979               |of20548   
 Roles         |Leader               |Front-end             |Back-end              |Back-end              |Back-end    
-Photo         |<img src="Documentation/pics/Yunqi_Guo.jpg" width="130" height="110">|<img src="Documentation/pics/jiahao.jpg" width="86.3" height="110">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="110">|<img src="Documentation/pics/Xiaojun.JPG" width="130" height="110">|<img src="Documentation/pics/YaoLi.jpg" width="130" height="110">
+Photo         |<img src="Documentation/pics/Yunqi_Guo.jpg" width="130" height="110">|<img src="Documentation/pics/jiahao.jpg" width="95" height="110">|<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height="110">|<img src="Documentation/pics/Xiaojun.JPG" width="130" height="110">|<img src="Documentation/pics/YaoLi.jpg" width="130" height="110">
 
 
 ## Introduction - 10
