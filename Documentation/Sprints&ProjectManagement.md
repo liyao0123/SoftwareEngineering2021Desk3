@@ -77,7 +77,47 @@ Although there is no strict sprint for Kanban conceptually, we intentionally sep
 ##### Sprint4: Evaluation
 ###### Timeline: 16/4/2021 - 30/4/2021  
 
-###### Task finished:  
+##### 1. Method - questionnaires
+ - Did you encounter bugs while browsing our game home page or dynamic earth?
+ - Do you have any suggestions about the layout of our website?
+ - Are you satisfied with the theme and content?
+ - Do you enjoy interactions way of our web application?
+ - What improvements would you like to see on our web?
+
+The above are some question when we do user testing. More details could be seen here. [Questionnaires file](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/5f4c293bfebcdbe7b532e149d697afad6767ab16/Documentation/docs/ques.md)
+
+##### 2. History, Findings and implications
+**Game Home version1:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game1_v1.png" >
+ 
+ - **User Yanliang:** The warning words of game are not friendly. The question in button seems redundant because it could not be clicked. We make it more friendly according to this feedback. The first version is "wrong and right". 
+ - The latter version would show "bingo, or it should be xxx". In addition, we remove the button of question but leave a words only.
+
+**Game Home version2:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/carousel_v2.png" >
+ 
+ - **User Yuwei:** The carousel layout seems a little deformed. In fact, besides Yuwei, all members in our team complain the carousel all the time. 
+ - We repeat the pictures in x-axis in version1. Then we cover it in the whole background with two fauna in one picture. Finally, we decide to find some beautiful and HD images to put. It looks better.
+
+**Game Home version3:**
+
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game_3.png" >
+ 
+ - **User Yiran:** The hint should be hided and be showed when there is a click event. The learn more link should be opened in new tag and leave the game page. 
+ - We add a onclick function to hide and display the hint content according to this feedback and revise the open method of learn more<a> tag.
+
+**Dynamic Earth version1:**
+
+ <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v1.png" >
+ 
+ - **User Jiaqi:** it is better if the dynamic earth rotates itself. The descriptions are too long. 
+ - We add this self-rotate interaction way in our dynamic earth version2. In addition, improve the layout of information window and decorate the background color to make the content more clear. The version2 would show below.
+
+**Dynamic Earth version2:**
+<img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v2.png" >
+  
 
 #### Meeting logs  
 We almost hold a meeting everyweek. To view out meeting minutes, click the link below please.  
