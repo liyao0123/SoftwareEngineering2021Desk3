@@ -132,7 +132,7 @@ Docker is a great way to create a consistent runtime environment for our applica
 
 To summarize our streamlining of workflow throughout:
 <p align="center">
-  <img src="/Documentation/pics/workflow.png" width="600"/>
+  <img src="/Documentation/pics/workflow.png" width="300"/>
 </p>
 
 
