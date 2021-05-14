@@ -68,7 +68,7 @@ More details -> [sprints and project management document](Documentation/Sprints&
 ## Evaluation - 15
 - Designs and Techniques and Comparison with MEAN
 - Unit testing
-- User acceptance testin*
+- User acceptance testing
 
 More details -> [evaluation document](Documentation/Evaluation.md).
 
