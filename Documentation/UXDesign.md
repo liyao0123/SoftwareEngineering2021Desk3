@@ -103,9 +103,20 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 ![Mood](pics/MoodBoard.jpg)  
 While creating our Moodboard, we firstly want to express the mood that we are gray about these animals facing with distinction, and we also include some photos about hunting which is out initial motivation that is preventing endangered animals from hunting no matter intentionally or accidentally. Moreover, we add some pictures that can inspire us about the key elements in our website design such as the earth and some animal cards. For example, we present a globe in our home page and we also use cards containing questions in our game page.
 
+### Paper prototyping
+
+
 ### Wireframes
 
-Wireframe is the first paper prototype we design for the website, the first screen is our home page. It includes navigation bar and the a body which is a wild animal picture. Another page is our game page which includes the question cards and button to switch cards. For the earth page, the first one is the default page when users enter the website, and the second one is the layout of animal details when users click these yellow points.  
+#### Version 1  
+
+Wireframe is the first prototype we design for the website, the first screen is our home page which includes a 2D map, and in game page we plan to use 2D map to present endangered animals at the beginning.  
+![Wareframesv1](pics/Wireframev1.png)
+
+
+#### Version 2  
+
+This is our second version of wireframes. We improve the layout of homepage and also change the Q&A into cards from question list in version 1. It includes navigation bar and the a body which is a wild animal picture. Another page is our game page which includes the question cards and button to switch cards. For the earth page, we choose to use 3D goble instead of 2D map. The first one is the default page when users enter the website, and the second one is the layout of animal details when users click these yellow points.  
 
 ![Wireframes](pics/Wireframe.png)
 
@@ -115,7 +126,7 @@ While design the wireframes, we consider the interaction flow of our users, and 
 
 ![Interaction](pics/FlowChart.png)
 
-### Paper prototyping
+### Final prototype
 
 We made 6 screens for the prototype. While completing the final prototype, we improve the design and some interactions. For example, we use different color for the button is navigation bar to help user distinguish the current page and it is intuitional for them to click the other button. Moreover, in the game page, except for clicking the arrow at both side, users can click the question card they prefer to switch current question. In addition, we generated a interactive and clickable model for users to test via InVision, you can access the model by clicking the link below.  
 
