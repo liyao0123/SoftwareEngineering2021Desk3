@@ -66,7 +66,7 @@ More details -> [sprints and project management document](Documentation/Sprints&
 
 
 ## Evaluation - 15
-- Description of techniques suitable for your particular design; Why we choose a new stack? A timeline of evaluation of your design
+- Designs and Techniques and Comparison with MEAN
 - Unit testing
 - User acceptance testin*
 
