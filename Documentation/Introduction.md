@@ -21,7 +21,7 @@ This web page is designed for educating people with the knowledge of endangered 
 | Come up with the idea that could address "Serious play".                                                                     | :white_check_mark: |
 | Basic web page content structure and interactive model design.                                                              | :white_check_mark: |
 | Achieve basic code part of the website. (e.g. text, pics, buttons)                                                           | :white_check_mark: |
-| Beautify the web page in fonts, colors, frame.                                                                              | :white_check_mark: |
+| Beautify the web page in fonts, colors, frames.                                                                              | :white_check_mark: |
 | Achieve advanced code part. (e.g. dynamic earth display)                                                                     | :white_check_mark: |
 | Website's functionality testing.                                                                                            | :white_check_mark: |
 | Website's Evaluation.                                                                                                       | :white_check_mark: |
