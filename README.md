@@ -1,7 +1,7 @@
 <h1 align="center">
 Endangered Fauna World Window  
   
-[Our Game Website www.efww.top](http://www.efww.top)
+[Our Website www.efww.top](http://www.efww.top)
 <br>
 <br>
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/logo.jpg" width = "28%" />
