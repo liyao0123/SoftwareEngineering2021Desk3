@@ -118,6 +118,24 @@ The above are some question when we do user testing. More details could be seen 
 **Dynamic Earth version2:**
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v2.png" width="900" height="500">
 
+##Team use of Git, continuous integration / continuous deployment.
+Our team has adopted a fairly intuitive git workflow consisting of **main**, **development**, **deployment** branches.
+
+The **main** branch was essentially a working master branch where all of the team members would merge their branches.
+
+In the event of a new feature to be added, the relevant team member would perform the following standard workflow:
+1. Perform the necessary code commits on the **development** branch.
+2. Merge the most recent commit on the **development** branch into **deployment** branch and commit automated deployment scripts on **deployment** branch.
+3. Merge commit into the **main** branch and repeat with the next feature.
+
+Docker is a great way to create a consistent runtime environment for our application. It ensures that when we bundle up our project for other team members to compile and test we know the conditions present at runtime. The use of Docker helped provide a consistent working environment for our application and OS-specific issues were avoided. The application and all its dependencies can be bundled into containers that are independent from the host version of Linux kernel, platform distribution, or deployment model. Those containers can be transfered to another machine that runs Docker, and executed there without compatibility issues.When a new feature was added to the application, the corresponding automated deployment scripts was commit to achieve continuous deployment.
+
+To summarize our streamlining of workflow throughout:
+<p align="center">
+  <img src="/Documentation/pics/workflow.png" width="600"/>
+</p>
+
+
 
 #### Meeting logs  
 We almost hold a meeting everyweek. To view out meeting minutes, click the link below please.  
