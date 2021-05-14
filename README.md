@@ -48,9 +48,9 @@ More details -> [system implementation document](Documentation/SystemImplementat
 
 ## UX Design - 15
 In this part, we demonstrate the UX design process, which includes:
-- Research: Questionnaires; Interviews
-- Analysis: Interacting users; Persona; Stakeholder analysis; User story
-- Design: Mood boards; Wireframes; Interaction flow diagrams; Prototype
+- **Research:** Questionnaires, Interviews
+- **Analysis:** Interacting users, Persona, Stakeholder analysis, User story
+- **Design:** Mood boards, Wireframes, Interaction flow diagrams, Prototype
 
 More details ->  [UX design document](Documentation/UXDesign.md).
 
@@ -66,18 +66,18 @@ More details -> [sprints and project management document](Documentation/Sprints&
 
 
 ## Evaluation - 15
-- Description of techniques suitable for your particular design. Why we choose a new stack? A timeline of evaluation of your design.
-- Unit testing.
-- User acceptance testing.
+- Description of techniques suitable for your particular design; Why we choose a new stack? A timeline of evaluation of your design
+- Unit testing
+- User acceptance testin*
 
 More details -> [evaluation document](Documentation/Evaluation.md).
 
 ## Conclusion - 10
-- Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
-- Reflective discussion of the success of the project. How well did your project fulfil the brief? Were all of your own objectives met
-- This is a chance to reflect on how coronavirus has affected your project (remote working practices etc)
-- Discussion of Social and Ethical implications of your work.
-- Discussion of future work (in terms of design, development and evaluation)
+- **Working practices:** Meeting and Communication, Plan and Timeline Design, Implementation Capacity
+- **Success discussion :** Goals Achievement, Web Functionality, Web Design and Team Work Success
+- **Covid Impacts :** Remotely Corroboration, Team relationship
+- **Social and Ethical Implications**
+- **Future Work :** Web Frame, Pictures Quality, Interactions Improvement, Summary
 
 More details -> [conclusion ducument](Documentation/Conclusion.md).
 
