@@ -100,8 +100,8 @@ We produced a power/interest matrix to demonstrate these stakeholders more strai
 
 ### Mood boards
 
-![Mood](pics/MoodBoard.jpg)
-While creating our Moodboard, we firstly want to express the 
+![Mood](pics/MoodBoard.jpg)  
+While creating our Moodboard, we firstly want to express the mood that we are gray about these animals facing with distinction, and we also include some photos about hunting which is out initial motivation that is preventing endangered animals from hunting no matter intentionally or accidentally. Moreover, we add some pictures that can inspire us about the key elements in our website design such as the earth and some animal cards. For example, we present a globe in our home page and we also use cards containing questions in our game page.
 
 ### Wireframes
 
