@@ -32,7 +32,7 @@ This web page is designed for educating people with the knowledge of endangered 
 ## Video
 <div align="center" width="560">
 
-  [![IMAGE ALT TEXT](process/supporting_images/flytrailer.gif)](https://www.youtube.com/watch?v=u4elR3cB9o8)
+  [![IMAGE ALT TEXT](https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/main/Documentation/pics/gif.gif)](https://www.youtube.com/watch?v=u4elR3cB9o8)
 
 </div>
 
