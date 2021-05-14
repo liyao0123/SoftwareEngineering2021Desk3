@@ -32,7 +32,7 @@ Interviewee 2 says “Not very, because I believe protecting individuals of enda
 **Q2: Can you recognize the following animals as Endangered or Least Concern animals?**  
 ![Hippopotamus](pics/Hippopotamus.jpg)
 ![Haliaeetus_leucocephalus](pics/Haliaeetus_leucocephalus.jpg)
-![Golden_hamster](pics/Golden_hamster.jpg)
+![Golden_hamster](pics/Golden_hamster.jpg)  
 The correct answer is that the middle one called Haliaeetus leucocephalus is Least Concern animals while the others are Endangered animals called Hippopotamus and Golden hamster.
 Both interviewees cannot classify those animals perfectly, and they are also surprised by the result. Interviewee 1 says “Hippopotamus should be common animals in zoo, how come it belongs to endangered animals.”
 
