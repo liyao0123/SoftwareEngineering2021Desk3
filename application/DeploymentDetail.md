@@ -8,7 +8,7 @@
 4. In the last step, a bash script [build.sh](/application/build.sh) was excuted which contain all the deploy command.
   - 4.1. Firstly, a docker network "efww-network" was create. It's used for the comunication between mysql container and game container.
   - 4.2 Then, a bash script [processEnv.sh](/application/processEnv.sh) was invoked. This script read variables from file env.env and use sed to modify the related files.
-  - 4.3 A bash script [startDB.sh](/application/startDB.sh) was invoked. This script can initialize the mysql container.
+  - 4.3 A bash script [startDB.sh](/application/static/database/startDB.sh) was invoked. This script can initialize the mysql container.
     - 4.3.1  It create a volume mysql_data for persistent storage.
     - 4.3.2  Docker image mysql:5.7 was used. Network was specified as "efww-network" which was created in previous command. The container name was specified as mysql01. Password for mysql root user defined in file env.env was used. The default port 3306 was used in docker port mapping, i.e. 3306 to 3306. The previously created volume mysql_data was mounted to /var/lib/mysql.
     - 4.3.3 Command sleep was used to wait the mysql container up. There are more intelligent and complicated methods to achieve this, but we just use a simple way.
