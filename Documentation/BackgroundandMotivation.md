@@ -2,7 +2,7 @@
 ## Background
 ### Context
     UN report: Humans accelerating extinction of other species
-According to the united nations report there is nearly more than 1 million species are threatened with extinction. There will have a long time in the future for human beings, and however, for many endangered species, time is running out. They are dying out rapidly, which means we will have no chance to see or live with them on the earth. In general idea, human beings are the biggest threat to them. So it has a significant meaning that we need to strengthen our attention for protecting endangered species.
+According to the united nations report there is almost 1 million species are threatened with extinction. There will have a long time in the future for human beings, and however, for many endangered species, time is running out. They are dying out rapidly, which means we will have no chance to see or live with them on the earth. In general idea, human beings are the biggest threat to them. So it has a significant meaning that we need to strengthen our attention for protecting endangered species.
 ## Academic review
 ### Why biodiversity is important?
 #### Ecosystem
