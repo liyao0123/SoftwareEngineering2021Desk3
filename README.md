@@ -79,7 +79,7 @@ More details -> [evaluation document](Documentation/Evaluation.md).
 - **Working practices:** Meeting and Communication, Plan and Timeline Design, Implementation Capacity
 - **Serious play:** Balance between serious and play
 - **Success discussion :** Goals Achievement, Web Functionality, Web Design and Team Work Success
-- **Covid Impacts :** Remotely Corroboration, Team relationship
+- **Covid Impacts :** Remotely Collaboration, Team relationship
 - **Social and Ethical Implications**
 - **Future Work :** Web Frame, Pictures Quality, Interactions Improvement, Summary
 
