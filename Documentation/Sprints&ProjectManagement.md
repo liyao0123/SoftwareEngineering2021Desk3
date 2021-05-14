@@ -6,7 +6,7 @@ In order to promote our communication, collaboration and flexibility, we conside
 We choose Jira Software as our tool to utilise Kanban, which provide a clear and straightforward Kanban board for us to be aware of the progress of the project and what to do for each member. Therefore, we can balance the workload easily for our team members.  
 In addition, we use Microsoft Teams as our communicating tool for weekly meeting. Except for meeting, it is inevitable that we have some issue to discuss. Under the circumstance, we choose Wechat which is convenient for all of us to discuss problems.
 ### Summary of individual contributions:
-**Yunqi Guo:**
+**Yunqi Guo:** 1)Develep the Dynamic earth. 2)Time magement. 3)Modify the syntax of the report.
 
 **Yao Li:** 1) deploy the Game Home system, mysql database, dynamic earth server through docker, write the related atuomated deployment script. 2) write the documentation of deployment instructions and details. 
 
