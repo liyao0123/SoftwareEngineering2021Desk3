@@ -28,7 +28,7 @@ We talked with two potential users via text chat about the idea of our project a
 
 **Q1: Are you interested in protecting endangered animals?**  
 Interviewee 1 says “Sure, I would like to make contribution to protecting endangered animals if possible.”
-Interviewee 2 says “Not very, because I believe protecting individuals of endangered animals makes no sense biologically especially for some uncommon animals for humans.”
+Interviewee 2 says “Not very, because I believe protecting individuals of endangered animals makes no sense biologically especially for some uncommon animals for humans.”  
 **Q2: Can you recognize the following animals as Endangered or Least Concern animals?**  
 ![Hippopotamus](pics/Hippopotamus.jpg)
 ![Haliaeetus_leucocephalus](pics/Haliaeetus_leucocephalus.jpg)
