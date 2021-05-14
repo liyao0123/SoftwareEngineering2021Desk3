@@ -271,22 +271,30 @@ The prerequisite of developing with Thymeleaf is introducing its namespace at th
 
 # 5. Deployment
 
-## prerequisite: Git and Docker are needed to deploy this application.
+## Prerequisite: Git and Docker are needed to deploy this application.
 
-#### It takes 4 steps:
-1. git clone this project to linux file system   
+#### 1. Remote server deployment by ourselves
+1. rent a remote server where we could deploy our project
+2. bought a domain name **www.efww.top** and resolve it to our remote server IP
+3. start and build the database server in one container with port 3306
+4. deploy the Game Home system on port 80 in one container in another container
+5. deploy the Dynamic Earth system on port 3000 in the third container
+- the deployment details are similar to local deployment but change the IP as our server IP.
+
+#### 2. Local deployment by other developers
+1. git clone this project to Linux file system   
   `git clone https://github.com/liyao0123/SoftwareEngineering2021Desk3.git`
 2. change directory into the application folder   
   `cd SoftwareEngineering2021Desk3/application`
-3. modify the variables defined in env.env, or leave it as it is if you just want to test this application locally.   
+3. modify the variables defined in env.env, or leave it if you just want to test this application locally.   
    If you want to deploy this project with a remote server, you need to do two things.   
-   1)change the host in env.env file as your own server ip   
+   1)change the host in the env.env file with your server IP   
    2)add a security group rule and open the 3000 port so that you could load our dynamic earth. 
-4. run bash build.sh   
+4. run bash build.sh file 
   `./build.sh`
 
-It may take 3 or 4 minutes unitl the application up.
-The procedures have been tested both in Win10 and Centos.
+It may take **3 or 4 minutes** unitl the application up.
+The procedures have been tested both in Win10 and CentOS.
 More details about the deployment procedures can be found in [DeploymentDetail.md](/application/DeploymentDetail.md)
 
 ### Quotation
