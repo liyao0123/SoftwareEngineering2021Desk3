@@ -18,11 +18,11 @@ Photo         |<img src="Documentation/pics/Haojie_Xin.jpeg" width="130" height=
 
 
 ## Introduction - 10
-Biodiversity is really an important attribute of our ecosystem. It provides a rich life and boots ecosystem productivity which plays such an important role in our earth. Therefore it is beneficial if we could gain more knowledge pertain with protection of the endangered animals all over the world.   
-<br>
-In this project we want to design a single page application to help people to recognize endangered animals in the wild meanwhile promoting their awareness in environmental protection.This project isn't like a pure E-library which is only full of information about endangered aninmals, but also could offer interesting interacions between the web page and users. A good appearance of the web page and multi ways for user's interaction could be a good way for promoting these knowledge.   
-<br>
-By making such a web page, we want to make the way of promoting the idea of protecting endangered animals easier and more interesting. Raising up the awareness of protecting animals and animals in people when they browse web page.
+Biodiversity is an essential attribute of our ecosystem. It provides a rich life and boosts ecosystem productivity which plays such a vital role for our earth. Therefore it is beneficial to gain more knowledge about the protection of endangered animals all over the world.
+
+In this project, we want to design a single-page application to help people recognize endangered animals in the wild while promoting environmental protection awareness. This project isn't like a pure E-library, which is only full of information about endangered animals and could offer exciting interactions between the web page and users. A pleasing appearance of the web page and multi ways for user's exchange could be a good way for promoting this knowledge.
+
+By making such a web page, we want to promote the idea of protecting endangered animals more accessible and more exciting and raising the awareness of protecting animals and animals in people when they browse the web page.
 
 More details -> [introduction document](Documentation/Introduction.md).
 
