@@ -36,7 +36,7 @@ There is already some website that plays a role of E-library or lists for endang
 <br>
 https://www.worldwildlife.org/
 </p>
-The WWF is an outstanding non-profit organization that works towards the conservation of endangered animals, their website is full of articles about endangered animals news. They have a large amount of documentary videos.They also focus on the climate, fresh water and oceans. They have done a very excellent job in promoting the awareness of protecting animals. This website is more like an endangered animals news website, they don't have a list for the whole endangered animals species, nor have very detailed information and descriptions.However they still a very good website for people who is interested in animals and natural environment.
+The WWF is an outstanding non-profit organization that works towards the conservation of endangered animals, and their website is full of articles about endangered animals news. In addition, they have a large number of documentary videos. They also focus on the climate, freshwater, and oceans. They have done a very excellent job in promoting the awareness of protecting animals. This website is more like an endangered animals news website. They don't have a list for the whole endangered animal species, nor have very detailed information and descriptions. However, they still an excellent website for people who are interested in animals and the natural environment.
 <hr>
 
 <p align="center">
@@ -44,7 +44,7 @@ The WWF is an outstanding non-profit organization that works towards the conserv
 <br>
 https://www.fws.gov/endangered/
 </p>
-FWS is the Untied States' national wild animal information website. Since it has a good authority, so let's use it as an example. The website has much more details than the WWF, it documents more thoroughly. You can browse the wild life list by filtering by your living region and it gives you the rare condition of an anmal in time. What's more, you cna find some related regulations if you are a landowner or hunter. The FWS is a more detailed and specific website for local people. It's more like a local community website, it do provide a powerfl functionality for people who want to know the environment he is going to.But the shotcomings are local and no fun. If this website could be an international one and could have beautiful appearance, this website could be a really fantastic website.
+FWS is the United States' national wild animal information website. Since it has good authority, so let's use it as an example. The website has much more details than the WWF, and it documents more thoroughly. For example, you can browse the wildlife list by filtering by your living region, and it gives you the rare condition of an animal in time. What's more, you can find some related regulations if you are a landowner or hunter. The FWS is a more detailed and specific website for local people. It's more like a local community website; it does provide robust functionality for people who want to know the environment he is going to. But the shortcomings are local and no fun. If this website could be an international one and could have a beautiful appearance, this website could be fantastic.
 <hr>
 
 <p align="center">
@@ -52,7 +52,7 @@ FWS is the Untied States' national wild animal information website. Since it has
 <br>
 https://www.nationalgeographic.org/
 </p>
-NG(short for National Geographic) is a great organization and their website has a lot of contents about rare and endangered animals. The pros of the website are appearance, frame, pics, articles. The NG has a lot of exquisite pictures, they use photography to display the nature's beauty and the astonishing wild animals. Also they are making good impacts on making people explore nature, love nature. This website's articles may have some information about one rare animals, but it's hard to sort out the animal that you want to look for or search the rare animals in one specific region. In conclusion this website is mainly a photograph website towards natural environment.  
+NG(short for National Geographic) is a great organization, and its website has a lot of content about rare and endangered animals. The pros of the website are appearance, frame, pics, articles. The NG has many stunning pictures; they use photography to display nature's beauty and the astonishing wild animals. Also, they are making good impacts on making people explore nature, love nature. This website's articles may have some information about rare animals, but it's hard to sort out the animal you want to look for or search for rare animals in one specific region. In conclusion, this website is mainly a photograph website towards the natural environment.  
 
 ## Quotation
 Conservation international
@@ -76,12 +76,12 @@ BBC
 http://www.bbc.com/earth/story/20160112-can-you-ever-be-sure-that-an-endangered-species-has-gone-extinct
 <br>
 ## Problem Definition
-From academic research we can see that the biodiversity is really important and people have very limited knowledge about recognizing endangered species. Currently existing websites are more like endangered animals news website, local website or photograh website. In order to fill this blank, we want to find an easier way of promoting  people's awareness of protecting wild animals. So the goals we need to achieve within this project are as follows.
+From academic research, we can see that biodiversity is significant, and people have minimal knowledge about recognizing endangered species. Currently, existing websites are more like the endangered animals' news website, local website, or photograph website. To fill this blank, we want to find an easier way of promoting people's awareness of protecting wild animals. So the goals we need to achieve within this project are as follows.
 * Beautiful website frame
 * Interesting user interactions
 * Descriptions about endangered species
 #### These three main goals are the ways we use to solve the problem
-Promoting the awareness of protecting endangered wild animals in an interesting way.
+We are promoting the awareness of protecting endangered wild animals excitingly.
 
     
     
