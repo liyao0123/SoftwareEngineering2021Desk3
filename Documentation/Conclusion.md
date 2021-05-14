@@ -19,25 +19,16 @@ Our games are not only included with entertainment but with some education. It r
 
 ### Goals Achievement
 
-We have listed the team working goals and also the implementation goals. Finally, we've achieved all of them. Though some of those goals still had space for
-modification due to the time limitation, we choose to leave the defects temporarily. And during the solving problems' time, we made a lot of progress in coding,
-materials collecting and so on. We have an overview of the web technologies we need in the future, and the web development progress learned how to cooperate with other
-group members. We achieved all of our goals. Though there are some small defects and modification space, we still are proud of what we've achieved.
+We have listed the team working goals and also the implementation goals. Finally, we've achieved all of them. Though some of those goals still had space for modification due to the time limitation, we temporarily leave the defects. And during the solving problems' time, we made a lot of progress in coding, materials collecting and so on. We have an overview of the web technologies we need in the future, and the web development progress learned how to cooperate with other group members. Thus, we achieved all of our goals. Though there are some minor defects and modification space, we still are proud of what we've achieved.
 
 ### Web Functionality
-All of our web functionality works fine so far. The button and the card have a proper response when the user tries to click it. And the website's response to the request is
-fast and clear. But this also due to that our website is not full of interactive buttons. So as for this part, we all very satisfied with the web functionality.
+All of our web functionality works fine so far. The button and the card have a proper response when the user tries to click it. And the website's response to the request is fast and precise. But this also due to that our website is not full of interactive buttons. So as for this part, we all very satisfied with the web functionality.
 
 ### Web Design
-We have put many efforts into beautifying the Web appearance. We spent a lot of time searching for high-quality images, designing the base colour, words organization
-and buttons. The base colour we use for this website is cyan, and it looks comfortable. Also, in the "Dynamic Earth" part, we try to make the dynamic earth more beautiful.
-The fonts we use are also selected and discussed. In conclusion, we think our website is good but still have a space to get modified.
+We have put many efforts into beautifying the Web appearance. We spent a lot of time searching for high-quality images, designing the base color, word organization and buttons. The base color we use for this website is cyan, and it looks comfortable. Also, in the "Dynamic Earth" part, we try to make the dynamic earth more beautiful. The fonts we use are also selected and discussed. In conclusion, we think our website is good but still has a space to get modified.
 
 ### Team Work Success
-During the work time, our team members were all very organized and easy to work with. We hold meetings regularly and communicate with each other sincerely and efficiently.
-And when we hold a different opinion from other people, we are all very respect other people. We believe communication is better than persuasion. And we all know that if we
-say something astonishing, we must have a reason for that, instead of quarrelling with each other, being arrogant or being stubborn, being patient and calm down will
-be a rather wise choice. In conclusion, we all think the biggest success within this project is not the technical harvest but the knowledge of working together with people.
+During the work time, our team members were all very organized and easy to work with. We hold meetings regularly and communicate with each other sincerely and efficiently. And when we have a different opinion from other people, we are all the same respect other people. We believe communication is better than persuasion. And we all know that if we say something astonishing, we must have a reason for that, instead of quarreling with each other, being arrogant or stubborn, being patient and calm down will be a rather wise choice. In conclusion, we all think the most significant success within this project is not the technical harvest but the knowledge of working together with people.
 
 ## Covid Impacts
 
