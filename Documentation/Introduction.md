@@ -14,15 +14,15 @@ This web page is designed for educating people with the knowledge of endangered 
 | Depending on our abilities and interests, distribute the tasks properly.                                                      | :white_check_mark: |
 | Regularly meeting outside class hours, make sure everybody could catch up with the progress.                                   | :white_check_mark: |
 | Discuss problems encountered in other units, reduce wasting time, make everybody have more energy in the group project.        | :white_check_mark: |
-| Be nice and kind when communicate with other group members.                                                                   | :white_check_mark: |
+| Be friendly and kind when communicating with other group members.                                                                   | :white_check_mark: |
 
 | Web implementation objectives                                                                                               |       Status       |
 | :-------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Come up with an idea that could address "Serious play".                                                                     | :white_check_mark: |
+| Come up with the idea that could address "Serious play".                                                                     | :white_check_mark: |
 | Basic web page content structure and interactive model design.                                                              | :white_check_mark: |
-| Achieve basic code part of the website.(e.g. text ,pics, buttons)                                                           | :white_check_mark: |
+| Achieve basic code part of the website. (e.g. text, pics, buttons)                                                           | :white_check_mark: |
 | Beautify the web page in fonts, colors, frame.                                                                              | :white_check_mark: |
-| Achieve advanced code part.(e.g. dynamic earth display)                                                                     | :white_check_mark: |
+| Achieve advanced code part. (e.g. dynamic earth display)                                                                     | :white_check_mark: |
 | Website's functionality testing.                                                                                            | :white_check_mark: |
 | Website's Evaluation.                                                                                                       | :white_check_mark: |
 | Final modifications.  <img width=703/>                                                                                      | :white_check_mark: |
