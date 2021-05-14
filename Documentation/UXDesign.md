@@ -105,6 +105,8 @@ While creating our Moodboard, we first want to express the mood that we are grey
 
 ### Paper prototyping
 
+<iframe height=498 width=510 src="pics/Paper_Prototype.MP4">
+
 
 ### Wireframes
 
@@ -126,7 +128,7 @@ While designing the wireframes, we consider the interaction flow of our users, a
 
 ![Interaction](pics/FlowChart.png)
 
-### Final prototype
+### Final version prototype
 
 We made six screens for the prototype. While completing the final prototype, we improve the design and some interactions. For example, we use a different colour for the button is a navigation bar to help the user distinguish the current page, and it is intuitional for them to click the other button. Moreover, on the game page, except for clicking the arrow on both sides, users can click the question card to switch the current question. In addition, we generated an interactive and clickable model for users to test via InVision, and you can access the model by clicking the link below.  
 
