@@ -107,29 +107,33 @@ The above are some question when we do user testing. More details could be seen 
 
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game1_v1.png" width="900" height="500">
  
- - **User Yanliang:** The warning words of game are not friendly. The question in button seems redundant because it could not be clicked. We make it more friendly according to this feedback. The first version is "wrong and right". 
- - The latter version would show "bingo, or it should be xxx". In addition, we remove the button of question but leave a words only.
+ - **User Yanliang:** 
+ > The warning words of the game are not friendly. And the question in button seems redundant because it could not be clicked. We make it more friendly according to this feedback. The first version is "wrong and right". 
+ - The latter version would show "bingo, or it should be xxx". In addition, we remove the button of the question but leave words only.
 
 **Game Home version2:**
 
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/carousel_v2.png" width="900" height="500">
  
- - **User Yuwei:** The carousel layout seems a little deformed. In fact, besides Yuwei, all members in our team complain the carousel all the time. 
- - We repeat the pictures in x-axis in version1. Then we cover it in the whole background with two fauna in one picture. Finally, we decide to find some beautiful and HD images to put. It looks better.
+ - **User Yuwei:** 
+ > The carousel layout seems a little deformed. In fact, besides Yuwei, all members of our team complain about the carousel all the time. 
+ - We repeat the pictures on the x-axis in version1. Then we cover it in the whole background with two fauna in one shot. Finally, we decide to find some beautiful and HD images to put. It looks better.
 
 **Game Home version3:**
 
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/61a3a6787db5abf2524a7bcfdd23432965e9812d/application/static/images/game_3.png" width="900" height="500">
  
- - **User Yiran:** The hint should be hided and be showed when there is a click event. The learn more link should be opened in new tag and leave the game page. 
- - We add a onclick function to hide and display the hint content according to this feedback and revise the open method of learn more<a> tag.
+ - **User Yiran:** 
+ > The hint should be hidden and be showed when there is a click event. The learn more link should be opened in the new tag and leave the game page. 
+ - We add an onclick function to hide and display the hint content according to this feedback and revise the available method of opening a web page with <a> tag.
 
 **Dynamic Earth version1:**
 
  <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v1.png" width="900" height="500">
  
- - **User Jiaqi:** it is better if the dynamic earth rotates itself. The descriptions are too long. 
- - We add this self-rotate interaction way in our dynamic earth version2. In addition, improve the layout of information window and decorate the background color to make the content more clear. The version2 would show below.
+ - **User Jiaqi:** 
+ > it is better if the dynamic earth rotates itself. The descriptions are too long. 
+ - We add this self-rotate interaction way in our dynamic earth version2. In addition, improve the layout of the information window and decorate the background colour to make the content more clear. Version2 would show below.
 
 **Dynamic Earth version2:**
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v2.png" width="900" height="500">
