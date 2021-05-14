@@ -118,7 +118,7 @@ The above are some question when we do user testing. More details could be seen 
 **Dynamic Earth version2:**
 <img src="https://github.com/liyao0123/SoftwareEngineering2021Desk3/blob/af5e46cf2e33f0f6d294a2882590314e2d3ce7fc/Documentation/pics/earth_v2.png" width="900" height="500">
 
-##Team use of Git, continuous integration / continuous deployment.
+## Team use of Git, continuous integration / continuous deployment.
 Our team has adopted a fairly intuitive git workflow consisting of **main**, **development**, **deployment** branches.
 
 The **main** branch was essentially a working master branch where all of the team members would merge their branches.
