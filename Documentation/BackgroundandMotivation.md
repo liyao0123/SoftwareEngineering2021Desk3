@@ -31,8 +31,7 @@ People have little knowledge about endangered species. According to the report f
 > In general, wildlife crime is any action which contravenes current legislation governing the protection of the UK’s wild animals and plants and includes:
 Hare Coursing, Deer poaching, Fish poaching, Badger persecution including baiting, snaring, shooting, and disturbance of setts, Bat persecution, Egg theft / collection, Bird of Prey persecution – through poisoning, trapping, shooting, disturbance of nest and/or theft of chicks
 The trade in ivory, tortoises, rhino horn and other protected species covered by CITES (Convention on International Trade in Endangered Species) including caviar)
-Non registration of certain birds and animals that require licensing through DEFRA/Animal Health if kept in captivity or sold
-AND SO, WHAT IS NOT WILDLIFE CRIME?     
+Non registration of certain birds and animals that require licensing through DEFRA/Animal Health if kept in captivity or sold.   
 
 **What is not wildlife crime?**
 > Incidents involving domestic animals such as dogs (other than dogs being used to hunt mammals), cats, rabbits, budgies, etc. Wild animals that have been involved in road traffic accidents
