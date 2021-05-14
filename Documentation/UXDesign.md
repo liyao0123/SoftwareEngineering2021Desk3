@@ -79,9 +79,8 @@ Combining the result and our thoughts, we considered the following user groups a
 - People who require a playful way to present endangered fauna, such as biology teachers
 
 ### Persona  
+We create two personas based on our research, and we are going to utilize the personas for further analysis and test.  
 <br/>
-
-We create two personas based on our research, and we are going to utilize the personas for further analysis and test.
 ![Eric](pics/Persona-Eric.png)
 ![Alice](pics/Persona-Alice.png)
 
