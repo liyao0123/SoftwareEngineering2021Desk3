@@ -77,6 +77,7 @@ More details -> [evaluation document](Documentation/Evaluation.md).
 
 ## Conclusion - 10
 - **Working practices:** Meeting and Communication, Plan and Timeline Design, Implementation Capacity
+- **Serious play:** Balance between serious and play
 - **Success discussion :** Goals Achievement, Web Functionality, Web Design and Team Work Success
 - **Covid Impacts :** Remotely Corroboration, Team relationship
 - **Social and Ethical Implications**
