@@ -19,7 +19,7 @@ In addition, we use Microsoft Teams as our communicating tool for weekly meeting
 ### Documentation of sprints and meeting logs:
 Although there is no strict sprint for Kanban conceptually, we intentionally separate several sprints for our project in order to maintain a desirable cadence. Moreover, we use a Gantt chart as our roadmap to keep the trace of our project, which is demonstrated below.
 
-![Gantt](GanttChart.jpg)
+![Gantt](pics/GanttChart.jpg)
 
 #### Sprints:
 ##### Sprint 0: Preparation for the project
