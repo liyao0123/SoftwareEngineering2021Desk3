@@ -22,7 +22,7 @@ Biodiversity loss can increase the incidence and distribution of certain infecti
 #### People's current knowledge
 People have little knowledge about endangered species. According to the report from BBC, Most people won't know the species is an endangered species even though that animal is just in front of you. So, it could be said like this, and nowadays people know nothing about animals except cows, pigs, sheep, horses. So, it is impossible to expect people to know which animals are protected and rare.
 #### Outdoor activity danger
-
+In North America, hiking outdoor or hunting legally is popular(maybe that is also a situation for other countries) when people outdoors couldn't recognize animals exactly all the time. Sometimes the habitat where endangered life could also be weak and easy to change, which means a stream of people can easily destroy them. So, in this aspect of view, promoting some knowledge about endangered wild animals could help people recognize animals and not ruin their living environment.
 #### Limit the commercial transaction
 Wild animals transaction could be popular these years—people's great desire towards wild animals not only for their fur but also for horn even tooth. By promoting the knowledge could let people know what animals is endangered and why diversity is beneficial to our planet. By this way we could limit commercial transaction.
 ## Current Industry Review
