@@ -105,7 +105,7 @@ While creating our Moodboard, we first want to express the mood that we are grey
 
 ### Paper prototyping
 
-<iframe height=498 width=510 src="pics/Paper_Prototype.MP4">
+<iframe height=498 width=510 src="pics/Paper_Prototype.MP4"></iframe>
 
 
 ### Wireframes
