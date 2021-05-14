@@ -18,6 +18,9 @@ group and also the individual timeline is especially a good way to improve our e
 Honestly speaking, this project isn't an easy task for us to complete, and we had faced a lot of problems when we did it. But we tried to finish our time in the time since
 we don't want to let other group members down or make troubles for them. Iterating and time management are parts we emphasize a lot during our work, and we think these two characters will do a lot of help when we face problems and make us avoid stuck at some point. Implementation capacity can indicate your attitude towards work. If you have a very good implementation capacity, you are likely to be more focused on your work and may have good efficiency. So in my view, the implementation capacity of our team is satisfying.
 
+## Serious Play
+Our games are not only included with entertainment but with some education. It requires users to recall the knowledge or activate their resolving power. Though our games are overall basic games, why we design a game like this matters. On the "serious" side, we want to emphasize a problem that all human beings are facing, that the biodiversity of our planet is declining. There are some limitations in designing the game. We have excellent and passionate ideas about the game design, but currently, the game can still complete the goals: serious problem emphasize and playful.
+
 ## Success discussion
 
 ### Goals Achievement
